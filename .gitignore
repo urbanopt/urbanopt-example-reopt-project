@@ -1,0 +1,36 @@
+
+jupyter_example/env/
+jupyter_example/.pynb_checkpoints
+jupyter_example/Gemfile.lock
+jupyter_example/.ruby-version
+env/
+.ipynb_checkpoints
+.DS_Store
+.bundle/
+/.yardoc
+/.ruby-version
+Gemfile.lock
+/gems
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/spec/test/
+/tmp/
+/test/
+/lib/measures/test_results
+/lib/measures/*/tests/output
+/run
+out.txt
+
+.rubocop*s3*
+
+# rspec failure tracking
+.rspec_status
+
+# Ignore IDE files
+/.idea
+
+# running config
+runner.conf
