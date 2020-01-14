@@ -6,7 +6,7 @@ source 'http://rubygems.org'
 #   Windows: set FAVOR_LOCAL_GEMS=1
 # Note that if allow_local is true, but the gem is not found locally, then it will
 # checkout the latest version (develop) from github.
-allow_local = True
+allow_local = true
 # Uncomment the extension, common measures, core gems if you need to test local development versions. Otherwise
 # these are included in the model articulation and urbanopt gems
 #
