@@ -6,7 +6,10 @@ source 'http://rubygems.org'
 #   Windows: set FAVOR_LOCAL_GEMS=1
 # Note that if allow_local is true, but the gem is not found locally, then it will
 # checkout the latest version (develop) from github.
-allow_local = true
+
+allow_local = false
+github_branch = true
+
 # Uncomment the extension, common measures, core gems if you need to test local development versions. Otherwise
 # these are included in the model articulation and urbanopt gems
 #
@@ -42,18 +45,18 @@ allow_local = true
 
 if allow_local && File.exist?('../urbanopt-scenario-gem')
   gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
-elsif allow_local
+elsif github_branch
   gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'develop'
 else
-  gem 'urbanopt-scenario', '0.1.1'
+  gem 'urbanopt-scenario', '0.1.0'
 end
 
 
 
 if allow_local && File.exist?('../urbanopt-reopt-gem')
-  gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
-elsif allow_local
-  gem 'urbanopt-reopt', github: 'urbanopt/urbanopt-reopt-gem/', branch: 'develop'
+  #gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
+elsif github_branch
+  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'develop'
 else
   gem 'urbanopt-reopt', '0.1.0'
 end
