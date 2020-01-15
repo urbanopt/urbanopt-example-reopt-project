@@ -12,8 +12,8 @@ The REopt Gem accomplishes three basic functions:
 
 The REopt Gem can be run in several modes, either on:
 
-	 * a Feature Report, 
-	 * a collection of Feature Reports - 
+	 * a Feature Report 
+	 * a collection of Feature Reports  
 	 * all the features in a Scenario Report before aggregating results at the scenario level
 	 * the collection of features in aggregate as summarized in a Scenario Report
 
