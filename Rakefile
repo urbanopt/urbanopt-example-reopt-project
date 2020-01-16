@@ -1,4 +1,4 @@
-#*********************************************************************************
+# *********************************************************************************
 # URBANopt, Copyright (c) 2019-2020, Alliance for Sustainable Energy, LLC, and other
 # contributors. All rights reserved.
 #
@@ -26,7 +26,7 @@
 # LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 # OF THE POSSIBILITY OF SUCH DAMAGE.
-#*********************************************************************************
+# *********************************************************************************
 
 require 'openstudio/extension'
 require 'openstudio/extension/rake_task'
@@ -39,8 +39,7 @@ require_relative 'developer_nrel_key'
 module URBANopt
   module ExampleGeoJSONProject
     class ExampleGeoJSONProject < OpenStudio::Extension::Extension
-     
-      # number of datapoints(features) you want to run in parallel 
+      # number of datapoints(features) you want to run in parallel
       # based on the number of available processors on your local machine.
       OpenStudio::Extension::Extension::NUM_PARALLEL = 7
 
@@ -51,31 +50,30 @@ module URBANopt
         super
         @root_dir = File.absolute_path(File.dirname(__FILE__))
       end
-      
+
       # Return the absolute path of the measures or nil if there is none, can be used when configuring OSWs
       def measures_dir
         nil
       end
-      
+
       # Relevant files such as weather data, design days, etc.
       # Return the absolute path of the files or nil if there is none, used when configuring OSWs
       def files_dir
-        return File.absolute_path(File.join(@root_dir, 'weather'))
+        File.absolute_path(File.join(@root_dir, 'weather'))
       end
-      
+
       # Doc templates are common files like copyright files which are used to update measures and other code
       # Doc templates will only be applied to measures in the current repository
       # Return the absolute path of the doc templates dir or nil if there is none
       def doc_templates_dir
-        return File.absolute_path(File.join(@root_dir, 'doc_templates'))
+        File.absolute_path(File.join(@root_dir, 'doc_templates'))
       end
-      
     end
   end
 end
 
 def root_dir
-  return File.dirname(__FILE__)
+  File.dirname(__FILE__)
 end
 
 def baseline_scenario
@@ -90,7 +88,7 @@ def baseline_scenario
 
   feature_file = URBANopt::GeoJSON::GeoFile.from_file(feature_file_path)
   scenario = URBANopt::Scenario::REoptScenarioCSV.new(name, root_dir, run_dir, feature_file, mapper_files_dir, csv_file, num_header_rows, reopt_files_dir, scenario_reopt_assumptions_file_name)
-  return scenario
+  scenario
 end
 
 def high_efficiency_scenario
@@ -105,7 +103,7 @@ def high_efficiency_scenario
 
   feature_file = URBANopt::GeoJSON::GeoFile.from_file(feature_file_path)
   scenario = URBANopt::Scenario::REoptScenarioCSV.new(name, root_dir, run_dir, feature_file, mapper_files_dir, csv_file, num_header_rows, reopt_files_dir, scenario_reopt_assumptions_file_name)
-  return scenario
+  scenario
 end
 
 def mixed_scenario
@@ -120,14 +118,14 @@ def mixed_scenario
 
   feature_file = URBANopt::GeoJSON::GeoFile.from_file(feature_file_path)
   scenario = URBANopt::Scenario::REoptScenarioCSV.new(name, root_dir, run_dir, feature_file, mapper_files_dir, csv_file, num_header_rows, reopt_files_dir, scenario_reopt_assumptions_file_name)
-  return scenario
+  scenario
 end
 
 # Load in the rake tasks from the base extension gem
 rake_task = OpenStudio::Extension::RakeTask.new
 rake_task.set_extension_class(URBANopt::ExampleGeoJSONProject::ExampleGeoJSONProject)
 
-### Baseline 
+### Baseline
 
 desc 'Clear Baseline Scenario'
 task :clear_baseline do
@@ -141,29 +139,27 @@ task :run_baseline do
 
   scenario_runner = URBANopt::Scenario::ScenarioRunnerOSW.new
   scenario_runner.run(baseline_scenario)
-
 end
 
 desc 'Post Process Baseline Scenario'
 task :post_process_baseline do
   puts 'Post Processing Baseline Scenario...'
-  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(baseline_scenario) 
+  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(baseline_scenario)
   scenario_report = default_post_processor.run
   scenario_report.save
   scenario_base = default_post_processor.scenario_base
-  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
-  
-  #Run Aggregate Scenario
+  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
+
+  # Run Aggregate Scenario
   scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report)
   scenario_report_scenario.save('baseline_scenario')
 
-  #Run features individually  
+  # Run features individually
   scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report)
   scenario_report_features.save('baseline_features')
-
 end
 
-### High Efficiency 
+### High Efficiency
 
 desc 'Clear High Efficiency Scenario'
 task :clear_high_efficiency do
@@ -182,18 +178,18 @@ end
 desc 'Post Process High Efficiency Scenario'
 task :post_process_high_efficiency do
   puts 'Post Processing High Efficiency Scenario...'
-  
-  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(high_efficiency_scenario) 
+
+  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(high_efficiency_scenario)
   scenario_report = default_post_processor.run
   scenario_report.save
   scenario_base = default_post_processor.scenario_base
-  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
-  
-  #Run Aggregate Scenario
+  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
+
+  # Run Aggregate Scenario
   scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
   scenario_report_scenario.save('highE_scenario')
-  
-  #Run features individually  
+
+  # Run features individually
   scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report, reopt_post_processor.feature_reports_reopt_default_assumption_hashes, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
   scenario_report_features.save('highE_features')
 end
@@ -217,43 +213,42 @@ end
 desc 'Post Process Mixed Scenario'
 task :post_process_mixed do
   puts 'Post Processing Mixed Scenario...'
-  
-  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(mixed_scenario) 
+
+  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(mixed_scenario)
   scenario_report = default_post_processor.run
   scenario_report.save
   scenario_base = default_post_processor.scenario_base
-  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
-  
-  #Run Aggregate Scenario
+  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
+
+  # Run Aggregate Scenario
   scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
   scenario_report_scenario.save('mixed_scenario')
-  
-  #Run features individually  
+
+  # Run features individually
   scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report, reopt_post_processor.feature_reports_reopt_default_assumption_hashes, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
   scenario_report_features.save('mixed_features')
-  
 end
 
 ### All
 
 desc 'Clear all scenarios'
-task :clear_all => [ :clear_baseline, :clear_high_efficiency, :clear_mixed] do
+task clear_all: %i[clear_baseline clear_high_efficiency clear_mixed] do
   # clear all the scenarios
 end
 
 desc 'Run all scenarios'
-task :run_all => [ :run_baseline, :run_high_efficiency, :run_mixed] do
+task run_all: %i[run_baseline run_high_efficiency run_mixed] do
   # run all the scenarios
 end
 
 desc 'Post process all scenarios'
-task :post_process_all => [ :post_process_baseline, :post_process_high_efficiency, :post_process_mixed] do
+task post_process_all: %i[post_process_baseline post_process_high_efficiency post_process_mixed] do
   # post_process all the scenarios
 end
 
 desc 'Run and post process all scenarios'
-task :update_all => [:run_all, :post_process_all] do
+task update_all: %i[run_all post_process_all] do
   # run and post_process all the scenarios
 end
-              
-task :default => :update_all
+
+task default: :update_all

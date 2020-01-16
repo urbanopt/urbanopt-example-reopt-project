@@ -7,7 +7,7 @@ source 'http://rubygems.org'
 # Note that if allow_local is true, but the gem is not found locally, then it will
 # checkout the latest version (develop) from github.
 
-allow_local = true
+allow_local = false
 github_branch = false
 
 # Uncomment the extension, common measures, core gems if you need to test local development versions. Otherwise
@@ -39,7 +39,7 @@ github_branch = false
 # else
 #   gem 'openstudio-model-articulation', '0.1.0'
 # end
-#gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
+# gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
 
 if allow_local && File.exist?('../urbanopt-scenario-gem')
   gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
@@ -50,14 +50,14 @@ else
 end
 
 if allow_local && File.exist?('../urbanopt-reopt-gem')
-  #gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
+  gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
 elsif github_branch
   gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'develop'
 else
   gem 'urbanopt-reopt', '0.1.0'
 end
 
-if allow_local && File.exists?('../urbanopt-geojson-gem')
+if allow_local && File.exist?('../urbanopt-geojson-gem')
   # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
   gem 'urbanopt-geojson', path: '../urbanopt-geojson-gem'
 elsif allow_local
@@ -73,4 +73,3 @@ gem 'simplecov', github: 'NREL/simplecov'
 
 # Support requests on windows machines
 gem 'certified'
-

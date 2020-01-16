@@ -1,4 +1,4 @@
-#*********************************************************************************
+# *********************************************************************************
 # URBANopt, Copyright (c) 2019-2020, Alliance for Sustainable Energy, LLC, and other
 # contributors. All rights reserved.
 #
@@ -26,6 +26,6 @@
 # LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
 # OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 # OF THE POSSIBILITY OF SUCH DAMAGE.
-#*********************************************************************************
+# *********************************************************************************
 
-DEVELOPER_NREL_KEY = (ENV["GEM_DEVELOPER_KEY"] or '<your key here https://developer.nrel.gov/signup/>')
+DEVELOPER_NREL_KEY = (ENV['GEM_DEVELOPER_KEY'] || '<your key here https://developer.nrel.gov/signup/>')
