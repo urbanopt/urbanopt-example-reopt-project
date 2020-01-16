@@ -1,5 +1,5 @@
 #*********************************************************************************
-# URBANopt, Copyright (c) 2019, Alliance for Sustainable Energy, LLC, and other
+# URBANopt, Copyright (c) 2019-2020, Alliance for Sustainable Energy, LLC, and other
 # contributors. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without modification,
@@ -32,8 +32,8 @@ require 'openstudio/extension'
 require 'openstudio/extension/rake_task'
 require 'urbanopt/scenario'
 require 'urbanopt/geojson'
-require 'urbanopt/reopt_scenario'
 require 'urbanopt/reopt'
+require 'urbanopt/reopt_scenario'
 require_relative 'developer_nrel_key'
 
 module URBANopt

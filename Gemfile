@@ -7,8 +7,8 @@ source 'http://rubygems.org'
 # Note that if allow_local is true, but the gem is not found locally, then it will
 # checkout the latest version (develop) from github.
 
-allow_local = false
-github_branch = true
+allow_local = true
+github_branch = false
 
 # Uncomment the extension, common measures, core gems if you need to test local development versions. Otherwise
 # these are included in the model articulation and urbanopt gems
@@ -41,17 +41,13 @@ github_branch = true
 # end
 #gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
 
-
-
 if allow_local && File.exist?('../urbanopt-scenario-gem')
   gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
 elsif github_branch
   gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'develop'
 else
-  gem 'urbanopt-scenario', '0.1.0'
+  gem 'urbanopt-scenario', '0.1.1'
 end
-
-
 
 if allow_local && File.exist?('../urbanopt-reopt-gem')
   #gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
@@ -60,8 +56,6 @@ elsif github_branch
 else
   gem 'urbanopt-reopt', '0.1.0'
 end
-
-
 
 if allow_local && File.exists?('../urbanopt-geojson-gem')
   # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
@@ -77,5 +71,6 @@ gem 'openstudio-standards', '0.2.10' # doesn't work in 0.2.8?
 # simplecov has an unneccesary dependency on native json gem, use fork that does not require this
 gem 'simplecov', github: 'NREL/simplecov'
 
+# Support requests on windows machines
 gem 'certified'
 
