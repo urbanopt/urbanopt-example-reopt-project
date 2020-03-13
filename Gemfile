@@ -1,5 +1,8 @@
 source 'http://rubygems.org'
 
+
+ruby '2.2.4'
+
 # Local gems are useful when developing and integrating the various dependencies.
 # To favor the use of local gems, set the following environment variable:
 #   Mac: export FAVOR_LOCAL_GEMS=1
@@ -46,24 +49,25 @@ if allow_local && File.exist?('../urbanopt-scenario-gem')
 elsif github_branch
   gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'develop'
 else
-  gem 'urbanopt-scenario', '0.1.1'
+  gem 'urbanopt-scenario', '0.2.0.pre1'
 end
 
 if allow_local && File.exist?('../urbanopt-reopt-gem')
   gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
 elsif github_branch
-  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'develop'
+  #gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
+  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'multiplepv'
 else
-  gem 'urbanopt-reopt', '0.1.0'
+  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'multiplepv'
+  #gem 'urbanopt-reopt', '0.1.0'
 end
 
 if allow_local && File.exist?('../urbanopt-geojson-gem')
-  # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
   gem 'urbanopt-geojson', path: '../urbanopt-geojson-gem'
-elsif allow_local
+elsif github_branch
   gem 'urbanopt-geojson', github: 'URBANopt/urbanopt-geojson-gem', branch: 'develop'
 else
-  gem 'urbanopt-geojson', '0.1.0'
+  gem 'urbanopt-geojson', '0.2.0.pre1'
 end
 
 gem 'openstudio-standards', '0.2.10' # doesn't work in 0.2.8?
@@ -73,3 +77,6 @@ gem 'simplecov', github: 'NREL/simplecov'
 
 # Support requests on windows machines
 gem 'certified'
+
+# Fix rack version temporarily to work with Ruby 2.2.4
+gem 'rack', '2.1.2'

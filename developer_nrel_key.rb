@@ -28,4 +28,4 @@
 # OF THE POSSIBILITY OF SUCH DAMAGE.
 # *********************************************************************************
 
-DEVELOPER_NREL_KEY = (ENV['GEM_DEVELOPER_KEY'] || '<your key here https://developer.nrel.gov/signup/>')
+DEVELOPER_NREL_KEY = (ENV['GEM_DEVELOPER_KEY'] || 'rcpXGrH82wljq9REuteFhjSSdCxMTgsZUU1C9CzL')

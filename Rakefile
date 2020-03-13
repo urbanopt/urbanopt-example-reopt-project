@@ -148,15 +148,27 @@ task :post_process_baseline do
   scenario_report = default_post_processor.run
   scenario_report.save
   scenario_base = default_post_processor.scenario_base
+
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
 
   # Run Aggregate Scenario
   scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report)
-  scenario_report_scenario.save('baseline_scenario')
+  # save scenario report
+  scenario_report_scenario.save('baseline_global_optimization')
+  # save feature reports 
+  scenario_report_scenario.feature_reports.each do |feature_report|
+    feature_report.save_feature_report()
+  end
 
   # Run features individually
   scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report)
-  scenario_report_features.save('baseline_features')
+  # save scenario report
+  scenario_report_features.save('baseline_local_optimization')
+  # save feature reports
+  scenario_report_scenario.feature_reports.each do |feature_report|
+    feature_report.save_feature_report()
+  end
+
 end
 
 ### High Efficiency
