@@ -368,32 +368,32 @@
   OnMeter=ExteriorLights:Electricity [J]
   OnMeter=Parking Areas and Drives:ExteriorLights:Electricity [J]
 
- Meters for 1046,1 ZONE PVAV 2SPD DX CLG COIL 2147KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy [J]
+ Meters for 1046,1 ZONE PVAV 2SPD DX CLG COIL 2214KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=CoolingCoils:EnergyTransfer [J]
 
- Meters for 1059,1 ZONE PVAV 2SPD DX CLG COIL 2147KBTU/HR 9.5EER:Cooling Coil Electric Energy [J]
+ Meters for 1059,1 ZONE PVAV 2SPD DX CLG COIL 2214KBTU/HR 9.5EER:Cooling Coil Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:HVAC [J]
   OnMeter=Cooling:Electricity [J]
 
- Meters for 1072,1 ZONE PVAV 1 2SPD DX CLG COIL 2587KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy [J]
+ Meters for 1072,1 ZONE PVAV 1 2SPD DX CLG COIL 2625KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=CoolingCoils:EnergyTransfer [J]
 
- Meters for 1073,1 ZONE PVAV 1 2SPD DX CLG COIL 2587KBTU/HR 9.5EER:Cooling Coil Electric Energy [J]
+ Meters for 1073,1 ZONE PVAV 1 2SPD DX CLG COIL 2625KBTU/HR 9.5EER:Cooling Coil Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:HVAC [J]
   OnMeter=Cooling:Electricity [J]
 
- Meters for 1074,1 ZONE PVAV 2 2SPD DX CLG COIL 2907KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy [J]
+ Meters for 1074,1 ZONE PVAV 2 2SPD DX CLG COIL 2996KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=CoolingCoils:EnergyTransfer [J]
 
- Meters for 1075,1 ZONE PVAV 2 2SPD DX CLG COIL 2907KBTU/HR 9.5EER:Cooling Coil Electric Energy [J]
+ Meters for 1075,1 ZONE PVAV 2 2SPD DX CLG COIL 2996KBTU/HR 9.5EER:Cooling Coil Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:HVAC [J]
   OnMeter=Cooling:Electricity [J]
@@ -403,18 +403,18 @@
   OnMeter=EnergyTransfer:Plant [J]
   OnMeter=LoopToLoop:EnergyTransfer [J]
 
- Meters for 1089,BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy [J]
+ Meters for 1089,BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Plant [J]
   OnMeter=Boilers:EnergyTransfer [J]
 
- Meters for 1102,BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy [J]
+ Meters for 1102,BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy [J]
   OnMeter=Gas:Facility [J]
   OnMeter=Gas:Plant [J]
   OnMeter=Heating:Gas [J]
   OnMeter=General:Heating:Gas [J]
 
- Meters for 1127,BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy [J]
+ Meters for 1127,BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Heating:Electricity [J]
@@ -472,10 +472,10 @@
   MAIN ENTRIES:Exterior Lights Electric Energy
   OTHER DOORS:Exterior Lights Electric Energy
   PARKING AREAS AND DRIVES:Exterior Lights Electric Energy
-  1 ZONE PVAV 2SPD DX CLG COIL 2147KBTU/HR 9.5EER:Cooling Coil Electric Energy
-  1 ZONE PVAV 1 2SPD DX CLG COIL 2587KBTU/HR 9.5EER:Cooling Coil Electric Energy
-  1 ZONE PVAV 2 2SPD DX CLG COIL 2907KBTU/HR 9.5EER:Cooling Coil Electric Energy
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  1 ZONE PVAV 2SPD DX CLG COIL 2214KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  1 ZONE PVAV 1 2SPD DX CLG COIL 2625KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  1 ZONE PVAV 2 2SPD DX CLG COIL 2996KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
   BOOSTER WATER LOOP PUMP:Pump Electric Energy
   FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
   HOT WATER LOOP PUMP:Pump Electric Energy
@@ -570,7 +570,7 @@
   1913GAL NATURALGAS WATER HEATER - 1913KBTU/HR 0.802 THERM EFF:Water Heater Gas Energy
   1913GAL NATURALGAS WATER HEATER - 1913KBTU/HR 0.802 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
   1913GAL NATURALGAS WATER HEATER - 1913KBTU/HR 0.802 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
 
  For Meter=Gas:Building [J], ResourceType=Gas, Group=Building, contents are:
   BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
@@ -618,7 +618,7 @@
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 367KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 367KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 367KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
   BOOSTER WATER LOOP PUMP:Pump Electric Energy
   FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
   HOT WATER LOOP PUMP:Pump Electric Energy
@@ -682,7 +682,7 @@
   1913GAL NATURALGAS WATER HEATER - 1913KBTU/HR 0.802 THERM EFF:Water Heater Gas Energy
   1913GAL NATURALGAS WATER HEATER - 1913KBTU/HR 0.802 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
   1913GAL NATURALGAS WATER HEATER - 1913KBTU/HR 0.802 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
 
  For Meter=WaterSystems:Gas [J], ResourceType=Gas, EndUse=WaterSystems, contents are:
   1913GAL NATURALGAS WATER HEATER - 1913KBTU/HR 0.802 THERM EFF:Water Heater Gas Energy
@@ -719,11 +719,11 @@
   1 ZONE PVAV MAIN HTG COIL:Heating Coil Heating Energy
   1 ZONE PVAV 1 MAIN HTG COIL:Heating Coil Heating Energy
   1 ZONE PVAV 2 MAIN HTG COIL:Heating Coil Heating Energy
-  1 ZONE PVAV 2SPD DX CLG COIL 2147KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
-  1 ZONE PVAV 1 2SPD DX CLG COIL 2587KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
-  1 ZONE PVAV 2 2SPD DX CLG COIL 2907KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  1 ZONE PVAV 2SPD DX CLG COIL 2214KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  1 ZONE PVAV 1 2SPD DX CLG COIL 2625KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  1 ZONE PVAV 2 2SPD DX CLG COIL 2996KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
   HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
 
  For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
   BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy
@@ -777,7 +777,7 @@
   BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 30.37GPM AT 180F:Water Use Equipment Heating Energy
   FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 20.25GPM AT 140F:Water Use Equipment Heating Energy
   HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
 
  For Meter=WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
   BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 30.37GPM AT 180F:Water Use Equipment Heating Energy
@@ -821,9 +821,9 @@
   1 ZONE PVAV MAIN HTG COIL:Heating Coil Heating Energy
   1 ZONE PVAV 1 MAIN HTG COIL:Heating Coil Heating Energy
   1 ZONE PVAV 2 MAIN HTG COIL:Heating Coil Heating Energy
-  1 ZONE PVAV 2SPD DX CLG COIL 2147KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
-  1 ZONE PVAV 1 2SPD DX CLG COIL 2587KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
-  1 ZONE PVAV 2 2SPD DX CLG COIL 2907KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  1 ZONE PVAV 2SPD DX CLG COIL 2214KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  1 ZONE PVAV 1 2SPD DX CLG COIL 2625KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  1 ZONE PVAV 2 2SPD DX CLG COIL 2996KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
 
  For Meter=HeatingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatingCoils, contents are:
   BUILDING STORY 1 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
@@ -853,9 +853,9 @@
   1 ZONE PVAV FAN:Fan Electric Energy
   1 ZONE PVAV 1 FAN:Fan Electric Energy
   1 ZONE PVAV 2 FAN:Fan Electric Energy
-  1 ZONE PVAV 2SPD DX CLG COIL 2147KBTU/HR 9.5EER:Cooling Coil Electric Energy
-  1 ZONE PVAV 1 2SPD DX CLG COIL 2587KBTU/HR 9.5EER:Cooling Coil Electric Energy
-  1 ZONE PVAV 2 2SPD DX CLG COIL 2907KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  1 ZONE PVAV 2SPD DX CLG COIL 2214KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  1 ZONE PVAV 1 2SPD DX CLG COIL 2625KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  1 ZONE PVAV 2 2SPD DX CLG COIL 2996KBTU/HR 9.5EER:Cooling Coil Electric Energy
 
  For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
   1 ZONE PVAV FAN:Fan Electric Energy
@@ -886,32 +886,32 @@
   PARKING AREAS AND DRIVES:Exterior Lights Electric Energy
 
  For Meter=CoolingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=CoolingCoils, contents are:
-  1 ZONE PVAV 2SPD DX CLG COIL 2147KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
-  1 ZONE PVAV 1 2SPD DX CLG COIL 2587KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
-  1 ZONE PVAV 2 2SPD DX CLG COIL 2907KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  1 ZONE PVAV 2SPD DX CLG COIL 2214KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  1 ZONE PVAV 1 2SPD DX CLG COIL 2625KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  1 ZONE PVAV 2 2SPD DX CLG COIL 2996KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
 
  For Meter=Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
-  1 ZONE PVAV 2SPD DX CLG COIL 2147KBTU/HR 9.5EER:Cooling Coil Electric Energy
-  1 ZONE PVAV 1 2SPD DX CLG COIL 2587KBTU/HR 9.5EER:Cooling Coil Electric Energy
-  1 ZONE PVAV 2 2SPD DX CLG COIL 2907KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  1 ZONE PVAV 2SPD DX CLG COIL 2214KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  1 ZONE PVAV 1 2SPD DX CLG COIL 2625KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  1 ZONE PVAV 2 2SPD DX CLG COIL 2996KBTU/HR 9.5EER:Cooling Coil Electric Energy
 
  For Meter=LoopToLoop:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=LoopToLoop, contents are:
   HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
 
  For Meter=Boilers:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Boilers, contents are:
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
 
  For Meter=Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
 
  For Meter=General:Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
 
  For Meter=Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
 
  For Meter=Boiler Parasitic:Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
-  BOILER 5275KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  BOILER 5353KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
 
  For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
   BOOSTER WATER LOOP PUMP:Pump Electric Energy

@@ -1,37 +1,37 @@
-W, [2020-03-24T18:13:53.983540 #37091]  WARN -- : Bundle activated but ENV['BUNDLE_WITHOUT'] is not set
 [openstudio.model.YearDescription] <1> 'UseWeatherFile' is not yet a supported option for YearDescription
 [openstudio.model.YearDescription] <1> 'UseWeatherFile' is not yet a supported option for YearDescription
-[18:13:55.541557 WARN] No valid weather file defined in either the osm or osw.
+W, [2020-03-25T14:41:16.910693 #78452]  WARN -- : Bundle activated but ENV['BUNDLE_WITHOUT'] is not set
+[14:41:18.116304 WARN] No valid weather file defined in either the osm or osw.
 asdf, already had it
-[18:14:03.604579 WARN] User-defined single floor area was used for calculation of total building floor area
-[18:14:03.604611 WARN] Cannot use custom height bar with single floor area method, will not create custom height bar.
-[18:14:07.385613 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm is not opaque or simple glazing.
-[18:14:07.385772 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air is not opaque or simple glazing.
-[18:14:07.385908 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in is not opaque or simple glazing.
-[18:14:07.386393 WARN] [openstudio.model.Model] Model has zone with
-[18:14:07.386478 WARN] [openstudio.model.Model] Model has zone with
-[18:14:07.386556 WARN] [openstudio.model.Model] Model has zone with
-[18:14:07.386713 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
-[18:14:07.548221 WARN] FullServiceRestaurant Dining C  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:07.548897 WARN] FullServiceRestaurant Dining B end_a - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:07.549030 WARN] FullServiceRestaurant Dining A  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:07.549665 WARN] FullServiceRestaurant Kitchen B end_b - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:08.450807 WARN] Surface elevation not set for building 'Restaurant 1'
-[18:14:08.454810 WARN] Reversing floor print
-[18:14:08.455847 WARN] Reversing floor print
-[18:14:08.456507 WARN] Reversing floor print
-[18:14:08.457796 WARN] Reversing floor print
-[18:14:08.458445 WARN] Reversing floor print
-[18:14:08.460117 WARN] Reversing floor print
-[18:14:08.469907 WARN] Reversing floor print
+[14:41:24.792651 WARN] User-defined single floor area was used for calculation of total building floor area
+[14:41:24.792676 WARN] Cannot use custom height bar with single floor area method, will not create custom height bar.
+[14:41:28.050411 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm is not opaque or simple glazing.
+[14:41:28.050559 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air is not opaque or simple glazing.
+[14:41:28.050666 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in is not opaque or simple glazing.
+[14:41:28.051041 WARN] [openstudio.model.Model] Model has zone with
+[14:41:28.051120 WARN] [openstudio.model.Model] Model has zone with
+[14:41:28.051200 WARN] [openstudio.model.Model] Model has zone with
+[14:41:28.051349 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
+[14:41:28.195504 WARN] FullServiceRestaurant Dining B end_a - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:28.196396 WARN] FullServiceRestaurant Dining A  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:28.196519 WARN] FullServiceRestaurant Dining C  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:28.196736 WARN] FullServiceRestaurant Kitchen B end_b - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:28.992776 WARN] Surface elevation not set for building 'Restaurant 1'
+[14:41:28.997011 WARN] Reversing floor print
+[14:41:28.998053 WARN] Reversing floor print
+[14:41:28.998713 WARN] Reversing floor print
+[14:41:28.999990 WARN] Reversing floor print
+[14:41:29.000641 WARN] Reversing floor print
+[14:41:29.002255 WARN] Reversing floor print
+[14:41:29.010180 WARN] Reversing floor print
 "/Applications/OpenStudio-2.8.1/bin/openstudio" run -w "/Users/tkwasnik/github/urbanopt-example-reopt-project/run/baseline_scenario/2/006_create_typical_building_from_model/SR1/in.osw"
 [utilities.geometry.join] <1> Union has inner loops
 [utilities.geometry.joinAll] <1> Expected polygons to join together
 [utilities.geometry.join] <1> Union has inner loops
 [utilities.geometry.joinAll] <1> Expected polygons to join together
-[18:14:14.833948 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
-[18:14:14.834357 WARN] [openstudio.standards.BoilerHotWater] For Boiler, cannot find boiler properties with search criteria {"template"=>"90.1-2013", "fuel_type"=>"Gas", "fluid_type"=>"Hot Water"}, cannot apply efficiency standard.
-[18:14:15.424009 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-57bae9849dea/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
-[18:14:18.038228 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-57bae9849dea/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
-[18:14:18.217256 WARN] Query failed for Life-Cycle Cost Report and TableName='Present Value for Recurring, Nonrecurring and Energy Costs (Before Tax)' AND RowName='LCC_MAT - BUILDING - LIFE CYCLE COSTS' AND ColumnName='Cost'
-Power Converion: to convert kWh to kW values will be divided by 0.25
+[14:41:34.252838 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:41:34.253153 WARN] [openstudio.standards.BoilerHotWater] For Boiler, cannot find boiler properties with search criteria {"template"=>"90.1-2013", "fuel_type"=>"Gas", "fluid_type"=>"Hot Water"}, cannot apply efficiency standard.
+[14:41:34.800454 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[14:41:39.691390 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[14:41:39.881272 WARN] Query failed for Life-Cycle Cost Report and TableName='Present Value for Recurring, Nonrecurring and Energy Costs (Before Tax)' AND RowName='LCC_MAT - BUILDING - LIFE CYCLE COSTS' AND ColumnName='Cost'
+Power Converion: to convert kWh to kW values will be divided by 1.0

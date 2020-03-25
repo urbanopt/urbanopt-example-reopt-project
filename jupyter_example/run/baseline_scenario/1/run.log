@@ -1,55 +1,58 @@
-[18:13:55.541565 WARN] No valid weather file defined in either the osm or osw.
-[18:14:03.604604 WARN] User-defined single floor area was used for calculation of total building floor area
-[18:14:03.604629 WARN] Cannot use custom height bar with single floor area method, will not create custom height bar.
-[18:14:09.539765 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm is not opaque or simple glazing.
-[18:14:09.540102 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air is not opaque or simple glazing.
-[18:14:09.540318 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in is not opaque or simple glazing.
-[18:14:09.541879 WARN] [openstudio.weather.Model] Could not find ground temperatures; will use generic temperatures, which will skew results.
-[18:14:09.542933 WARN] [openstudio.model.Model] Model has zone with
-[18:14:09.543127 WARN] [openstudio.model.Model] Model has zone with
-[18:14:09.543415 WARN] [openstudio.model.Model] Model has zone with
-[18:14:09.543869 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
-[18:14:09.836789 WARN] Office WholeBuilding - Md Office C  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.837149 WARN] Office WholeBuilding - Md Office A  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.837495 WARN] Office WholeBuilding - Md Office B end_a - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.837869 WARN] Office WholeBuilding - Md Office B end_b - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.859830 WARN] Office WholeBuilding - Md Office C  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.860401 WARN] Office WholeBuilding - Md Office A  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.861269 WARN] Office WholeBuilding - Md Office B end_a - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.861622 WARN] Office WholeBuilding - Md Office B end_b - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.873021 WARN] FullServiceRestaurant Kitchen C  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.873314 WARN] FullServiceRestaurant Kitchen A end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.873570 WARN] FullServiceRestaurant Kitchen C end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.873986 WARN] FullServiceRestaurant Kitchen B end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.874218 WARN] FullServiceRestaurant Kitchen A  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.874661 WARN] FullServiceRestaurant Dining B end_b - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.875263 WARN] FullServiceRestaurant Dining C  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.875489 WARN] FullServiceRestaurant Dining A  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.886137 WARN] FullServiceRestaurant Dining C  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.886891 WARN] FullServiceRestaurant Dining B end_a - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.887085 WARN] FullServiceRestaurant Dining B end_b - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:09.887506 WARN] FullServiceRestaurant Dining A  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:10.807320 WARN] Surface elevation not set for building 'Mixed_use 1'
-[18:14:10.807781 WARN] Reversing floor print
-[18:14:10.811577 WARN] Reversing floor print
-[18:14:10.814851 WARN] Reversing floor print
-[18:14:10.818201 WARN] Reversing floor print
-[18:14:10.821603 WARN] Reversing floor print
-[18:14:10.822567 WARN] Reversing floor print
-[18:14:10.822778 WARN] Reversing floor print
-[18:14:10.825422 WARN] Reversing floor print
-[18:14:10.825671 WARN] Reversing floor print
-[18:14:10.832053 WARN] Reversing floor print
-[18:14:10.832263 WARN] Reversing floor print
-[18:14:10.835155 WARN] Reversing floor print
-[18:14:10.835504 WARN] Reversing floor print
-[18:14:10.842630 WARN] Reversing floor print
-[18:14:10.843134 WARN] Reversing floor print
-[18:14:10.852973 WARN] Reversing floor print
-[18:14:22.756806 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
-[18:14:22.756870 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
-[18:14:22.756910 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
-[18:14:22.756963 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
-[18:14:23.624514 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-57bae9849dea/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
-[18:14:41.801012 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-57bae9849dea/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
-[18:14:42.024219 WARN] Query failed for Life-Cycle Cost Report and TableName='Present Value for Recurring, Nonrecurring and Energy Costs (Before Tax)' AND RowName='LCC_MAT - BUILDING - LIFE CYCLE COSTS' AND ColumnName='Cost'
+[14:41:18.116304 WARN] No valid weather file defined in either the osm or osw.
+[14:41:24.787463 WARN] User-defined single floor area was used for calculation of total building floor area
+[14:41:24.787494 WARN] Cannot use custom height bar with single floor area method, will not create custom height bar.
+[14:41:30.032043 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm is not opaque or simple glazing.
+[14:41:30.032737 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air is not opaque or simple glazing.
+[14:41:30.033102 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in is not opaque or simple glazing.
+[14:41:30.035541 WARN] [openstudio.weather.Model] Could not find ground temperatures; will use generic temperatures, which will skew results.
+[14:41:30.036086 WARN] [openstudio.model.Model] Model has zone with
+[14:41:30.036165 WARN] [openstudio.model.Model] Model has zone with
+[14:41:30.036254 WARN] [openstudio.model.Model] Model has zone with
+[14:41:30.036513 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
+[14:41:30.228645 WARN] Office WholeBuilding - Md Office C  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.229152 WARN] Office WholeBuilding - Md Office B end_b - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.229505 WARN] Office WholeBuilding - Md Office A  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.229638 WARN] Office WholeBuilding - Md Office B end_a - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.238848 WARN] Office WholeBuilding - Md Office C  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.238998 WARN] Office WholeBuilding - Md Office B end_b - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.239147 WARN] Office WholeBuilding - Md Office A  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.239648 WARN] Office WholeBuilding - Md Office B end_a - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.245933 WARN] FullServiceRestaurant Kitchen C  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.246197 WARN] FullServiceRestaurant Kitchen A  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.246340 WARN] FullServiceRestaurant Kitchen A end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.246482 WARN] FullServiceRestaurant Kitchen C end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.246622 WARN] FullServiceRestaurant Kitchen B end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.247007 WARN] FullServiceRestaurant Dining A  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.247386 WARN] FullServiceRestaurant Dining B end_b - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.247528 WARN] FullServiceRestaurant Dining C  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.254210 WARN] FullServiceRestaurant Dining C  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.254691 WARN] FullServiceRestaurant Dining A  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.254834 WARN] FullServiceRestaurant Dining B end_b - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.255100 WARN] FullServiceRestaurant Dining B end_a - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:31.128076 WARN] Surface elevation not set for building 'Mixed_use 1'
+[14:41:31.128508 WARN] Reversing floor print
+[14:41:31.132893 WARN] Reversing floor print
+[14:41:31.136214 WARN] Reversing floor print
+[14:41:31.139919 WARN] Reversing floor print
+[14:41:31.143696 WARN] Reversing floor print
+[14:41:31.144710 WARN] Reversing floor print
+[14:41:31.144976 WARN] Reversing floor print
+[14:41:31.148482 WARN] Reversing floor print
+[14:41:31.148801 WARN] Reversing floor print
+[14:41:31.153809 WARN] Reversing floor print
+[14:41:31.158297 WARN] Reversing floor print
+[14:41:31.158572 WARN] Reversing floor print
+[14:41:31.163170 WARN] Reversing floor print
+[14:41:31.163540 WARN] Reversing floor print
+[14:41:31.168539 WARN] Reversing floor print
+[14:41:31.173246 WARN] Reversing floor print
+[14:41:31.173678 WARN] Reversing floor print
+[14:41:31.180010 WARN] Reversing floor print
+[14:41:31.185787 WARN] Reversing floor print
+[14:41:47.105894 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:41:47.105958 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:41:47.106011 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:41:47.106049 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:41:47.962821 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[14:42:54.897072 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[14:42:55.201614 WARN] Query failed for Life-Cycle Cost Report and TableName='Present Value for Recurring, Nonrecurring and Energy Costs (Before Tax)' AND RowName='LCC_MAT - BUILDING - LIFE CYCLE COSTS' AND ColumnName='Cost'

@@ -1,8 +1,8 @@
 {
   "SetRunPeriod": {
-    "timesteps_per_hour": 4,
-    "begin_date": "2019-06-01",
-    "end_date": "2019-08-01",
+    "timesteps_per_hour": 1,
+    "begin_date": "2019-01-01",
+    "end_date": "2019-12-31",
     "applicable": true
   },
   "ChangeBuildingLocation": {
@@ -53,9 +53,9 @@
     "use_upstream_args": true,
     "climate_zone": "Lookup From Stat File",
     "wall_area_ip": 70813.55802386999,
-    "ns_wall_area_ip": 42488.13481432203,
+    "ns_wall_area_ip": 42488.13481432202,
     "ew_wall_area_ip": 28325.423209547967,
-    "floor_area_to_perim_ratio": 32.37595872851336,
+    "floor_area_to_perim_ratio": 32.37595872851335,
     "bar_width": 354.06779011934987,
     "applicable": true
   },
@@ -138,9 +138,9 @@
   "PredictedMeanVote": {
     "comfortWarnings": true,
     "meanRadiantCalcType": "ZoneAveraged",
-    "workEfficiencySchedule": "{fbb87bc0-ed68-4f2b-8836-93f479a7119e}",
-    "clothingSchedule": "{98bb7fc6-3959-48b7-9237-6b80acdd6542}",
-    "airVelocitySchedule": "{c3917b88-d893-4d16-be1e-dabb68107843}",
+    "workEfficiencySchedule": "{0087c24a-e924-4151-a92a-34f9ff2d1b62}",
+    "clothingSchedule": "{a58ffd3e-56bd-4130-9ba7-40a78593529e}",
+    "airVelocitySchedule": "{dd30a676-4e4e-4641-b156-40b0666e2efb}",
     "reporting_frequency": "Timestep",
     "applicable": true
   },

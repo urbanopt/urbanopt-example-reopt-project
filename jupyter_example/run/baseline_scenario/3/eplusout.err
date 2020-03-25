@@ -1,4 +1,6 @@
-Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
+Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.25 14:42,
+   ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
+   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="30 SPACE(S) OCC SCH DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="30 SPACE(S) OCC SCH SATURDAY", Blank Schedule Type Limits Name input -- will not be validated.
@@ -16,7 +18,7 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    ** Warning ** ProcessScheduleInput: Schedule:Year="ELEVATOR SCHEDULE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** CheckUsedConstructions: There are 11 nominally unused constructions in input.
+   ** Warning ** CheckUsedConstructions: There are 12 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
    ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
    **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE", only 0.53 of the zone is controlled.
@@ -39,7 +41,7 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    **   ~~~   ** For Zone="BUILDING STORY 2 THERMALZONE".
    **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="BLENDED OA 1".
    ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=BOOSTER WATER LOOP PUMP
-   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode Boiler named BOILER 5275KBTU/HR 0.8 THERMAL EFF
+   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode Boiler named BOILER 5353KBTU/HR 0.8 THERMAL EFF
    **   ~~~   **   A temperature setpoint is needed at the outlet node of a boiler in variable flow mode
    **   ~~~   **   use a Setpoint Manager to establish a setpoint at the boiler outlet node 
    **   ~~~   **   or use an EMS actuator to establish a setpoint at the boiler outlet node 
@@ -134,6 +136,10 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    ************* Beginning Simulation
    ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
    **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
+   ** Warning ** More than 4% of time (350.4 hours) uncomfortable in one or more zones 
+   **   ~~~   ** Based on ASHRAE 55-2004 graph (Section 5.2.1.1)
+   **   ~~~   ** During Environment [01/01/2019 - 12/31/2019]: RUN PERIOD 1
+   **   ~~~   ** 547.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
    **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
@@ -175,4 +181,4 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 23 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 114 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  7.47sec
+   ************* EnergyPlus Completed Successfully-- 116 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 10.71sec

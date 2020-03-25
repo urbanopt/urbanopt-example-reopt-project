@@ -1,8 +1,8 @@
-Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14
+Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.25 14:41
 ! <Version>, Version ID
  Version, 9.1
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
- Timesteps per Hour,  4, 15
+ Timesteps per Hour,  1, 60
 ! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
  System Convergence Limits, 1, 20, 2, 8
 ! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
@@ -56,7 +56,7 @@ Environment:Site Atmospheric Variation,0.330,460.000,6.500000E-003
 ! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
 Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
 ! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
- Shading Summary,0,28,0
+ Shading Summary,0,24,0
 ! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
  Zone Summary,1,23,4
 ! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
@@ -101,7 +101,7 @@ AirflowNetwork Model:Control,NoMultizoneOrDistribution
 ! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
 Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
 ! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
- Load Timesteps in Zone Design Calculation Averaging Window,    4
+ Load Timesteps in Zone Design Calculation Averaging Window,    1
 ! <Heating Sizing Factor Information>, Sizing Factor ID, Value
  Heating Sizing Factor Information, Global,   1.2500    
  Heating Sizing Factor Information, Zone BUILDING STORY 1 THERMALZONE,   1.2500    
@@ -109,52 +109,52 @@ Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
  Cooling Sizing Factor Information, Global,   1.1500    
  Cooling Sizing Factor Information, Zone BUILDING STORY 1 THERMALZONE,   1.1500    
 ! <Sky Daylight Factors>, MonthAndDay, Zone Name, Window Name, Daylight Fac: Ref Pt #1, Daylight Fac: Ref Pt #2
- Clear Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 2,4.2119E-004,4.2119E-004
- Clear Turbid Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 2,3.9996E-004,3.9996E-004
- Intermediate Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 2,3.7279E-004,3.7279E-004
- Overcast Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 2,4.0891E-004,4.0891E-004
- Clear Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 4,1.8012E-004,1.8022E-004
- Clear Turbid Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 4,1.6020E-004,1.6027E-004
- Intermediate Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 4,1.4035E-004,1.4038E-004
- Overcast Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 4,2.1622E-004,2.1626E-004
- Clear Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 1,5.6301E-004,5.6822E-004
- Clear Turbid Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 1,5.0461E-004,5.0861E-004
- Intermediate Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 1,4.1601E-004,4.1772E-004
- Overcast Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 1,4.9949E-004,5.0174E-004
- Clear Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 3,3.8925E-002,1.3833E-002
- Clear Turbid Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 3,3.6770E-002,1.2407E-002
- Intermediate Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 3,2.8489E-002,8.2759E-003
- Overcast Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 3,2.4200E-002,6.7544E-003
+ Clear Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 1,0.0000,0.0000
+ Clear Turbid Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 1,0.0000,0.0000
+ Intermediate Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 1,0.0000,0.0000
+ Overcast Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 1,0.0000,0.0000
+ Clear Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 2,0.0000,0.0000
+ Clear Turbid Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 2,0.0000,0.0000
+ Intermediate Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 2,0.0000,0.0000
+ Overcast Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 2,0.0000,0.0000
+ Clear Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 3,0.0000,0.0000
+ Clear Turbid Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 3,0.0000,0.0000
+ Intermediate Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 3,0.0000,0.0000
+ Overcast Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 3,0.0000,0.0000
+ Clear Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 4,3.8523E-004,3.8523E-004
+ Clear Turbid Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 4,3.7793E-004,3.7793E-004
+ Intermediate Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 4,3.1886E-004,3.1886E-004
+ Overcast Sky Daylight Factors,07/21,BUILDING STORY 1 THERMALZONE,SUB SURFACE 4,2.4886E-004,2.4886E-004
 ! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
- Zone Sizing Information, BUILDING STORY 1 THERMALZONE, Cooling, 204756.52954, 235470.00898, 15.25558, 17.54392, BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1, 7/21 07:30:00, 22.62750, 1.33455E-002, 2071.85867, 1165.64441, 6.02043, 0.00000
- Zone Sizing Information, BUILDING STORY 1 THERMALZONE, Heating, 31666.02112, 39582.52640, 0.91214, 6.02043, BUFFALO NIAGARA INTL AP ANN HTG 99.6% CONDNS DB 1, 1/21 24:00:00, -16.30000, 9.24091E-004, 2071.85867, 1165.64441, 6.02043, 0.00000
+ Zone Sizing Information, BUILDING STORY 1 THERMALZONE, Cooling, 206236.79020, 237172.30873, 15.36194, 17.66623, BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1, 7/21 08:00:00, 23.41800, 1.33455E-002, 2071.85867, 1165.64441, 6.02043, 0.00000
+ Zone Sizing Information, BUILDING STORY 1 THERMALZONE, Heating, 30419.56786, 38024.45983, 0.87621, 6.02043, BUFFALO NIAGARA INTL AP ANN HTG 99.6% CONDNS DB 1, 1/21 24:00:00, -16.30000, 9.24091E-004, 2071.85867, 1165.64441, 6.02043, 0.00000
 ! <System Sizing Information>, System Name, Load Type, Peak Load Kind, User Design Capacity, Calc Des Air Flow Rate [m3/s], User Des Air Flow Rate [m3/s], Design Day Name, Date/Time of Peak
- System Sizing Information, BUILDING STORY 1 THERMALZONE PSZ-AC, Cooling, Sensible, 257522.55, 17.54392, 17.54392, BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1, 7/21 05:00:00
- System Sizing Information, BUILDING STORY 1 THERMALZONE PSZ-AC, Heating, Sensible, 470854.15, 6.02043, 6.02043, BUFFALO NIAGARA INTL AP ANN HTG 99.6% CONDNS DB 1, 1/21 00:15:00
+ System Sizing Information, BUILDING STORY 1 THERMALZONE PSZ-AC, Cooling, Sensible, 261458.74, 17.66623, 17.66623, BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1, 7/21 05:00:00
+ System Sizing Information, BUILDING STORY 1 THERMALZONE PSZ-AC, Heating, Sensible, 470854.15, 6.02043, 6.02043, BUFFALO NIAGARA INTL AP ANN HTG 99.6% CONDNS DB 1, 1/21 01:00:00
 ! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
- Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, BUILDING STORY 1 THERMALZONE PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 17.54392
+ Component Sizing Information, AirTerminal:SingleDuct:ConstantVolume:NoReheat, BUILDING STORY 1 THERMALZONE PSZ-AC DIFFUSER, Design Size Maximum Air Flow Rate [m3/s], 17.66623
  Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Sum of Air Terminal Maximum Heating Flow Rates [m3/s], 0.00000
  Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Sum of Air Terminal Minimum Heating Flow Rates [m3/s], 0.00000
- Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 17.54392
+ Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Sum of Air Terminal Maximum Flow Rates [m3/s], 17.66623
  Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Adjusted Heating Design Air Flow Rate [m3/s], 6.02043
- Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 17.54392
- Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 17.54392
+ Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Adjusted Cooling Design Air Flow Rate [m3/s], 17.66623
+ Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Adjusted Main Design Air Flow Rate [m3/s], 17.66623
  Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, User Heating Air Flow Ratio [], 1.00000
- Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Calculated Heating Air Flow Ratio [], 0.34316
- Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Design Supply Air Flow Rate [m3/s], 17.54392
+ Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Calculated Heating Air Flow Ratio [], 0.34079
+ Component Sizing Information, AirLoopHVAC, BUILDING STORY 1 THERMALZONE PSZ-AC, Design Supply Air Flow Rate [m3/s], 17.66623
 !<Controller:MechanicalVentilation>,Name,Availability Schedule Name,Demand Controlled Ventilation {Yes/No},System Outdoor Air Method,Zone Maximum Outdoor Air Fraction,Number of Zones,Zone Name,DSOA Name,DSZAD Name
  Controller:MechanicalVentilation,CONTROLLER MECHANICAL VENTILATION 1,BUILDING STORY 1 THERMALZONE PSZ-AC OCC SCH,Yes,ZoneSum,1.00,1,BUILDING STORY 1 THERMALZONE,BLENDED OA,BUILDING STORY 1 THERMALZONE DESIGN SPEC ZONE AIR DIST
- Component Sizing Information, Controller:OutdoorAir, BUILDING STORY 1 THERMALZONE PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 17.54392
- Component Sizing Information, Coil:Cooling:DX:SingleSpeed, BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER, Design Size Rated Air Flow Rate [m3/s], 17.54392
- Component Sizing Information, Coil:Cooling:DX:SingleSpeed, BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER, Design Size Gross Rated Total Cooling Capacity [W], 435657.21544
- Component Sizing Information, Coil:Cooling:DX:SingleSpeed, BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER, Design Size Gross Rated Sensible Heat Ratio, 0.69808
+ Component Sizing Information, Controller:OutdoorAir, BUILDING STORY 1 THERMALZONE PSZ-AC OA SYSTEM CONTROLLER, Maximum Outdoor Air Flow Rate [m3/s], 17.66623
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER, Design Size Rated Air Flow Rate [m3/s], 17.66623
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER, Design Size Gross Rated Total Cooling Capacity [W], 438694.54483
+ Component Sizing Information, Coil:Cooling:DX:SingleSpeed, BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER, Design Size Gross Rated Sensible Heat Ratio, 0.69808
 ! <DX Cooling Coil Standard Rating Information>, Component Type, Component Name, Standard Rating (Net) Cooling Capacity {W}, Standard Rated Net COP {W/W}, EER {Btu/W-h}, SEER {Btu/W-h}, IEER {Btu/W-h}
- DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER, 421816.6, 2.90, 9.88, 9.83, 10.19
- Component Sizing Information, Coil:Heating:Fuel, BUILDING STORY 1 THERMALZONE PSZ-AC GAS HTG COIL, Design Size Nominal Capacity [W], 865080.60126
- Component Sizing Information, Coil:Heating:Electric, BUILDING STORY 1 THERMALZONE PSZ-AC ELECTRIC BACKUP HTG COIL, Design Size Nominal Capacity [W], 865080.60126
- Component Sizing Information, Fan:ConstantVolume, BUILDING STORY 1 THERMALZONE PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 17.54392
-Water Heater Information,WaterHeater:Mixed,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 65KBTU/HR 1.0 THERM EFF,2.2712E-002,19120.0,22.671,0.9183
-Water Heater Information,WaterHeater:Mixed,340GAL NATURALGAS WATER HEATER - 340KBTU/HR 0.804 THERM EFF,1.2862,99583.3,0.503,0.4524
+ DX Cooling Coil Standard Rating Information, Coil:Cooling:DX:SingleSpeed, BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER, 424757.4, 2.90, 9.88, 9.83, 10.19
+ Component Sizing Information, Coil:Heating:Fuel, BUILDING STORY 1 THERMALZONE PSZ-AC GAS HTG COIL, Design Size Nominal Capacity [W], 869274.03619
+ Component Sizing Information, Coil:Heating:Electric, BUILDING STORY 1 THERMALZONE PSZ-AC ELECTRIC BACKUP HTG COIL, Design Size Nominal Capacity [W], 869274.03619
+ Component Sizing Information, Fan:ConstantVolume, BUILDING STORY 1 THERMALZONE PSZ-AC FAN, Design Size Maximum Flow Rate [m3/s], 17.66623
+Water Heater Information,WaterHeater:Mixed,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 65KBTU/HR 1.0 THERM EFF,2.2712E-002,19120.0,34.653,0.9158
+Water Heater Information,WaterHeater:Mixed,340GAL NATURALGAS WATER HEATER - 340KBTU/HR 0.804 THERM EFF,1.2862,99583.3,0.536,0.4638
  Component Sizing Information, PlantLoop, FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER BOOSTER LOOP, Maximum Loop Flow Rate [m3/s], 3.40279E-004
  Component Sizing Information, PlantLoop, FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER BOOSTER LOOP, Plant Loop Volume [m3], 4.08335E-002
  Component Sizing Information, Pump:VariableSpeed, BOOSTER WATER LOOP PUMP, Design Flow Rate [m3/s], 3.40279E-004
@@ -179,13 +179,13 @@ Water Heater Information,WaterHeater:Mixed,340GAL NATURALGAS WATER HEATER - 340K
 ! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
 ! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
 ! <Environment:WarmupDays>, NumberofWarmupDays
-Environment,RUN PERIOD 1,WeatherFileRunPeriod,06/01/2019,08/01/2019,Saturday,62,Use RunPeriod Specified Day,No,No,No,Yes,Yes
+Environment,RUN PERIOD 1,WeatherFileRunPeriod,01/01/2019,12/31/2019,Tuesday,365,Use RunPeriod Specified Day,No,No,No,Yes,Yes
 Environment:Daylight Saving,Yes,InputFile,03/10,11/03
 Environment:WarmupDays,  6
 ! <Tabular Report>,Style,Unit Conversion
 Tabular Report,HTML,None
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,BUILDING STORY 1 THERMALZONE,RunPeriod: RUN PERIOD 1,0.1239036510,0.3420364508,Pass,Pass,9.8053672235E-002,0.2945364530,Pass,Pass
+ Warmup Convergence Information,BUILDING STORY 1 THERMALZONE,RunPeriod: RUN PERIOD 1,0.2225359983,0.4855958459,Pass,Pass,0.1761699455,0.2836037540,Pass,Pass
 ! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
 Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
 End of Data

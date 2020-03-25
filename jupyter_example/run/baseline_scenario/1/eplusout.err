@@ -1,4 +1,6 @@
-Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
+Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.25 14:41,
+   ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
+   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="39 SPACE(S) OCC SCH DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="39 SPACE(S) OCC SCH SATURDAY", Blank Schedule Type Limits Name input -- will not be validated.
@@ -18,11 +20,12 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    ** Warning ** ProcessScheduleInput: Schedule:Year="ELEVATOR SCHEDULE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** CheckUsedConstructions: There are 11 nominally unused constructions in input.
+   ** Warning ** CheckUsedConstructions: There are 12 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
-   ** Warning ** DetermineShadowingCombinations: There are 2 surfaces which are receiving surfaces and are non-convex.
+   ** Warning ** DetermineShadowingCombinations: There are 9 surfaces which are receiving surfaces and are non-convex.
    **   ~~~   ** ...Shadowing values may be inaccurate. Check .shd report file for more surface shading details
    **   ~~~   ** ...Add Output:Diagnostics,DisplayExtraWarnings; to see individual warnings for each surface.
+   ** Warning ** DeterminePolygonOverlap: Too many figures [>15000]  detected in an overlap calculation. Use Output:Diagnostics,DisplayExtraWarnings; for more details.
    ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
    **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE", only 0.20 of the zone is controlled.
    ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
@@ -49,37 +52,37 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="BLENDED OA 2".
    ** Warning ** In calculating the design coil UA for Coil:Cooling:Water 1 ZONE VAV CLG COIL
    **   ~~~   ** the coil bypass factor is unrealistically large;
-   **   ~~~   ** The initial design conditions are: Tair,in = 27.6031
-   **   ~~~   **                                    Wair,in = 1.239963E-002
+   **   ~~~   ** The initial design conditions are: Tair,in = 27.4138
+   **   ~~~   **                                    Wair,in = 1.226273E-002
    **   ~~~   **                                    Twater,in = 6.6667
-   **   ~~~   **                                    Tair,out = 10.9202
+   **   ~~~   **                                    Tair,out = 10.9198
    **   ~~~   **                                    Wair,out = 8.500000E-003
    ** Warning ** In calculating the design coil UA for Coil:Cooling:Water 1 ZONE VAV 1 CLG COIL
    **   ~~~   ** the coil bypass factor is unrealistically large;
-   **   ~~~   ** The initial design conditions are: Tair,in = 27.2550
-   **   ~~~   **                                    Wair,in = 1.176109E-002
+   **   ~~~   ** The initial design conditions are: Tair,in = 27.2123
+   **   ~~~   **                                    Wair,in = 1.167668E-002
    **   ~~~   **                                    Twater,in = 6.6667
-   **   ~~~   **                                    Tair,out = 10.9181
+   **   ~~~   **                                    Tair,out = 10.9178
    **   ~~~   **                                    Wair,out = 8.500000E-003
    ** Warning ** In calculating the design coil UA for Coil:Cooling:Water 1 ZONE VAV 2 CLG COIL
    **   ~~~   ** the coil bypass factor is unrealistically large;
-   **   ~~~   ** The initial design conditions are: Tair,in = 23.9984
-   **   ~~~   **                                    Wair,in = 9.539454E-003
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.2767
+   **   ~~~   **                                    Wair,in = 1.049122E-002
    **   ~~~   **                                    Twater,in = 6.6667
-   **   ~~~   **                                    Tair,out = 10.9106
+   **   ~~~   **                                    Tair,out = 10.9138
    **   ~~~   **                                    Wair,out = 8.500000E-003
    ** Warning ** In calculating the design coil UA for Coil:Cooling:Water 1 ZONE VAV 3 CLG COIL
    **   ~~~   ** the coil bypass factor is unrealistically large;
-   **   ~~~   ** The initial design conditions are: Tair,in = 24.9151
-   **   ~~~   **                                    Wair,in = 9.961671E-003
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.2761
+   **   ~~~   **                                    Wair,in = 1.056801E-002
    **   ~~~   **                                    Twater,in = 6.6667
-   **   ~~~   **                                    Tair,out = 10.9120
+   **   ~~~   **                                    Tair,out = 10.9141
    **   ~~~   **                                    Wair,out = 8.500000E-003
-   ** Warning ** GetElectricEIRChillerInput: Chiller:Electric:EIR="90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON"
+   ** Warning ** GetElectricEIRChillerInput: Chiller:Electric:EIR="90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2686TONS 0.6KW/TON"
    **   ~~~   ** Energy input ratio as a function of temperature curve output is not equal to 1.0 (+ or - 10%) at reference conditions.
    **   ~~~   ** Curve output at reference conditions = 1.205
    ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=BOOSTER WATER LOOP PUMP
-   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode Boiler named BOILER 21269KBTU/HR 0.8 THERMAL EFF
+   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode Boiler named BOILER 25251KBTU/HR 0.8 THERMAL EFF
    **   ~~~   **   A temperature setpoint is needed at the outlet node of a boiler in variable flow mode
    **   ~~~   **   use a Setpoint Manager to establish a setpoint at the boiler outlet node 
    **   ~~~   **   or use an EMS actuator to establish a setpoint at the boiler outlet node 
@@ -172,22 +175,41 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    ************* Beginning Simulation
    ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
    **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
-   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower approach temperature is outside model boundaries at 12.85.
-   **   ~~~   **  ...Valid range = 1.11 to 11.11. Occurrence info = RUN PERIOD 1, 06/03 05:00 - 05:01
-   **   ~~~   **  ...Tower approach temperature passed to the model = 12.84818
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.39.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 05:30 - 05:45
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower approach temperature is outside model boundaries at 22.51.
+   **   ~~~   **  ...Valid range = 1.11 to 11.11. Occurrence info = RUN PERIOD 1, 01/01 05:30 - 05:45
+   **   ~~~   **  ...Tower approach temperature passed to the model = 22.50559
    **   ~~~   **  ...Approach temperatures outside model boundaries may not adversely affect tower performance.
    **   ~~~   **  ...This is not an unexpected occurrence when simulating actual conditions.
-   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower range temperature is outside model boundaries at 0.64.
-   **   ~~~   **  ...Valid range = 1.11 to 11.11. Occurrence info = RUN PERIOD 1, 06/03 05:47 - 05:48
-   **   ~~~   **  ...Tower range temperature passed to the model = 0.64002
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.39.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 05:45 - 06:00
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower range temperature is outside model boundaries at 9.57E-002.
+   **   ~~~   **  ...Valid range = 1.11 to 11.11. Occurrence info = RUN PERIOD 1, 01/01 06:40 - 07:00
+   **   ~~~   **  ...Tower range temperature passed to the model = 9.57145E-002
    **   ~~~   **  ...Range temperatures outside model boundaries may not adversely affect tower performance.
    **   ~~~   **  ...This is not an unexpected occurrence when simulating actual conditions.
-   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Cooling tower air flow rate ratio calculation failed 
-   **   ~~~   ** ...with conditions as Twb = 17.67, Trange =  3.40, Tapproach =  3.89, and water flow rate ratio =  1.00
-   **   ~~~   ** ...a solution could not be found within the valid range of air flow rate ratios
-   **   ~~~   **  ...Valid air flow rate ratio range =  0.20 to 1.0.
-   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=06/26 06:30 - 06:45
-   **   ~~~   ** ...Consider modifying the design approach or design range temperature for this tower.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.18.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 06:40 - 07:00
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.39.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 07:00 - 07:05
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.39.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 07:05 - 07:11
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** More than 4% of time (350.4 hours) uncomfortable in one or more zones 
+   **   ~~~   ** Based on ASHRAE 55-2004 graph (Section 5.2.1.1)
+   **   ~~~   ** During Environment [01/01/2019 - 12/31/2019]: RUN PERIOD 1
+   **   ~~~   ** 2451.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE
+   **   ~~~   ** 2512.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
    **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
@@ -224,16 +246,22 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    ************* The following recurring error messages occurred.
    *************
    *************  ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower approach temperature is out of range error continues...
-   *************  **   ~~~   **   This error occurred 796 total times;
+   *************  **   ~~~   **   This error occurred 13086 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=16.256998  Min=11.111621
+   *************  **   ~~~   **   Max=40.506779  Min=11.111112
    *************
    *************  ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower range temperature is out of range error continues...
-   *************  **   ~~~   **   This error occurred 221 total times;
+   *************  **   ~~~   **   This error occurred 10382 total times;
    *************  **   ~~~   **   during Warmup 0 times;
    *************  **   ~~~   **   during Sizing 0 times.
-   *************  **   ~~~   **   Max=1.103641  Min=7.295996E-004
+   *************  **   ~~~   **   Max=1.111094  Min=1.672481E-005
+   *************
+   *************  ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is out of range error continues...
+   *************  **   ~~~   **   This error occurred 5715 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-1.00898  Min=-19.395668
    *************
    *************
    ************* ===== Final Error Summary =====
@@ -244,5 +272,5 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 27 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 1143 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 17.84sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 28 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 29323 Warning; 0 Severe Errors; Elapsed Time=00hr 01min  6.59sec

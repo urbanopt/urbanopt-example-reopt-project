@@ -1,4 +1,6 @@
-Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
+Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.25 14:41,
+   ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
+   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
    ************* Beginning Zone Sizing Calculations
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="ECONOMIZER MAX OA FRACTION 70 PCT DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
@@ -15,7 +17,7 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    ** Warning ** Controller:MechanicalVentilation="CONTROLLER MECHANICAL VENTILATION 1", Zone OA/person rate
    **   ~~~   ** For Zone="BUILDING STORY 1 THERMALZONE".
    **   ~~~   ** Zone outside air per person rate not set in Design Specification Outdoor Air Object="BLENDED OA".
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER but not at the AHRI test condition due to curve out of bound.
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER but not at the AHRI test condition due to curve out of bound.
    **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
    ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=BOOSTER WATER LOOP PUMP
    ** Warning ** SizePlantLoop: Calculated Plant Sizing Design Volume Flow Rate=[0.00] is too small. Set to 0.0
@@ -119,10 +121,19 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    ************* Beginning Simulation
    ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
    **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
-   ** Warning ** More than 4% of time (59.5 hours) uncomfortable in one or more zones 
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.26 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 01/14 12:30 - 13:00
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 15.907 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed "BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -11.70
+   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/24 04:20 - 04:40
+   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.
+   ** Warning ** More than 4% of time (350.4 hours) uncomfortable in one or more zones 
    **   ~~~   ** Based on ASHRAE 55-2004 graph (Section 5.2.1.1)
-   **   ~~~   ** During Environment [06/01/2019 - 08/01/2019]: RUN PERIOD 1
-   **   ~~~   ** 179.0 hours were uncomfortable in zone: BUILDING STORY 1 THERMALZONE
+   **   ~~~   ** During Environment [01/01/2019 - 12/31/2019]: RUN PERIOD 1
+   **   ~~~   ** 374.0 hours were uncomfortable in zone: BUILDING STORY 1 THERMALZONE
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
    **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
    ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
@@ -155,6 +166,22 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    ************* There are 26 unused day schedules in input.
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 300 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.996207  Min=-3.079615
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed="BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER" - Low condenser dry-bulb temperature error continues...
+   *************  **   ~~~   **   This error occurred 9 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-0.6 [C]  Min=-15.6 [C]
+   *************
+   *************
    ************* ===== Final Error Summary =====
    ************* The following error categories occurred.  Consider correcting or noting.
    ************* Nominally Unused Constructions
@@ -164,4 +191,4 @@ Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.24 18:14,
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
    ************* EnergyPlus Sizing Error Summary. During Sizing: 8 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 104 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  2.37sec
+   ************* EnergyPlus Completed Successfully-- 414 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  4.65sec

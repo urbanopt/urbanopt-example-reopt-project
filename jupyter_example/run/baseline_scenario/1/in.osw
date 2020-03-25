@@ -2,29 +2,29 @@
   "seed_file": null,
   "weather_file": null,
   "measure_paths": [
-    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-57bae9849dea/lib/measures",
-    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-geojson-gem-9106d015aa4a/lib/measures",
-    "/Users/tkwasnik/github/urbanopt-reopt-gem/lib/measures",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-reopt-gem-aa1692551b5e/lib/measures",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/urbanopt-geojson-0.2.0.pre1/lib/measures",
     "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-extension-0.1.6/lib/measures",
-    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-model-articulation-0.1.1/lib/measures",
-    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-common-measures-0.1.2/lib/measures"
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-common-measures-0.1.2/lib/measures",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-model-articulation-0.1.1/lib/measures"
   ],
   "file_paths": [
     "/Users/tkwasnik/github/urbanopt-example-reopt-project/mappers/../weather/",
-    "/Users/tkwasnik/github/urbanopt-reopt-gem/lib/files",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-reopt-gem-aa1692551b5e/lib/files",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/weather",
     "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-extension-0.1.6/lib/files",
-    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-model-articulation-0.1.1/lib/files",
     "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-common-measures-0.1.2/lib/files",
-    "/Users/tkwasnik/github/urbanopt-example-reopt-project/weather"
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-model-articulation-0.1.1/lib/files"
   ],
   "run_directory": "/Users/tkwasnik/github/urbanopt-example-reopt-project/run/baseline_scenario/1",
   "steps": [
     {
       "measure_dir_name": "set_run_period",
       "arguments": {
-        "timesteps_per_hour": 4,
-        "begin_date": "2019-06-01",
-        "end_date": "2019-08-01"
+        "timesteps_per_hour": 1,
+        "begin_date": "2019-01-01",
+        "end_date": "2019-12-31"
       }
     },
     {

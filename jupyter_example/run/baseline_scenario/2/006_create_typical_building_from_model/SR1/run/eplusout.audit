@@ -16,8 +16,8 @@
  numTableEntry=        1556
  sizeCompSizeTableEntry=         100
  numCompSizeTableEntry=          38
- NumOfRVariable=        3896
- NumOfRVariable(Total)=        3896
+ NumOfRVariable=        3892
+ NumOfRVariable(Total)=        3892
  NumOfRVariable(Actual)=          59
  NumOfRVariable(Summed)=          54
  NumOfRVariable(Meter)=          54
@@ -30,9 +30,9 @@
  NumEnergyMeters=          78
  NumVarMeterArrays=          54
  maxUniqueKeyCount=           0
- maxNumberOfFigures=          24
- MAXHCArrayBounds=          14
- MaxVerticesPerSurface=           6
+ maxNumberOfFigures=          10
+ MAXHCArrayBounds=          10
+ MaxVerticesPerSurface=           4
  NumReportList=         500
  InstMeterCacheSize=        1000
  ClippingAlgorithm=SutherlandHodgman
@@ -40,7 +40,7 @@
  NumConsideredOutputVariables=         100
  MaxConsideredOutputVariables=       10000
  numActuatorsUsed=           1
- numEMSActuatorsAvailable=        1035
+ numEMSActuatorsAvailable=        1027
  maxEMSActuatorsAvailable=        2000
  numInternalVariablesUsed=           0
  numEMSInternalVarsAvailable=          65

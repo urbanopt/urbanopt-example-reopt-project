@@ -212,12 +212,12 @@
   OnMeter=ExteriorLights:Electricity [J]
   OnMeter=Parking Areas and Drives:ExteriorLights:Electricity [J]
 
- Meters for 807,BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy [J]
+ Meters for 807,BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=CoolingCoils:EnergyTransfer [J]
 
- Meters for 832,BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Electric Energy [J]
+ Meters for 832,BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:HVAC [J]
   OnMeter=Cooling:Electricity [J]
@@ -292,7 +292,7 @@
   OnMeter=Pumps:Electricity [J]
   OnMeter=General:Pumps:Electricity [J]
 
- Meters for 978,BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Crankcase Heater Electric Energy [J]
+ Meters for 978,BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Crankcase Heater Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Cooling:Electricity [J]
@@ -322,14 +322,14 @@
   MAIN ENTRIES:Exterior Lights Electric Energy
   OTHER DOORS:Exterior Lights Electric Energy
   PARKING AREAS AND DRIVES:Exterior Lights Electric Energy
-  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Electric Energy
   BUILDING STORY 1 THERMALZONE PSZ-AC ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
   BUILDING STORY 1 THERMALZONE PSZ-AC GAS HTG COIL:Heating Coil Electric Energy
   BOILER:Boiler Ancillary Electric Energy
   BOOSTER WATER LOOP PUMP:Pump Electric Energy
   FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
   HOT WATER LOOP PUMP:Pump Electric Energy
-  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Crankcase Heater Electric Energy
 
  For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
@@ -420,7 +420,7 @@
   BOOSTER WATER LOOP PUMP:Pump Electric Energy
   FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
   HOT WATER LOOP PUMP:Pump Electric Energy
-  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Crankcase Heater Electric Energy
 
  For Meter=WaterSystems:Electricity [J], ResourceType=Electricity, EndUse=WaterSystems, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 65KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
@@ -508,7 +508,7 @@
   BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Cooling Energy
   BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 5.39GPM AT 180F:Water Use Equipment Heating Energy
   FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 3.6GPM AT 140F:Water Use Equipment Heating Energy
-  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
   BUILDING STORY 1 THERMALZONE PSZ-AC ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
   BUILDING STORY 1 THERMALZONE PSZ-AC GAS HTG COIL:Heating Coil Heating Energy
   HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
@@ -577,7 +577,7 @@
 
  For Meter=Electricity:HVAC [J], ResourceType=Electricity, Group=HVAC, contents are:
   BUILDING STORY 1 THERMALZONE PSZ-AC FAN:Fan Electric Energy
-  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Electric Energy
   BUILDING STORY 1 THERMALZONE PSZ-AC ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
   BUILDING STORY 1 THERMALZONE PSZ-AC GAS HTG COIL:Heating Coil Electric Energy
 
@@ -606,16 +606,16 @@
   PARKING AREAS AND DRIVES:Exterior Lights Electric Energy
 
  For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
-  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
   BUILDING STORY 1 THERMALZONE PSZ-AC ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
   BUILDING STORY 1 THERMALZONE PSZ-AC GAS HTG COIL:Heating Coil Heating Energy
 
  For Meter=CoolingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=CoolingCoils, contents are:
-  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
+  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Total Cooling Energy
 
  For Meter=Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
-  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Electric Energy
-  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1282KBTU/HR 9.5EER:Cooling Coil Crankcase Heater Electric Energy
+  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Electric Energy
+  BUILDING STORY 1 THERMALZONE PSZ-AC 1SPD DX AC CLG COIL 1349KBTU/HR 9.5EER:Cooling Coil Crankcase Heater Electric Energy
 
  For Meter=HeatingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatingCoils, contents are:
   BUILDING STORY 1 THERMALZONE PSZ-AC ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy

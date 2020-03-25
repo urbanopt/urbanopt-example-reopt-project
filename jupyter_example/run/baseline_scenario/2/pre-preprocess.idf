@@ -3,7 +3,7 @@ Version,
   9.1;                                    !- Version Identifier
 
 Timestep,
-  4;                                      !- Number of Timesteps per Hour
+  1;                                      !- Number of Timesteps per Hour
 
 LifeCycleCost:Parameters,
   Life Cycle Cost Parameters,             !- Name
@@ -211,134 +211,112 @@ Building,
   ;                                       !- Minimum Number of Warmup Days
 
 Shading:Building:Detailed,
-  Shading Surface 10,                     !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  168.257495529373, 123.896258777211, 9,  !- X,Y,Z Vertex 1 {m}
-  168.257495529373, 123.896258777211, 0,  !- X,Y,Z Vertex 2 {m}
-  120.85090054648, 108.368952685071, 0,   !- X,Y,Z Vertex 3 {m}
-  120.85090054648, 108.368952685071, 9;   !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
-  Shading Surface 11,                     !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  193.633109092635, -112.239160713437, 0, !- X,Y,Z Vertex 1 {m}
-  120.85090054648, 108.368952685071, 0,   !- X,Y,Z Vertex 2 {m}
-  168.257495529373, 123.896258777211, 0,  !- X,Y,Z Vertex 3 {m}
-  241.041057186796, -96.7108608874247, 0; !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
-  Shading Surface 12,                     !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  241.041057186796, -96.7108608874247, 9, !- X,Y,Z Vertex 1 {m}
-  241.041057186796, -96.7108608874247, 0, !- X,Y,Z Vertex 2 {m}
-  168.257495529373, 123.896258777211, 0,  !- X,Y,Z Vertex 3 {m}
-  168.257495529373, 123.896258777211, 9;  !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
-  Shading Surface 13,                     !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  193.633109092635, -112.239160713437, 9, !- X,Y,Z Vertex 1 {m}
-  193.633109092635, -112.239160713437, 0, !- X,Y,Z Vertex 2 {m}
-  241.041057186796, -96.7108608874247, 0, !- X,Y,Z Vertex 3 {m}
-  241.041057186796, -96.7108608874247, 9; !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
-  Shading Surface 14,                     !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  120.85090054648, 108.368952685071, 9,   !- X,Y,Z Vertex 1 {m}
-  120.85090054648, 108.368952685071, 0,   !- X,Y,Z Vertex 2 {m}
-  193.633109092635, -112.239160713437, 0, !- X,Y,Z Vertex 3 {m}
-  193.633109092635, -112.239160713437, 9; !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
-  Shading Surface 9,                      !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  241.041057186796, -96.7108608874247, 9, !- X,Y,Z Vertex 1 {m}
-  168.257495529373, 123.896258777211, 9,  !- X,Y,Z Vertex 2 {m}
-  120.85090054648, 108.368952685071, 9,   !- X,Y,Z Vertex 3 {m}
-  193.633109092635, -112.239160713437, 9; !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
   Shading Surface 1,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  -15.7972924815523, 216.279355216733, 24, !- X,Y,Z Vertex 1 {m}
-  -15.7972924815523, 216.279355216733, 0, !- X,Y,Z Vertex 2 {m}
-  -150.084157927512, 172.300646683706, 0, !- X,Y,Z Vertex 3 {m}
-  -150.084157927512, 172.300646683706, 24; !- X,Y,Z Vertex 4 {m}
+  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 1 {m}
+  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 2 {m}
+  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 3 {m}
+  50.5969092563638, 9.95278331383412, 0;  !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 2,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  -42.6830309493718, -19.0331833241758, 24, !- X,Y,Z Vertex 1 {m}
-  -91.1776201177733, 130.260537069323, 24, !- X,Y,Z Vertex 2 {m}
-  2.06136611585881, 160.354272735727, 24, !- X,Y,Z Vertex 3 {m}
-  -15.7972924815523, 216.279355216733, 24, !- X,Y,Z Vertex 4 {m}
-  -150.084157927512, 172.300646683706, 24, !- X,Y,Z Vertex 5 {m}
-  -82.1176942510207, -31.9480922341981, 24; !- X,Y,Z Vertex 6 {m}
+  1.10915721052152e-11, 60.7238026373319, 24, !- X,Y,Z Vertex 1 {m}
+  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 2 {m}
+  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 3 {m}
+  19.707424264546, 2.81674382569541e-05, 24; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 3,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  -91.1776201177733, 130.260537069323, 24, !- X,Y,Z Vertex 1 {m}
-  -91.1776201177733, 130.260537069323, 0, !- X,Y,Z Vertex 2 {m}
-  2.06136611585881, 160.354272735727, 0,  !- X,Y,Z Vertex 3 {m}
-  2.06136611585881, 160.354272735727, 24; !- X,Y,Z Vertex 4 {m}
+  30.8892413644642, 70.6763824570891, 24, !- X,Y,Z Vertex 1 {m}
+  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 2 {m}
+  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 3 {m}
+  1.10915721052152e-11, 60.7238026373319, 24; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 4,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  -42.6830309493718, -19.0331833241758, 24, !- X,Y,Z Vertex 1 {m}
-  -42.6830309493718, -19.0331833241758, 0, !- X,Y,Z Vertex 2 {m}
-  -91.1776201177733, 130.260537069323, 0, !- X,Y,Z Vertex 3 {m}
-  -91.1776201177733, 130.260537069323, 24; !- X,Y,Z Vertex 4 {m}
+  50.5969092563638, 9.95278331383412, 24, !- X,Y,Z Vertex 1 {m}
+  50.5969092563638, 9.95278331383412, 0,  !- X,Y,Z Vertex 2 {m}
+  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 3 {m}
+  30.8892413644642, 70.6763824570891, 24; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 5,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  2.06136611585881, 160.354272735727, 24, !- X,Y,Z Vertex 1 {m}
-  2.06136611585881, 160.354272735727, 0,  !- X,Y,Z Vertex 2 {m}
-  -15.7972924815523, 216.279355216733, 0, !- X,Y,Z Vertex 3 {m}
-  -15.7972924815523, 216.279355216733, 24; !- X,Y,Z Vertex 4 {m}
+  19.707424264546, 2.81674382569541e-05, 24, !- X,Y,Z Vertex 1 {m}
+  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 2 {m}
+  50.5969092563638, 9.95278331383412, 0,  !- X,Y,Z Vertex 3 {m}
+  50.5969092563638, 9.95278331383412, 24; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 6,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  -82.1176942510207, -31.9480922341981, 0, !- X,Y,Z Vertex 1 {m}
-  -150.084157927512, 172.300646683706, 0, !- X,Y,Z Vertex 2 {m}
-  -15.7972924815523, 216.279355216733, 0, !- X,Y,Z Vertex 3 {m}
-  2.06136611585881, 160.354272735727, 0,  !- X,Y,Z Vertex 4 {m}
-  -91.1776201177733, 130.260537069323, 0, !- X,Y,Z Vertex 5 {m}
-  -42.6830309493718, -19.0331833241758, 0; !- X,Y,Z Vertex 6 {m}
+  50.5969092563638, 9.95278331383412, 24, !- X,Y,Z Vertex 1 {m}
+  30.8892413644642, 70.6763824570891, 24, !- X,Y,Z Vertex 2 {m}
+  1.10915721052152e-11, 60.7238026373319, 24, !- X,Y,Z Vertex 3 {m}
+  19.707424264546, 2.81674382569541e-05, 24; !- X,Y,Z Vertex 4 {m}
+
+Shading:Building:Detailed,
+  Shading Surface 10,                     !- Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  50.5969092563638, 9.95278331383412, 9,  !- X,Y,Z Vertex 1 {m}
+  50.5969092563638, 9.95278331383412, 0,  !- X,Y,Z Vertex 2 {m}
+  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 3 {m}
+  30.8892413644642, 70.6763824570891, 9;  !- X,Y,Z Vertex 4 {m}
+
+Shading:Building:Detailed,
+  Shading Surface 11,                     !- Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  19.707424264546, 2.81674382569541e-05, 9, !- X,Y,Z Vertex 1 {m}
+  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 2 {m}
+  50.5969092563638, 9.95278331383412, 0,  !- X,Y,Z Vertex 3 {m}
+  50.5969092563638, 9.95278331383412, 9;  !- X,Y,Z Vertex 4 {m}
+
+Shading:Building:Detailed,
+  Shading Surface 12,                     !- Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  50.5969092563638, 9.95278331383412, 9,  !- X,Y,Z Vertex 1 {m}
+  30.8892413644642, 70.6763824570891, 9,  !- X,Y,Z Vertex 2 {m}
+  1.10915721052152e-11, 60.7238026373319, 9, !- X,Y,Z Vertex 3 {m}
+  19.707424264546, 2.81674382569541e-05, 9; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 7,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  -150.084157927512, 172.300646683706, 24, !- X,Y,Z Vertex 1 {m}
-  -150.084157927512, 172.300646683706, 0, !- X,Y,Z Vertex 2 {m}
-  -82.1176942510207, -31.9480922341981, 0, !- X,Y,Z Vertex 3 {m}
-  -82.1176942510207, -31.9480922341981, 24; !- X,Y,Z Vertex 4 {m}
+  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 1 {m}
+  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 2 {m}
+  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 3 {m}
+  50.5969092563638, 9.95278331383412, 0;  !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
   Shading Surface 8,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  -82.1176942510207, -31.9480922341981, 24, !- X,Y,Z Vertex 1 {m}
-  -82.1176942510207, -31.9480922341981, 0, !- X,Y,Z Vertex 2 {m}
-  -42.6830309493718, -19.0331833241758, 0, !- X,Y,Z Vertex 3 {m}
-  -42.6830309493718, -19.0331833241758, 24; !- X,Y,Z Vertex 4 {m}
+  1.10915721052152e-11, 60.7238026373319, 9, !- X,Y,Z Vertex 1 {m}
+  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 2 {m}
+  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 3 {m}
+  19.707424264546, 2.81674382569541e-05, 9; !- X,Y,Z Vertex 4 {m}
+
+Shading:Building:Detailed,
+  Shading Surface 9,                      !- Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  30.8892413644642, 70.6763824570891, 9,  !- X,Y,Z Vertex 1 {m}
+  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 2 {m}
+  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 3 {m}
+  1.10915721052152e-11, 60.7238026373319, 9; !- X,Y,Z Vertex 4 {m}
 
 Zone,
   Building Story 1 ThermalZone,           !- Name
@@ -387,7 +365,7 @@ BuildingSurface:Detailed,
   19.707424264546, 2.81674382569541e-05, 3; !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Sub Surface 2,                          !- Name
+  Sub Surface 1,                          !- Name
   Window,                                 !- Surface Type
   U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm, !- Construction Name
   Surface 2,                              !- Building Surface Name
@@ -418,7 +396,7 @@ BuildingSurface:Detailed,
   1.10915721052152e-11, 60.7238026373319, 3; !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Sub Surface 4,                          !- Name
+  Sub Surface 2,                          !- Name
   Window,                                 !- Surface Type
   U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm, !- Construction Name
   Surface 3,                              !- Building Surface Name
@@ -449,7 +427,7 @@ BuildingSurface:Detailed,
   30.8892413644642, 70.6763824570891, 3;  !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Sub Surface 1,                          !- Name
+  Sub Surface 3,                          !- Name
   Window,                                 !- Surface Type
   U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm, !- Construction Name
   Surface 4,                              !- Building Surface Name
@@ -480,7 +458,7 @@ BuildingSurface:Detailed,
   50.5969092563638, 9.95278331383412, 3;  !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Sub Surface 3,                          !- Name
+  Sub Surface 4,                          !- Name
   Window,                                 !- Surface Type
   U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm, !- Construction Name
   Surface 5,                              !- Building Surface Name
@@ -894,13 +872,13 @@ HeatBalanceAlgorithm,
 
 RunPeriod,
   Run Period 1,                           !- Name
-  6,                                      !- Begin Month
+  1,                                      !- Begin Month
   1,                                      !- Begin Day of Month
   2019,                                   !- Begin Year
-  8,                                      !- End Month
-  1,                                      !- End Day of Month
+  12,                                     !- End Month
+  31,                                     !- End Day of Month
   2019,                                   !- End Year
-  Saturday,                               !- Day of Week for Start Day
+  Tuesday,                                !- Day of Week for Start Day
   No,                                     !- Use Weather File Holidays and Special Days
   No,                                     !- Use Weather File Daylight Saving Period
   No,                                     !- Apply Weekend Holiday Rule
@@ -3464,7 +3442,7 @@ Branch,
   Building Story 1 ThermalZone PSZ-AC Supply Inlet Node, !- Component Inlet Node Name 1
   Building Story 1 ThermalZone PSZ-AC Mixed Air Node, !- Component Outlet Node Name 1
   CoilSystem:Cooling:DX,                  !- Component Object Type 2
-  Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil 1282kBtu/hr 9.5EER CoilSystem, !- Component Name 2
+  Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil 1349kBtu/hr 9.5EER CoilSystem, !- Component Name 2
   Building Story 1 ThermalZone PSZ-AC Mixed Air Node, !- Component Inlet Node Name 2
   Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil Outlet Air Node, !- Component Outlet Node Name 2
   Coil:Heating:Fuel,                      !- Component Object Type 3
@@ -3552,13 +3530,13 @@ SetpointManager:MixedAir,
   Building Story 1 ThermalZone PSZ-AC Mixed Air Node; !- Setpoint Node or NodeList Name
 
 CoilSystem:Cooling:DX,
-  Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil 1282kBtu/hr 9.5EER CoilSystem, !- Name
+  Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil 1349kBtu/hr 9.5EER CoilSystem, !- Name
   Always On Discrete,                     !- Availability Schedule Name
   Building Story 1 ThermalZone PSZ-AC Mixed Air Node, !- DX Cooling Coil System Inlet Node Name
   Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil Outlet Air Node, !- DX Cooling Coil System Outlet Node Name
   Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil Outlet Air Node, !- DX Cooling Coil System Sensor Node Name
   Coil:Cooling:DX:SingleSpeed,            !- Cooling Coil Object Type
-  Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil 1282kBtu/hr 9.5EER; !- Cooling Coil Name
+  Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil 1349kBtu/hr 9.5EER; !- Cooling Coil Name
 
 Curve:Biquadratic,
   PSZ-AC_Unitary_PackagecoolCapFT,        !- Name
@@ -3619,7 +3597,7 @@ SetpointManager:MixedAir,
   Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil Outlet Air Node; !- Setpoint Node or NodeList Name
 
 Coil:Cooling:DX:SingleSpeed,
-  Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil 1282kBtu/hr 9.5EER, !- Name
+  Building Story 1 ThermalZone PSZ-AC 1spd DX AC Clg Coil 1349kBtu/hr 9.5EER, !- Name
   Always On Discrete,                     !- Availability Schedule Name
   Autosize,                               !- Gross Rated Total Cooling Capacity {W}
   Autosize,                               !- Gross Rated Sensible Heat Ratio

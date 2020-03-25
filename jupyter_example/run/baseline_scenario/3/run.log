@@ -1,42 +1,44 @@
-[18:14:27.007687 WARN] No valid weather file defined in either the osm or osw.
-[18:14:33.988384 WARN] User-defined single floor area was used for calculation of total building floor area
-[18:14:33.988415 WARN] Cannot use custom height bar with single floor area method, will not create custom height bar.
-[18:14:38.637818 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm is not opaque or simple glazing.
-[18:14:38.637982 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air is not opaque or simple glazing.
-[18:14:38.638095 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in is not opaque or simple glazing.
-[18:14:38.639006 WARN] [openstudio.model.Model] Model has zone with
-[18:14:38.639107 WARN] [openstudio.model.Model] Model has zone with
-[18:14:38.639189 WARN] [openstudio.model.Model] Model has zone with
-[18:14:38.639374 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
-[18:14:38.847032 WARN] FullServiceRestaurant Kitchen C  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.847172 WARN] FullServiceRestaurant Kitchen B end_a - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.847294 WARN] FullServiceRestaurant Kitchen A  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.847618 WARN] FullServiceRestaurant Dining B end_b - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.858470 WARN] FullServiceRestaurant Dining B end_b - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.858684 WARN] FullServiceRestaurant Dining C  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.858887 WARN] FullServiceRestaurant Dining A  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.859336 WARN] FullServiceRestaurant Dining B end_a - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.865344 WARN] FullServiceRestaurant Dining B end_b - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.865877 WARN] FullServiceRestaurant Dining A  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.866029 WARN] FullServiceRestaurant Dining B end_a - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:38.866183 WARN] FullServiceRestaurant Dining C  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
-[18:14:39.725619 WARN] Surface elevation not set for building 'Restaurant 10'
-[18:14:39.725979 WARN] Reversing floor print
-[18:14:39.728541 WARN] Reversing floor print
-[18:14:39.731036 WARN] Reversing floor print
-[18:14:39.733512 WARN] Reversing floor print
-[18:14:39.733717 WARN] Reversing floor print
-[18:14:39.734005 WARN] Reversing floor print
-[18:14:39.737725 WARN] Reversing floor print
-[18:14:39.737939 WARN] Reversing floor print
-[18:14:39.743096 WARN] Reversing floor print
-[18:14:39.743292 WARN] Reversing floor print
-[18:14:39.746094 WARN] Reversing floor print
-[18:14:39.747562 WARN] Reversing floor print
-[18:14:39.753011 WARN] Reversing floor print
-[18:14:47.473397 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
-[18:14:47.473458 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
-[18:14:47.473492 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
-[18:14:48.156187 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-57bae9849dea/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
-[18:14:55.904520 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-57bae9849dea/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
-[18:14:56.109466 WARN] Query failed for Life-Cycle Cost Report and TableName='Present Value for Recurring, Nonrecurring and Energy Costs (Before Tax)' AND RowName='LCC_MAT - BUILDING - LIFE CYCLE COSTS' AND ColumnName='Cost'
+[14:41:49.731665 WARN] No valid weather file defined in either the osm or osw.
+[14:41:56.049459 WARN] User-defined single floor area was used for calculation of total building floor area
+[14:41:56.049489 WARN] Cannot use custom height bar with single floor area method, will not create custom height bar.
+[14:42:00.280287 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm is not opaque or simple glazing.
+[14:42:00.280443 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air is not opaque or simple glazing.
+[14:42:00.280594 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in is not opaque or simple glazing.
+[14:42:00.281469 WARN] [openstudio.model.Model] Model has zone with
+[14:42:00.281565 WARN] [openstudio.model.Model] Model has zone with
+[14:42:00.281641 WARN] [openstudio.model.Model] Model has zone with
+[14:42:00.281794 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
+[14:42:00.482839 WARN] FullServiceRestaurant Dining B end_b - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.483474 WARN] FullServiceRestaurant Kitchen A  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.483744 WARN] FullServiceRestaurant Kitchen C  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.483889 WARN] FullServiceRestaurant Kitchen B end_a - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.494523 WARN] FullServiceRestaurant Dining C  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.495129 WARN] FullServiceRestaurant Dining A  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.495273 WARN] FullServiceRestaurant Dining B end_a - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.495656 WARN] FullServiceRestaurant Dining B end_b - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.501066 WARN] FullServiceRestaurant Dining C  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.501358 WARN] FullServiceRestaurant Dining A  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.501765 WARN] FullServiceRestaurant Dining B end_a - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:00.502036 WARN] FullServiceRestaurant Dining B end_b - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:42:01.299911 WARN] Surface elevation not set for building 'Restaurant 10'
+[14:42:01.300266 WARN] Reversing floor print
+[14:42:01.302778 WARN] Reversing floor print
+[14:42:01.305217 WARN] Reversing floor print
+[14:42:01.307712 WARN] Reversing floor print
+[14:42:01.307903 WARN] Reversing floor print
+[14:42:01.308142 WARN] Reversing floor print
+[14:42:01.311099 WARN] Reversing floor print
+[14:42:01.311371 WARN] Reversing floor print
+[14:42:01.314496 WARN] Reversing floor print
+[14:42:01.317553 WARN] Reversing floor print
+[14:42:01.317747 WARN] Reversing floor print
+[14:42:01.320759 WARN] Reversing floor print
+[14:42:01.322164 WARN] Reversing floor print
+[14:42:01.324004 WARN] Reversing floor print
+[14:42:01.327694 WARN] Reversing floor print
+[14:42:07.594924 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:42:07.594986 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:42:07.595028 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:42:08.269285 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[14:42:19.267205 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[14:42:19.505829 WARN] Query failed for Life-Cycle Cost Report and TableName='Present Value for Recurring, Nonrecurring and Energy Costs (Before Tax)' AND RowName='LCC_MAT - BUILDING - LIFE CYCLE COSTS' AND ColumnName='Cost'

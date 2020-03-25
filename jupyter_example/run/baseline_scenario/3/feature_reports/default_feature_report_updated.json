@@ -3,7 +3,7 @@
   "name": "Residential 1",
   "directory_name": "/Users/tkwasnik/github/urbanopt-example-reopt-project/run/baseline_scenario/3",
   "feature_type": "Building",
-  "timesteps_per_hour": 4,
+  "timesteps_per_hour": 1,
   "simulation_status": "Complete",
   "timeseries_csv": {
     "path": "/feature_reports/default_feature_report_updated.csv",
@@ -86,56 +86,56 @@
   "reporting_periods": [
     {
       "start_date": {
-        "month": 6,
+        "month": 1,
         "day_of_month": 1,
         "year": 2019
       },
       "end_date": {
-        "month": 8,
-        "day_of_month": 1,
+        "month": 12,
+        "day_of_month": 31,
         "year": 2019
       },
-      "total_site_energy": 7949569.664176667,
-      "total_source_energy": 16333372.263853677,
-      "net_site_energy": 7949569.664176667,
-      "net_source_energy": 16333372.263853677,
-      "electricity": 3704296.7822933192,
-      "natural_gas": 4245272.881883348,
+      "total_site_energy": 48696625.7496367,
+      "total_source_energy": 92297796.13864022,
+      "net_site_energy": 48696625.7496367,
+      "net_source_energy": 92297796.13864022,
+      "electricity": 18968152.20758545,
+      "natural_gas": 29728473.54205126,
       "additional_fuel": 0.0,
       "district_cooling": 0.0,
       "district_heating": 0.0,
-      "water": 5358.02,
-      "electricity_produced": 3704293.938841958,
+      "water": 31561.28,
+      "electricity_produced": 18968148.416316967,
       "end_uses": {
         "electricity": {
           "heating": 0.0,
-          "cooling": 1173264.9005510428,
-          "interior_lighting": 228641.92393318153,
-          "exterior_lighting": 82583.30569289933,
-          "interior_equipment": 1645675.9096576064,
+          "cooling": 3359196.56878724,
+          "interior_lighting": 1859787.7971363848,
+          "exterior_lighting": 676447.6005964114,
+          "interior_equipment": 9688965.730690856,
           "exterior_equipment": 0.0,
-          "fans": 298012.6589689132,
-          "pumps": 426.5177041409928,
+          "fans": 1747509.3810640692,
+          "pumps": 9800.4290240397,
           "heat_rejection": 0.0,
           "humidification": 0.0,
           "heat_recovery": 0.0,
-          "water_systems": 275701.0439567377,
+          "water_systems": 1626444.7002864492,
           "refrigeration": 0.0,
           "generators": 0.0
         },
         "natural_gas": {
-          "heating": 334712.1378674449,
+          "heating": 5554985.535074696,
           "cooling": 0.0,
           "interior_lighting": 0.0,
           "exterior_lighting": 0.0,
-          "interior_equipment": 1726534.1881915354,
+          "interior_equipment": 10164248.625671966,
           "exterior_equipment": 0.0,
           "fans": 0.0,
           "pumps": 0.0,
           "heat_rejection": 0.0,
           "humidification": 0.0,
           "heat_recovery": 0.0,
-          "water_systems": 2184026.555824368,
+          "water_systems": 14009239.381304594,
           "refrigeration": 0.0,
           "generators": 0.0
         },
@@ -199,7 +199,7 @@
           "heat_rejection": 0.0,
           "humidification": 0.0,
           "heat_recovery": 0.0,
-          "water_systems": 5078423.086981161,
+          "water_systems": 29914321.523002293,
           "refrigeration": 0.0,
           "generators": 0.0
         }
@@ -217,8 +217,8 @@
         "time_setpoint_not_met_during_occupied_cooling": 0.0,
         "time_setpoint_not_met_during_occupied_heating": 0.0,
         "time_setpoint_not_met_during_occupied_hours": 0.0,
-        "hours_out_of_comfort_bounds_PMV": 954.0,
-        "hours_out_of_comfort_bounds_PPD": 186.25
+        "hours_out_of_comfort_bounds_PMV": 2560.0,
+        "hours_out_of_comfort_bounds_PPD": 414.0
       }
     }
   ],

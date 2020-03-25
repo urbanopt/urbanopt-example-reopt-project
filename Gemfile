@@ -44,11 +44,11 @@ github_branch = false
 
 
 if allow_local && File.exist?('../urbanopt-scenario-gem')
-  gem 'urbanopt-scenario', '0.2.0.pre1'
+  gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'multiplepv'
 elsif github_branch
-  gem 'urbanopt-scenario', '0.2.0.pre1'
+  gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'multiplepv'
 else
-  gem 'urbanopt-scenario', '0.2.0.pre1'
+  gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'multiplepv'
 end
 
 if allow_local && File.exist?('../urbanopt-reopt-gem')
@@ -62,11 +62,11 @@ end
 
 if allow_local && File.exist?('../urbanopt-geojson-gem')
   # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
-  gem 'urbanopt-geojson', path: '../urbanopt-geojson-gem'
+   gem 'urbanopt-geojson', '0.2.0.pre1'
 elsif allow_local
-  gem 'urbanopt-geojson', github: 'URBANopt/urbanopt-geojson-gem', branch: 'develop'
+   gem 'urbanopt-geojson', '0.2.0.pre1'
 else
-  gem 'urbanopt-geojson', '0.1.0'
+  gem 'urbanopt-geojson', '0.2.0.pre1'
 end
 
 gem 'openstudio-standards', '0.2.10' # doesn't work in 0.2.8?
