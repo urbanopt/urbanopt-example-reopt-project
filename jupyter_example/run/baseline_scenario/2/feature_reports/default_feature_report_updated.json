@@ -1,27 +1,39 @@
 {
   "id": "2",
   "name": "Restaurant 1",
-  "directory_name": "./run/baseline_scenario/2",
+  "directory_name": "/Users/tkwasnik/github/urbanopt-example-reopt-project/run/baseline_scenario/2",
   "feature_type": "Building",
-  "timesteps_per_hour": 1,
+  "timesteps_per_hour": 4,
   "simulation_status": "Complete",
   "timeseries_csv": {
-    "path": "./run/baseline_scenario/2/010_default_feature_reports/default_feature_reports.csv",
+    "path": "/feature_reports/default_feature_report_updated.csv",
     "first_report_datetime": "0",
     "column_names": [
-      "Electricity:Facility",
-      "ElectricityProduced:Facility",
-      "Gas:Facility",
-      "DistrictCooling:Facility",
-      "DistrictHeating:Facility",
-      "District Cooling Chilled Water Rate",
-      "District Cooling Mass Flow Rate",
-      "District Cooling Inlet Temperature",
-      "District Cooling Outlet Temperature",
-      "District Heating Hot Water Rate",
-      "District Heating Mass Flow Rate",
-      "District Heating Inlet Temperature",
-      "District Heating Outlet Temperature"
+      "Datetime",
+      "Electricity:Facility(kWh)",
+      "ElectricityProduced:Facility()",
+      "Gas:Facility(kBtu)",
+      "DistrictCooling:Facility()",
+      "DistrictHeating:Facility()",
+      "District Cooling Chilled Water Rate()",
+      "District Cooling Mass Flow Rate()",
+      "District Cooling Inlet Temperature()",
+      "District Cooling Outlet Temperature()",
+      "District Heating Hot Water Rate()",
+      "District Heating Mass Flow Rate()",
+      "District Heating Inlet Temperature()",
+      "District Heating Outlet Temperature()",
+      "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
+      "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
+      "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
+      "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
+      "Net Electric Energy(kWh)",
+      "Electricity:Facility Power(kW)",
+      "ElectricityProduced:Facility Power(kW)",
+      "Electricity:Facility Apparent Power(kW)",
+      "ElectricityProduced:Facility Apparent Power(kW)",
+      "Net Power(kW)",
+      "Net Apparent Power(kW)"
     ]
   },
   "location": {
@@ -41,7 +53,7 @@
       {
         "building_type": "FullServiceRestaurant",
         "floor_area": 22301.301101745776,
-        "maximum_occupancy": 1165.644405986049
+        "maximum_occupancy": 1165.6444059860473
       }
     ],
     "window_area": {
@@ -70,56 +82,56 @@
   "reporting_periods": [
     {
       "start_date": {
-        "month": 1,
+        "month": 6,
         "day_of_month": 1,
-        "year": "2018"
+        "year": 2019
       },
       "end_date": {
-        "month": 12,
-        "day_of_month": 31,
-        "year": "2018"
+        "month": 8,
+        "day_of_month": 1,
+        "year": 2019
       },
-      "total_site_energy": 9125384.192781353,
-      "total_source_energy": 18246076.690817155,
-      "net_site_energy": 9125384.192781353,
-      "net_source_energy": 18246076.690817155,
-      "electricity": 4010640.7537497864,
-      "natural_gas": 5114743.4390315665,
+      "total_site_energy": 1377964.96402511,
+      "total_source_energy": 2915684.5036790296,
+      "net_site_energy": 1377964.96402511,
+      "net_source_energy": 2915684.5036790296,
+      "electricity": 682655.8027344636,
+      "natural_gas": 695318.6394618496,
       "additional_fuel": 0.0,
       "district_cooling": 0.0,
       "district_heating": 0.0,
-      "water": 5605.52,
-      "electricity_produced": 4010638.8581155464,
+      "water": 951.62,
+      "electricity_produced": 682651.0636488621,
       "end_uses": {
         "electricity": {
           "heating": 0.0,
-          "cooling": 378444.4197987013,
-          "interior_lighting": 717886.1650965096,
-          "exterior_lighting": 226168.12124916376,
-          "interior_equipment": 1604474.2994375867,
+          "cooling": 187212.83760428644,
+          "interior_lighting": 41031.00313836351,
+          "exterior_lighting": 16245.585442170257,
+          "interior_equipment": 272544.8129460944,
           "exterior_equipment": 0.0,
-          "fans": 589864.5066557899,
+          "fans": 116107.59723838136,
           "pumps": 0.0,
           "heat_rejection": 0.0,
           "humidification": 0.0,
-          "heat_recovery": 201657.57051786137,
-          "water_systems": 292145.6709941738,
+          "heat_recovery": 0.0,
+          "water_systems": 49504.488193964564,
           "refrigeration": 0.0,
           "generators": 0.0
         },
         "natural_gas": {
-          "heating": 819643.8111333475,
+          "heating": 350.69233451592737,
           "cooling": 0.0,
           "interior_lighting": 0.0,
           "exterior_lighting": 0.0,
-          "interior_equipment": 1805221.965519947,
+          "interior_equipment": 306637.79476376437,
           "exterior_equipment": 0.0,
           "fans": 0.0,
           "pumps": 0.0,
           "heat_rejection": 0.0,
           "humidification": 0.0,
           "heat_recovery": 0.0,
-          "water_systems": 2489877.662378272,
+          "water_systems": 388320.6741923661,
           "refrigeration": 0.0,
           "generators": 0.0
         },
@@ -183,7 +195,7 @@
           "heat_rejection": 0.0,
           "humidification": 0.0,
           "heat_recovery": 0.0,
-          "water_systems": 5313007.8242587065,
+          "water_systems": 901961.7280325589,
           "refrigeration": 0.0,
           "generators": 0.0
         }
@@ -198,20 +210,28 @@
         }
       ],
       "comfort_result": {
-        "time_setpoint_not_met_during_occupied_cooling": 140.0,
-        "time_setpoint_not_met_during_occupied_heating": 43.0,
-        "time_setpoint_not_met_during_occupied_hours": 183.0
+        "time_setpoint_not_met_during_occupied_cooling": 18.0,
+        "time_setpoint_not_met_during_occupied_heating": 0.0,
+        "time_setpoint_not_met_during_occupied_hours": 18.0,
+        "hours_out_of_comfort_bounds_PMV": 1321.25,
+        "hours_out_of_comfort_bounds_PPD": 82.75
       }
     }
   ],
   "distributed_generation": {
-    "solar_pv": {
-    },
-    "wind": {
-    },
-    "generator": {
-    },
-    "storage": {
-    }
+    "solar_pv": [
+
+    ],
+    "wind": [
+
+    ],
+    "generator": [
+
+    ],
+    "storage": [
+
+    ]
+  },
+  "power_distribution": {
   }
 }

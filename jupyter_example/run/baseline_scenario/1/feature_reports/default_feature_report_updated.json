@@ -1,27 +1,45 @@
 {
   "id": "1",
   "name": "Mixed_use 1",
-  "directory_name": "./run/baseline_scenario/1",
+  "directory_name": "/Users/tkwasnik/github/urbanopt-example-reopt-project/run/baseline_scenario/1",
   "feature_type": "Building",
-  "timesteps_per_hour": 1,
+  "timesteps_per_hour": 4,
   "simulation_status": "Complete",
   "timeseries_csv": {
-    "path": "./run/baseline_scenario/1/010_default_feature_reports/default_feature_reports.csv",
+    "path": "/feature_reports/default_feature_report_updated.csv",
     "first_report_datetime": "0",
     "column_names": [
-      "Electricity:Facility",
-      "ElectricityProduced:Facility",
-      "Gas:Facility",
-      "DistrictCooling:Facility",
-      "DistrictHeating:Facility",
-      "District Cooling Chilled Water Rate",
-      "District Cooling Mass Flow Rate",
-      "District Cooling Inlet Temperature",
-      "District Cooling Outlet Temperature",
-      "District Heating Hot Water Rate",
-      "District Heating Mass Flow Rate",
-      "District Heating Inlet Temperature",
-      "District Heating Outlet Temperature"
+      "Datetime",
+      "Electricity:Facility(kWh)",
+      "ElectricityProduced:Facility()",
+      "Gas:Facility(kBtu)",
+      "DistrictCooling:Facility()",
+      "DistrictHeating:Facility()",
+      "District Cooling Chilled Water Rate()",
+      "District Cooling Mass Flow Rate()",
+      "District Cooling Inlet Temperature()",
+      "District Cooling Outlet Temperature()",
+      "District Heating Hot Water Rate()",
+      "District Heating Mass Flow Rate()",
+      "District Heating Inlet Temperature()",
+      "District Heating Outlet Temperature()",
+      "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()",
+      "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
+      "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
+      "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE PEOPLE 2()",
+      "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE PEOPLE 1()",
+      "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()",
+      "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
+      "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
+      "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE PEOPLE 2()",
+      "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE PEOPLE 1()",
+      "Net Electric Energy(kWh)",
+      "Electricity:Facility Power(kW)",
+      "ElectricityProduced:Facility Power(kW)",
+      "Electricity:Facility Apparent Power(kW)",
+      "ElectricityProduced:Facility Apparent Power(kW)",
+      "Net Power(kW)",
+      "Net Apparent Power(kW)"
     ]
   },
   "location": {
@@ -41,12 +59,12 @@
       {
         "building_type": "FullServiceRestaurant",
         "floor_area": 375893.7463428322,
-        "maximum_occupancy": 19647.21433384717
+        "maximum_occupancy": 1879.4687317141609
       },
       {
         "building_type": "Office",
         "floor_area": 375893.7463428322,
-        "maximum_occupancy": 1879.4687317141609
+        "maximum_occupancy": 19647.21433384717
       }
     ],
     "window_area": {
@@ -75,56 +93,56 @@
   "reporting_periods": [
     {
       "start_date": {
-        "month": 1,
+        "month": 6,
         "day_of_month": 1,
-        "year": "2018"
+        "year": 2019
       },
       "end_date": {
-        "month": 12,
-        "day_of_month": 31,
-        "year": "2018"
+        "month": 8,
+        "day_of_month": 1,
+        "year": 2019
       },
-      "total_site_energy": 180370962.85227752,
-      "total_source_energy": 369021203.0322039,
-      "net_site_energy": 180370962.85227752,
-      "net_source_energy": 369021203.0322039,
-      "electricity": 83292879.5018507,
-      "natural_gas": 97078083.35042684,
+      "total_site_energy": 25248928.702540066,
+      "total_source_energy": 54177292.94430763,
+      "net_site_energy": 25248928.702540066,
+      "net_source_energy": 54177292.94430763,
+      "electricity": 12869640.94486708,
+      "natural_gas": 12379287.757672988,
       "additional_fuel": 0.0,
       "district_cooling": 0.0,
       "district_heating": 0.0,
-      "water": 136162.1,
-      "electricity_produced": 83292882.34530205,
+      "water": 27330.13,
+      "electricity_produced": 12869639.997049961,
       "end_uses": {
         "electricity": {
           "heating": 0.0,
-          "cooling": 12592764.607681155,
-          "interior_lighting": 15881851.144078821,
-          "exterior_lighting": 4069471.7624076344,
-          "interior_equipment": 33796068.62656067,
+          "cooling": 3128223.014738088,
+          "interior_lighting": 1296310.5191101178,
+          "exterior_lighting": 285624.6892064182,
+          "interior_equipment": 5662098.347841304,
           "exterior_equipment": 0.0,
-          "fans": 5814839.076779795,
-          "pumps": 3161794.6971395854,
-          "heat_rejection": 733572.538437695,
+          "fans": 878152.5619702884,
+          "pumps": 520370.5553944175,
+          "heat_rejection": 197477.69701727966,
           "humidification": 0.0,
-          "heat_recovery": 1887520.9260767524,
-          "water_systems": 5354996.122688586,
+          "heat_recovery": 0.0,
+          "water_systems": 901374.0814179648,
           "refrigeration": 0.0,
           "generators": 0.0
         },
         "natural_gas": {
-          "heating": 24595020.19306471,
+          "heating": 644449.2946146338,
           "cooling": 0.0,
           "interior_lighting": 0.0,
           "exterior_lighting": 0.0,
-          "interior_equipment": 30427469.711939923,
+          "interior_equipment": 5168503.626095737,
           "exterior_equipment": 0.0,
           "fans": 0.0,
           "pumps": 0.0,
           "heat_rejection": 0.0,
           "humidification": 0.0,
           "heat_recovery": 0.0,
-          "water_systems": 42055583.967251,
+          "water_systems": 6566334.836962615,
           "refrigeration": 0.0,
           "generators": 0.0
         },
@@ -185,10 +203,10 @@
           "exterior_equipment": 0.0,
           "fans": 0.0,
           "pumps": 0.0,
-          "heat_rejection": 37649675.039816946,
+          "heat_rejection": 10387620.686416207,
           "humidification": 0.0,
           "heat_recovery": 0.0,
-          "water_systems": 91407094.47799699,
+          "water_systems": 15516334.949801192,
           "refrigeration": 0.0,
           "generators": 0.0
         }
@@ -203,20 +221,28 @@
         }
       ],
       "comfort_result": {
-        "time_setpoint_not_met_during_occupied_cooling": 876.0,
-        "time_setpoint_not_met_during_occupied_heating": 170.0,
-        "time_setpoint_not_met_during_occupied_hours": 1046.0
+        "time_setpoint_not_met_during_occupied_cooling": 58.0,
+        "time_setpoint_not_met_during_occupied_heating": 0.0,
+        "time_setpoint_not_met_during_occupied_hours": 58.0,
+        "hours_out_of_comfort_bounds_PMV": 860.5,
+        "hours_out_of_comfort_bounds_PPD": 105.0
       }
     }
   ],
   "distributed_generation": {
-    "solar_pv": {
-    },
-    "wind": {
-    },
-    "generator": {
-    },
-    "storage": {
-    }
+    "solar_pv": [
+
+    ],
+    "wind": [
+
+    ],
+    "generator": [
+
+    ],
+    "storage": [
+
+    ]
+  },
+  "power_distribution": {
   }
 }

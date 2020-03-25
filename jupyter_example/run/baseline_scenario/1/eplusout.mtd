@@ -1,5 +1,5 @@
 
- Meters for 10,BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy [J]
+ Meters for 9,BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
@@ -7,15 +7,7 @@
   OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 83,BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
-  OnMeter=InteriorLights:Electricity [J]
-  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
-  OnMeter=General:InteriorLights:Electricity [J]
-
- Meters for 84,BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy [J]
+ Meters for 82,BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 3 THERMALZONE [J]
@@ -23,7 +15,7 @@
   OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 3 THERMALZONE [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 109,BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy [J]
+ Meters for 107,BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
@@ -31,7 +23,15 @@
   OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 134,BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 2:Lights Electric Energy [J]
+ Meters for 132,BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 133,BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 2:Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 1 THERMALZONE [J]
@@ -39,7 +39,7 @@
   OnMeter=InteriorLights:Electricity:Zone:BUILDING STORY 1 THERMALZONE [J]
   OnMeter=General:InteriorLights:Electricity [J]
 
- Meters for 159,BUILDING STORY 4 THERMALZONE 35 ELEVATOR FANS:Electric Equipment Electric Energy [J]
+ Meters for 158,BUILDING STORY 4 THERMALZONE 35 ELEVATOR FANS:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
@@ -47,7 +47,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
   OnMeter=Elevators:InteriorEquipment:Electricity [J]
 
- Meters for 196,BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy [J]
+ Meters for 195,BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
@@ -55,7 +55,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
   OnMeter=Elevators:InteriorEquipment:Electricity [J]
 
- Meters for 197,BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIGHTS:Electric Equipment Electric Energy [J]
+ Meters for 196,BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIGHTS:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
@@ -63,7 +63,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
   OnMeter=Elevators:InteriorEquipment:Electricity [J]
 
- Meters for 198,BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+ Meters for 197,BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
@@ -71,15 +71,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 211,BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:Building [J]
-  OnMeter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
-  OnMeter=InteriorEquipment:Electricity [J]
-  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J]
-  OnMeter=General:InteriorEquipment:Electricity [J]
-
- Meters for 212,BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+ Meters for 210,BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 3 THERMALZONE [J]
@@ -87,7 +79,7 @@
   OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 3 THERMALZONE [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 225,BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy [J]
+ Meters for 223,BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
@@ -95,7 +87,15 @@
   OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 238,BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 2:Electric Equipment Electric Energy [J]
+ Meters for 236,BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 237,BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 2:Electric Equipment Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Building [J]
   OnMeter=Electricity:Zone:BUILDING STORY 1 THERMALZONE [J]
@@ -103,616 +103,547 @@
   OnMeter=InteriorEquipment:Electricity:Zone:BUILDING STORY 1 THERMALZONE [J]
   OnMeter=General:InteriorEquipment:Electricity [J]
 
- Meters for 251,BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy [J]
+ Meters for 250,BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy [J]
   OnMeter=Gas:Facility [J]
   OnMeter=Gas:Building [J]
-  OnMeter=Gas:Zone:BUILDING STORY 4 THERMALZONE [J]
+  OnMeter=Gas:Zone:BUILDING STORY 2 THERMALZONE [J]
   OnMeter=InteriorEquipment:Gas [J]
-  OnMeter=InteriorEquipment:Gas:Zone:BUILDING STORY 4 THERMALZONE [J]
+  OnMeter=InteriorEquipment:Gas:Zone:BUILDING STORY 2 THERMALZONE [J]
   OnMeter=General:InteriorEquipment:Gas [J]
 
- Meters for 324,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+ Meters for 323,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:Plant [J]
   OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
   OnMeter=Booster:WaterSystems:PlantLoopHeatingDemand [J]
 
- Meters for 373,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy [J]
+ Meters for 372,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=WaterSystems:Electricity [J]
   OnMeter=Booster:WaterSystems:Electricity [J]
 
- Meters for 410,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy [J]
+ Meters for 409,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=WaterSystems:Electricity [J]
   OnMeter=Booster:WaterSystems:Electricity [J]
 
- Meters for 411,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy [J]
+ Meters for 410,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=WaterSystems:Electricity [J]
   OnMeter=Booster:WaterSystems:Electricity [J]
 
- Meters for 412,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Water Volume [m3]
+ Meters for 411,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Water Volume [m3]
   OnMeter=Water:Facility [m3]
   OnMeter=Water:Plant [m3]
   OnMeter=WaterSystems:Water [m3]
   OnMeter=Booster:WaterSystems:Water [m3]
 
- Meters for 461,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume [m3]
+ Meters for 460,6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume [m3]
   OnMeter=MainsWater:Facility [m3]
   OnMeter=MainsWater:Plant [m3]
   OnMeter=WaterSystems:MainsWater [m3]
   OnMeter=Booster:WaterSystems:MainsWater [m3]
 
- Meters for 510,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+ Meters for 509,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:Plant [J]
   OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
   OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
 
- Meters for 523,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy [J]
+ Meters for 522,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy [J]
   OnMeter=Gas:Facility [J]
   OnMeter=Gas:Plant [J]
   OnMeter=WaterSystems:Gas [J]
   OnMeter=General:WaterSystems:Gas [J]
 
- Meters for 560,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy [J]
+ Meters for 559,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy [J]
   OnMeter=Gas:Facility [J]
   OnMeter=Gas:Plant [J]
   OnMeter=WaterSystems:Gas [J]
   OnMeter=General:WaterSystems:Gas [J]
 
- Meters for 561,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater On Cycle Parasitic Gas Energy [J]
+ Meters for 560,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater On Cycle Parasitic Gas Energy [J]
   OnMeter=Gas:Facility [J]
   OnMeter=Gas:Plant [J]
   OnMeter=WaterSystems:Gas [J]
   OnMeter=General:WaterSystems:Gas [J]
 
- Meters for 562,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Water Volume [m3]
+ Meters for 561,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Water Volume [m3]
   OnMeter=Water:Facility [m3]
   OnMeter=Water:Plant [m3]
   OnMeter=WaterSystems:Water [m3]
   OnMeter=General:WaterSystems:Water [m3]
 
- Meters for 575,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume [m3]
+ Meters for 574,5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume [m3]
   OnMeter=MainsWater:Facility [m3]
   OnMeter=MainsWater:Plant [m3]
   OnMeter=WaterSystems:MainsWater [m3]
   OnMeter=General:WaterSystems:MainsWater [m3]
 
- Meters for 588,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+ Meters for 587,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:Plant [J]
   OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
   OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
 
- Meters for 589,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy [J]
+ Meters for 588,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=WaterSystems:Electricity [J]
   OnMeter=General:WaterSystems:Electricity [J]
 
- Meters for 602,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy [J]
+ Meters for 601,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=WaterSystems:Electricity [J]
   OnMeter=General:WaterSystems:Electricity [J]
 
- Meters for 603,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy [J]
+ Meters for 602,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=WaterSystems:Electricity [J]
   OnMeter=General:WaterSystems:Electricity [J]
 
- Meters for 604,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Water Volume [m3]
+ Meters for 603,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Water Volume [m3]
   OnMeter=Water:Facility [m3]
   OnMeter=Water:Plant [m3]
   OnMeter=WaterSystems:Water [m3]
   OnMeter=General:WaterSystems:Water [m3]
 
- Meters for 605,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume [m3]
+ Meters for 604,214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume [m3]
   OnMeter=MainsWater:Facility [m3]
   OnMeter=MainsWater:Plant [m3]
   OnMeter=WaterSystems:MainsWater [m3]
   OnMeter=General:WaterSystems:MainsWater [m3]
 
- Meters for 606,BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+ Meters for 605,BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J]
   OnMeter=Heating:EnergyTransfer [J]
   OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J]
 
- Meters for 667,BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+ Meters for 666,BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J]
   OnMeter=Cooling:EnergyTransfer [J]
   OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 1 THERMALZONE [J]
 
- Meters for 693,BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+ Meters for 691,BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J]
   OnMeter=Heating:EnergyTransfer [J]
   OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J]
 
- Meters for 718,BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+ Meters for 716,BUILDING STORY 2 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J]
   OnMeter=Cooling:EnergyTransfer [J]
   OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 2 THERMALZONE [J]
 
- Meters for 732,BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+ Meters for 729,BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J]
   OnMeter=Heating:EnergyTransfer [J]
   OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J]
 
- Meters for 757,BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+ Meters for 754,BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J]
   OnMeter=Cooling:EnergyTransfer [J]
   OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 3 THERMALZONE [J]
 
- Meters for 771,BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Heating Energy [J]
+ Meters for 767,BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J]
   OnMeter=Heating:EnergyTransfer [J]
   OnMeter=Heating:EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J]
 
- Meters for 796,BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
+ Meters for 792,BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Building [J]
   OnMeter=EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J]
   OnMeter=Cooling:EnergyTransfer [J]
   OnMeter=Cooling:EnergyTransfer:Zone:BUILDING STORY 4 THERMALZONE [J]
 
- Meters for 810,BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume [m3]
+ Meters for 805,BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume [m3]
   OnMeter=Water:Facility [m3]
   OnMeter=Water:Plant [m3]
   OnMeter=WaterSystems:Water [m3]
   OnMeter=General:WaterSystems:Water [m3]
 
- Meters for 811,BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume [m3]
+ Meters for 806,BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume [m3]
   OnMeter=MainsWater:Facility [m3]
   OnMeter=MainsWater:Plant [m3]
   OnMeter=WaterSystems:MainsWater [m3]
   OnMeter=General:WaterSystems:MainsWater [m3]
 
- Meters for 812,BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy [J]
+ Meters for 807,BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Plant [J]
   OnMeter=WaterSystems:EnergyTransfer [J]
   OnMeter=General:WaterSystems:EnergyTransfer [J]
 
- Meters for 849,FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume [m3]
+ Meters for 844,FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume [m3]
   OnMeter=Water:Facility [m3]
   OnMeter=Water:Plant [m3]
   OnMeter=WaterSystems:Water [m3]
   OnMeter=General:WaterSystems:Water [m3]
 
- Meters for 850,FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume [m3]
+ Meters for 845,FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume [m3]
   OnMeter=MainsWater:Facility [m3]
   OnMeter=MainsWater:Plant [m3]
   OnMeter=WaterSystems:MainsWater [m3]
   OnMeter=General:WaterSystems:MainsWater [m3]
 
- Meters for 851,FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy [J]
+ Meters for 846,FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Plant [J]
   OnMeter=WaterSystems:EnergyTransfer [J]
   OnMeter=General:WaterSystems:EnergyTransfer [J]
 
- Meters for 852,OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume [m3]
+ Meters for 847,OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume [m3]
   OnMeter=Water:Facility [m3]
   OnMeter=Water:Plant [m3]
   OnMeter=WaterSystems:Water [m3]
   OnMeter=General:WaterSystems:Water [m3]
 
- Meters for 853,OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume [m3]
+ Meters for 848,OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume [m3]
   OnMeter=MainsWater:Facility [m3]
   OnMeter=MainsWater:Plant [m3]
   OnMeter=WaterSystems:MainsWater [m3]
   OnMeter=General:WaterSystems:MainsWater [m3]
 
- Meters for 854,OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy [J]
+ Meters for 849,OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Plant [J]
   OnMeter=WaterSystems:EnergyTransfer [J]
   OnMeter=General:WaterSystems:EnergyTransfer [J]
 
- Meters for 855,BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 WUC 90.91GPM AT 180F:Water Use Connections Plant Hot Water Energy [J]
+ Meters for 850,BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 WUC 90.91GPM AT 180F:Water Use Connections Plant Hot Water Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:Plant [J]
   OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
 
- Meters for 856,FULLSERVICERESTAURANT KITCHEN - 90.1-2004 WUC 60.61GPM AT 140F:Water Use Connections Plant Hot Water Energy [J]
+ Meters for 851,FULLSERVICERESTAURANT KITCHEN - 90.1-2013 WUC 60.61GPM AT 140F:Water Use Connections Plant Hot Water Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:Plant [J]
   OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
 
- Meters for 857,OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 WUC 5.96GPM AT 140F:Water Use Connections Plant Hot Water Energy [J]
+ Meters for 852,OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 WUC 5.96GPM AT 140F:Water Use Connections Plant Hot Water Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:Plant [J]
   OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
 
- Meters for 858,Whole Building:Facility Total Purchased Electric Energy [J]
+ Meters for 853,Whole Building:Facility Total Purchased Electric Energy [J]
   OnMeter=ElectricityPurchased:Facility [J]
   OnMeter=ElectricityPurchased:Plant [J]
   OnMeter=Cogeneration:ElectricityPurchased [J]
 
- Meters for 895,Whole Building:Facility Total Surplus Electric Energy [J]
+ Meters for 890,Whole Building:Facility Total Surplus Electric Energy [J]
   OnMeter=ElectricitySurplusSold:Facility [J]
   OnMeter=ElectricitySurplusSold:Plant [J]
   OnMeter=Cogeneration:ElectricitySurplusSold [J]
 
- Meters for 932,Whole Building:Facility Net Purchased Electric Energy [J]
+ Meters for 927,Whole Building:Facility Net Purchased Electric Energy [J]
   OnMeter=ElectricityNet:Facility [J]
   OnMeter=ElectricityNet:Plant [J]
   OnMeter=Cogeneration:ElectricityNet [J]
 
- Meters for 969,BUILDING STORY 1 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
+ Meters for 986,BUILDING STORY 1 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=HeatingCoils:EnergyTransfer [J]
 
- Meters for 994,BUILDING STORY 1 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+ Meters for 1011,BUILDING STORY 1 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:HVAC [J]
   OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
 
- Meters for 1019,BUILDING STORY 2 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
+ Meters for 1036,BUILDING STORY 2 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=HeatingCoils:EnergyTransfer [J]
 
- Meters for 1020,BUILDING STORY 2 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+ Meters for 1037,BUILDING STORY 2 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:HVAC [J]
   OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
 
- Meters for 1021,BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
+ Meters for 1038,BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=HeatingCoils:EnergyTransfer [J]
 
- Meters for 1022,BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+ Meters for 1039,BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:HVAC [J]
   OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
 
- Meters for 1023,BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
+ Meters for 1040,BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=HeatingCoils:EnergyTransfer [J]
 
- Meters for 1024,BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+ Meters for 1041,BUILDING STORY 4 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:HVAC [J]
   OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
 
- Meters for 1025,1 ZONE VAV MAIN HTG COIL:Heating Coil Heating Energy [J]
+ Meters for 1042,1 ZONE VAV MAIN HTG COIL:Heating Coil Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=HeatingCoils:EnergyTransfer [J]
 
- Meters for 1026,1 ZONE VAV MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+ Meters for 1043,1 ZONE VAV MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:HVAC [J]
   OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
 
- Meters for 1027,1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Heating Energy [J]
+ Meters for 1044,1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=HeatingCoils:EnergyTransfer [J]
 
- Meters for 1028,1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+ Meters for 1045,1 ZONE VAV 1 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:HVAC [J]
   OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
 
- Meters for 1029,1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Heating Energy [J]
+ Meters for 1046,1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=HeatingCoils:EnergyTransfer [J]
 
- Meters for 1030,1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+ Meters for 1047,1 ZONE VAV 2 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:HVAC [J]
   OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
 
- Meters for 1031,1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Heating Energy [J]
+ Meters for 1048,1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=HeatingCoils:EnergyTransfer [J]
 
- Meters for 1032,1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+ Meters for 1049,1 ZONE VAV 3 MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopHeatingDemand:Facility [J]
   OnMeter=PlantLoopHeatingDemand:HVAC [J]
   OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
 
- Meters for 1033,1 ZONE VAV CLG COIL:Cooling Coil Total Cooling Energy [J]
+ Meters for 1050,1 ZONE VAV CLG COIL:Cooling Coil Total Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=CoolingCoils:EnergyTransfer [J]
 
- Meters for 1046,1 ZONE VAV CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+ Meters for 1063,1 ZONE VAV CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopCoolingDemand:Facility [J]
   OnMeter=PlantLoopCoolingDemand:HVAC [J]
   OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
 
- Meters for 1083,1 ZONE VAV 1 CLG COIL:Cooling Coil Total Cooling Energy [J]
+ Meters for 1100,1 ZONE VAV 1 CLG COIL:Cooling Coil Total Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=CoolingCoils:EnergyTransfer [J]
 
- Meters for 1084,1 ZONE VAV 1 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+ Meters for 1101,1 ZONE VAV 1 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopCoolingDemand:Facility [J]
   OnMeter=PlantLoopCoolingDemand:HVAC [J]
   OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
 
- Meters for 1085,1 ZONE VAV 2 CLG COIL:Cooling Coil Total Cooling Energy [J]
+ Meters for 1102,1 ZONE VAV 2 CLG COIL:Cooling Coil Total Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=CoolingCoils:EnergyTransfer [J]
 
- Meters for 1086,1 ZONE VAV 2 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+ Meters for 1103,1 ZONE VAV 2 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopCoolingDemand:Facility [J]
   OnMeter=PlantLoopCoolingDemand:HVAC [J]
   OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
 
- Meters for 1087,1 ZONE VAV 3 CLG COIL:Cooling Coil Total Cooling Energy [J]
+ Meters for 1104,1 ZONE VAV 3 CLG COIL:Cooling Coil Total Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:HVAC [J]
   OnMeter=CoolingCoils:EnergyTransfer [J]
 
- Meters for 1088,1 ZONE VAV 3 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+ Meters for 1105,1 ZONE VAV 3 CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
   OnMeter=PlantLoopCoolingDemand:Facility [J]
   OnMeter=PlantLoopCoolingDemand:HVAC [J]
   OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
 
- Meters for 1089,1 ZONE VAV FAN:Fan Electric Energy [J]
+ Meters for 1106,1 ZONE VAV FAN:Fan Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:HVAC [J]
   OnMeter=Fans:Electricity [J]
   OnMeter=General:Fans:Electricity [J]
 
- Meters for 1126,1 ZONE VAV 1 FAN:Fan Electric Energy [J]
+ Meters for 1143,1 ZONE VAV 1 FAN:Fan Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:HVAC [J]
   OnMeter=Fans:Electricity [J]
   OnMeter=General:Fans:Electricity [J]
 
- Meters for 1127,1 ZONE VAV 2 FAN:Fan Electric Energy [J]
+ Meters for 1144,1 ZONE VAV 2 FAN:Fan Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:HVAC [J]
   OnMeter=Fans:Electricity [J]
   OnMeter=General:Fans:Electricity [J]
 
- Meters for 1128,1 ZONE VAV 3 FAN:Fan Electric Energy [J]
+ Meters for 1145,1 ZONE VAV 3 FAN:Fan Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:HVAC [J]
   OnMeter=Fans:Electricity [J]
   OnMeter=General:Fans:Electricity [J]
 
- Meters for 1129,ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=Fans:Electricity [J]
-  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
-
- Meters for 1142,ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=Fans:Electricity [J]
-  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
-
- Meters for 1143,ZONE FULLSERVICERESTAURANT KITCHEN A END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=Fans:Electricity [J]
-  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
-
- Meters for 1144,ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=Fans:Electricity [J]
-  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
-
- Meters for 1145,ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=Fans:Electricity [J]
-  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
-
- Meters for 1146,ZONE FULLSERVICERESTAURANT KITCHEN B END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=Fans:Electricity [J]
-  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
-
- Meters for 1147,ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=Fans:Electricity [J]
-  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
-
- Meters for 1148,ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=Fans:Electricity [J]
-  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
-
- Meters for 1149,ZONE FULLSERVICERESTAURANT KITCHEN C END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=Fans:Electricity [J]
-  OnMeter=Zone Exhaust Fans:Fans:Electricity [J]
-
- Meters for 1150,BUILDING FACADES:Exterior Lights Electric Energy [J]
+ Meters for 1146,BUILDING FACADES:Exterior Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=ExteriorLights:Electricity [J]
   OnMeter=Building Facades:ExteriorLights:Electricity [J]
 
- Meters for 1175,MAIN ENTRIES:Exterior Lights Electric Energy [J]
+ Meters for 1171,MAIN ENTRIES:Exterior Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=ExteriorLights:Electricity [J]
   OnMeter=Main Entries:ExteriorLights:Electricity [J]
 
- Meters for 1188,OTHER DOORS:Exterior Lights Electric Energy [J]
+ Meters for 1184,OTHER DOORS:Exterior Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=ExteriorLights:Electricity [J]
   OnMeter=Other Doors:ExteriorLights:Electricity [J]
 
- Meters for 1201,PARKING AREAS AND DRIVES:Exterior Lights Electric Energy [J]
+ Meters for 1197,PARKING AREAS AND DRIVES:Exterior Lights Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=ExteriorLights:Electricity [J]
   OnMeter=Parking Areas and Drives:ExteriorLights:Electricity [J]
 
- Meters for 1214,1 ZONE VAV ERV:Heat Exchanger Total Heating Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:HVAC [J]
-  OnMeter=HeatRecoveryForHeating:EnergyTransfer [J]
-
- Meters for 1227,1 ZONE VAV ERV:Heat Exchanger Total Cooling Energy [J]
-  OnMeter=EnergyTransfer:Facility [J]
-  OnMeter=EnergyTransfer:HVAC [J]
-  OnMeter=HeatRecoveryForCooling:EnergyTransfer [J]
-
- Meters for 1240,1 ZONE VAV ERV:Heat Exchanger Electric Energy [J]
-  OnMeter=Electricity:Facility [J]
-  OnMeter=Electricity:HVAC [J]
-  OnMeter=HeatRecovery:Electricity [J]
-
- Meters for 1253,90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Electric Energy [J]
+ Meters for 1210,90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Cooling:Electricity [J]
   OnMeter=General:Cooling:Electricity [J]
 
- Meters for 1278,90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Evaporator Cooling Energy [J]
+ Meters for 1235,90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Evaporator Cooling Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Plant [J]
   OnMeter=Chillers:EnergyTransfer [J]
 
- Meters for 1291,90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy [J]
+ Meters for 1248,90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Plant [J]
   OnMeter=HeatRejection:EnergyTransfer [J]
 
- Meters for 1304,HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy [J]
+ Meters for 1261,HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Plant [J]
   OnMeter=LoopToLoop:EnergyTransfer [J]
 
- Meters for 1317,PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy [J]
+ Meters for 1274,PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Fan Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=HeatRejection:Electricity [J]
   OnMeter=General:HeatRejection:Electricity [J]
 
- Meters for 1342,PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume [m3]
+ Meters for 1299,PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Make Up Water Volume [m3]
   OnMeter=Water:Facility [m3]
   OnMeter=Water:Plant [m3]
   OnMeter=HeatRejection:Water [m3]
 
- Meters for 1355,PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume [m3]
+ Meters for 1312,PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Make Up Mains Water Volume [m3]
   OnMeter=MainsWater:Facility [m3]
   OnMeter=MainsWater:Plant [m3]
   OnMeter=HeatRejection:MainsWater [m3]
 
- Meters for 1368,BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Heating Energy [J]
+ Meters for 1325,BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy [J]
   OnMeter=EnergyTransfer:Facility [J]
   OnMeter=EnergyTransfer:Plant [J]
   OnMeter=Boilers:EnergyTransfer [J]
 
- Meters for 1381,BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy [J]
+ Meters for 1338,BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy [J]
   OnMeter=Gas:Facility [J]
   OnMeter=Gas:Plant [J]
   OnMeter=Heating:Gas [J]
   OnMeter=General:Heating:Gas [J]
 
- Meters for 1406,BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy [J]
+ Meters for 1363,BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Heating:Electricity [J]
   OnMeter=Boiler Parasitic:Heating:Electricity [J]
 
- Meters for 1431,CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy [J]
+ Meters for 1388,CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Pumps:Electricity [J]
   OnMeter=General:Pumps:Electricity [J]
 
- Meters for 1456,BOOSTER WATER LOOP PUMP:Pump Electric Energy [J]
+ Meters for 1413,BOOSTER WATER LOOP PUMP:Pump Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Pumps:Electricity [J]
   OnMeter=General:Pumps:Electricity [J]
 
- Meters for 1457,FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy [J]
+ Meters for 1414,FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Pumps:Electricity [J]
   OnMeter=General:Pumps:Electricity [J]
 
- Meters for 1458,HOT WATER LOOP PUMP:Pump Electric Energy [J]
+ Meters for 1415,HOT WATER LOOP PUMP:Pump Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Pumps:Electricity [J]
   OnMeter=General:Pumps:Electricity [J]
 
- Meters for 1459,CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy [J]
+ Meters for 1416,CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Pumps:Electricity [J]
   OnMeter=General:Pumps:Electricity [J]
 
- Meters for 1460,CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy [J]
+ Meters for 1417,CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Pumps:Electricity [J]
   OnMeter=General:Pumps:Electricity [J]
 
- Meters for 1461,OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electric Energy [J]
+ Meters for 1418,OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electric Energy [J]
   OnMeter=Electricity:Facility [J]
   OnMeter=Electricity:Plant [J]
   OnMeter=Pumps:Electricity [J]
   OnMeter=General:Pumps:Electricity [J]
 
- Meters for 1462,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+ Meters for 1419,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
   OnMeter=Carbon Equivalent:Facility [kg]
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
- Meters for 1487,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+ Meters for 1444,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
   OnMeter=Carbon Equivalent:Facility [kg]
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
- Meters for 1488,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+ Meters for 1445,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
   OnMeter=Carbon Equivalent:Facility [kg]
   OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
 
  For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 2:Lights Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR FANS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIGHTS:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 2:Electric Equipment Electric Energy
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
@@ -724,86 +655,76 @@
   1 ZONE VAV 1 FAN:Fan Electric Energy
   1 ZONE VAV 2 FAN:Fan Electric Energy
   1 ZONE VAV 3 FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
   BUILDING FACADES:Exterior Lights Electric Energy
   MAIN ENTRIES:Exterior Lights Electric Energy
   OTHER DOORS:Exterior Lights Electric Energy
   PARKING AREAS AND DRIVES:Exterior Lights Electric Energy
-  1 ZONE VAV ERV:Heat Exchanger Electric Energy
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Electric Energy
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Electric Energy
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Fan Electric Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
   CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
   BOOSTER WATER LOOP PUMP:Pump Electric Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
   HOT WATER LOOP PUMP:Pump Electric Energy
   CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
   CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy
   OFFICE SHARED SERVICE WATER LOOP CIRCULATOR PUMP:Pump Electric Energy
 
  For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 2:Lights Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR FANS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIGHTS:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 2:Electric Equipment Electric Energy
 
  For Meter=Electricity:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR FANS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIGHTS:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 2:Lights Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
 
  For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 2:Lights Electric Energy
 
  For Meter=Electricity:Zone:BUILDING STORY 3 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 3 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
 
  For Meter=Electricity:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
 
  For Meter=InteriorLights:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE LIGHTS 2:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 1:Lights Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN LIGHTS 1:Lights Electric Energy
 
  For Meter=Electricity:Zone:BUILDING STORY 1 THERMALZONE [J], ResourceType=Electricity, Group=Zone, contents are:
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING LIGHTS 2:Lights Electric Energy
@@ -816,18 +737,17 @@
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR FANS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIGHTS:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 2:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR FANS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIFT MOTORS:Electric Equipment Electric Energy
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIGHTS:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
 
  For Meter=Elevators:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR FANS:Electric Equipment Electric Energy
@@ -835,50 +755,51 @@
   BUILDING STORY 4 THERMALZONE 35 ELEVATOR LIGHTS:Electric Equipment Electric Energy
 
  For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 4 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 2:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 3 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 3 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
-  BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - MD OFFICE ELEC EQUIP 2:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 1:Electric Equipment Electric Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN ELEC EQUIP 1:Electric Equipment Electric Energy
 
  For Meter=InteriorEquipment:Electricity:Zone:BUILDING STORY 1 THERMALZONE [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
   BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING ELEC EQUIP 2:Electric Equipment Electric Energy
 
  For Meter=Gas:Facility [J], ResourceType=Gas, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
 
  For Meter=Gas:Building [J], ResourceType=Gas, Group=Building, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
 
- For Meter=Gas:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=Gas, Group=Zone, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+ For Meter=Gas:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=Gas, Group=Zone, contents are:
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
 
  For Meter=InteriorEquipment:Gas [J], ResourceType=Gas, EndUse=InteriorEquipment, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
 
- For Meter=InteriorEquipment:Gas:Zone:BUILDING STORY 4 THERMALZONE [J], ResourceType=Gas, EndUse=InteriorEquipment, Group=Zone, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+ For Meter=InteriorEquipment:Gas:Zone:BUILDING STORY 2 THERMALZONE [J], ResourceType=Gas, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
 
  For Meter=General:InteriorEquipment:Gas [J], ResourceType=Gas, EndUse=InteriorEquipment, contents are:
-  BUILDING STORY 4 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
+  BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN GAS EQUIP 1:Gas Equipment Gas Energy
 
  For Meter=PlantLoopHeatingDemand:Facility [J], ResourceType=PlantLoopHeatingDemand, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 WUC 90.91GPM AT 180F:Water Use Connections Plant Hot Water Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 WUC 60.61GPM AT 140F:Water Use Connections Plant Hot Water Energy
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 WUC 5.96GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 WUC 90.91GPM AT 180F:Water Use Connections Plant Hot Water Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 WUC 60.61GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 WUC 5.96GPM AT 140F:Water Use Connections Plant Hot Water Energy
   BUILDING STORY 1 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
   BUILDING STORY 2 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
   BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Source Side Heat Transfer Energy
@@ -892,17 +813,17 @@
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 WUC 90.91GPM AT 180F:Water Use Connections Plant Hot Water Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 WUC 60.61GPM AT 140F:Water Use Connections Plant Hot Water Energy
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 WUC 5.96GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 WUC 90.91GPM AT 180F:Water Use Connections Plant Hot Water Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 WUC 60.61GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 WUC 5.96GPM AT 140F:Water Use Connections Plant Hot Water Energy
 
  For Meter=WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Source Side Heat Transfer Energy
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 WUC 90.91GPM AT 180F:Water Use Connections Plant Hot Water Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 WUC 60.61GPM AT 140F:Water Use Connections Plant Hot Water Energy
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 WUC 5.96GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 WUC 90.91GPM AT 180F:Water Use Connections Plant Hot Water Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 WUC 60.61GPM AT 140F:Water Use Connections Plant Hot Water Energy
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 WUC 5.96GPM AT 140F:Water Use Connections Plant Hot Water Energy
 
  For Meter=Booster:WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Source Side Heat Transfer Energy
@@ -914,12 +835,12 @@
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Off Cycle Parasitic Electric Energy
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater On Cycle Parasitic Electric Energy
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Electric Energy
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Electric Energy
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Fan Electric Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
   CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
   BOOSTER WATER LOOP PUMP:Pump Electric Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
   HOT WATER LOOP PUMP:Pump Electric Energy
   CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
   CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy
@@ -942,27 +863,27 @@
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Water Volume
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Make Up Water Volume
 
  For Meter=Water:Plant [m3], ResourceType=Water, Group=Plant, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Water Volume
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Make Up Water Volume
 
  For Meter=WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Water Volume
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume
 
  For Meter=Booster:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
@@ -971,27 +892,27 @@
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
 
  For Meter=MainsWater:Plant [m3], ResourceType=MainsWater, Group=Plant, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
 
  For Meter=WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume
 
  For Meter=Booster:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
   6.0GAL ELECTRICITY BOOSTER WATER HEATER - 1100KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
@@ -1004,7 +925,7 @@
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
 
  For Meter=WaterSystems:Gas [J], ResourceType=Gas, EndUse=WaterSystems, contents are:
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Gas Energy
@@ -1019,16 +940,16 @@
  For Meter=General:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Water Volume
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Water Volume
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Total Volume
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Total Volume
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Total Volume
 
  For Meter=General:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
   5727GAL NATURALGAS WATER HEATER - 5727KBTU/HR 0.808 THERM EFF:Water Heater Mains Water Volume
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Mains Water Volume
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Mains Water Volume
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Mains Water Volume
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Mains Water Volume
 
  For Meter=General:WaterSystems:Electricity [J], ResourceType=Electricity, EndUse=WaterSystems, contents are:
   214GAL ELECTRICITY WATER HEATER - 214KBTU/HR 1.0 THERM EFF:Water Heater Electric Energy
@@ -1044,9 +965,9 @@
   BUILDING STORY 3 THERMALZONE:Zone Air System Sensible Cooling Energy
   BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Heating Energy
   BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy
   BUILDING STORY 1 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
   BUILDING STORY 2 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
   BUILDING STORY 3 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
@@ -1059,12 +980,10 @@
   1 ZONE VAV 1 CLG COIL:Cooling Coil Total Cooling Energy
   1 ZONE VAV 2 CLG COIL:Cooling Coil Total Cooling Energy
   1 ZONE VAV 3 CLG COIL:Cooling Coil Total Cooling Energy
-  1 ZONE VAV ERV:Heat Exchanger Total Heating Energy
-  1 ZONE VAV ERV:Heat Exchanger Total Cooling Energy
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
   HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Heating Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
 
  For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
   BUILDING STORY 1 THERMALZONE:Zone Air System Sensible Heating Energy
@@ -1129,23 +1048,23 @@
   BUILDING STORY 4 THERMALZONE:Zone Air System Sensible Cooling Energy
 
  For Meter=EnergyTransfer:Plant [J], ResourceType=EnergyTransfer, Group=Plant, contents are:
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
   HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Heating Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
 
  For Meter=WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy
 
  For Meter=General:WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
-  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy
-  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2004 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy
+  BOOSTER FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 90.91GPM AT 180F:Water Use Equipment Heating Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER USE 60.61GPM AT 140F:Water Use Equipment Heating Energy
+  OFFICE WHOLEBUILDING - MD OFFICE - 90.1-2013 SERVICE WATER USE 5.96GPM AT 140F:Water Use Equipment Heating Energy
 
  For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
   Whole Building:Facility Total Purchased Electric Energy
@@ -1187,8 +1106,6 @@
   1 ZONE VAV 1 CLG COIL:Cooling Coil Total Cooling Energy
   1 ZONE VAV 2 CLG COIL:Cooling Coil Total Cooling Energy
   1 ZONE VAV 3 CLG COIL:Cooling Coil Total Cooling Energy
-  1 ZONE VAV ERV:Heat Exchanger Total Heating Energy
-  1 ZONE VAV ERV:Heat Exchanger Total Cooling Energy
 
  For Meter=HeatingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatingCoils, contents are:
   BUILDING STORY 1 THERMALZONE REHEAT COIL:Heating Coil Heating Energy
@@ -1249,48 +1166,18 @@
   1 ZONE VAV 1 FAN:Fan Electric Energy
   1 ZONE VAV 2 FAN:Fan Electric Energy
   1 ZONE VAV 3 FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  1 ZONE VAV ERV:Heat Exchanger Electric Energy
 
  For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
   1 ZONE VAV FAN:Fan Electric Energy
   1 ZONE VAV 1 FAN:Fan Electric Energy
   1 ZONE VAV 2 FAN:Fan Electric Energy
   1 ZONE VAV 3 FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
 
  For Meter=General:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
   1 ZONE VAV FAN:Fan Electric Energy
   1 ZONE VAV 1 FAN:Fan Electric Energy
   1 ZONE VAV 2 FAN:Fan Electric Energy
   1 ZONE VAV 3 FAN:Fan Electric Energy
-
- For Meter=Zone Exhaust Fans:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
-  ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN A END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN B END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND EXHAUST FAN:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C  - STORY GROUND TRANSFER AIR SOURCE:Fan Electric Energy
-  ZONE FULLSERVICERESTAURANT KITCHEN C END_A - STORY GROUND EXHAUST FAN:Fan Electric Energy
 
  For Meter=ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
   BUILDING FACADES:Exterior Lights Electric Energy
@@ -1310,61 +1197,52 @@
  For Meter=Parking Areas and Drives:ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
   PARKING AREAS AND DRIVES:Exterior Lights Electric Energy
 
- For Meter=HeatRecoveryForHeating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRecoveryForHeating, contents are:
-  1 ZONE VAV ERV:Heat Exchanger Total Heating Energy
-
- For Meter=HeatRecoveryForCooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRecoveryForCooling, contents are:
-  1 ZONE VAV ERV:Heat Exchanger Total Cooling Energy
-
- For Meter=HeatRecovery:Electricity [J], ResourceType=Electricity, EndUse=HeatRecovery, contents are:
-  1 ZONE VAV ERV:Heat Exchanger Electric Energy
-
  For Meter=Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Electric Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Electric Energy
 
  For Meter=General:Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Electric Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Electric Energy
 
  For Meter=Chillers:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Chillers, contents are:
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
 
  For Meter=HeatRejection:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRejection, contents are:
-  90.1-2004 WATERCOOLED  ROTARY SCREW CHILLER 0 3337TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
+  90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2643TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
 
  For Meter=LoopToLoop:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=LoopToLoop, contents are:
   HX FOR BOOSTER WATER HEATING:Fluid Heat Exchanger Heat Transfer Energy
 
  For Meter=HeatRejection:Electricity [J], ResourceType=Electricity, EndUse=HeatRejection, contents are:
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Fan Electric Energy
 
  For Meter=General:HeatRejection:Electricity [J], ResourceType=Electricity, EndUse=HeatRejection, contents are:
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Fan Electric Energy
 
  For Meter=HeatRejection:Water [m3], ResourceType=Water, EndUse=HeatRejection, contents are:
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Make Up Water Volume
 
  For Meter=HeatRejection:MainsWater [m3], ResourceType=MainsWater, EndUse=HeatRejection, contents are:
-  PROPELLER OR AXIAL TWOSPEED FAN OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
+  PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
 
  For Meter=Boilers:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Boilers, contents are:
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Heating Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
 
  For Meter=Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
 
  For Meter=General:Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Gas Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
 
  For Meter=Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
 
  For Meter=Boiler Parasitic:Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
-  BOILER 23392KBTU/HR 0.75 THERMAL EFF:Boiler Ancillary Electric Energy
+  BOILER 21269KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
 
  For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
   CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
   BOOSTER WATER LOOP PUMP:Pump Electric Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
   HOT WATER LOOP PUMP:Pump Electric Energy
   CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
   CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy
@@ -1373,7 +1251,7 @@
  For Meter=General:Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
   CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
   BOOSTER WATER LOOP PUMP:Pump Electric Energy
-  FULLSERVICERESTAURANT KITCHEN - 90.1-2004 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
+  FULLSERVICERESTAURANT KITCHEN - 90.1-2013 SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN:Pump Electric Energy
   HOT WATER LOOP PUMP:Pump Electric Energy
   CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
   CONDENSER WATER LOOP CONSTANT PUMP:Pump Electric Energy

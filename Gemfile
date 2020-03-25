@@ -44,19 +44,19 @@ github_branch = false
 
 
 if allow_local && File.exist?('../urbanopt-scenario-gem')
-  gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
+  gem 'urbanopt-scenario', '0.2.0.pre1'
 elsif github_branch
-  gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'develop'
+  gem 'urbanopt-scenario', '0.2.0.pre1'
 else
-  gem 'urbanopt-scenario', '0.1.1'
+  gem 'urbanopt-scenario', '0.2.0.pre1'
 end
 
 if allow_local && File.exist?('../urbanopt-reopt-gem')
-  gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
+  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'multiplepv'
 elsif github_branch
   gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'multiplepv'
 else
-  gem 'urbanopt-reopt', '0.1.0'
+  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'multiplepv'
 end
 
 
