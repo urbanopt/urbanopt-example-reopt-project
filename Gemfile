@@ -41,6 +41,8 @@ github_branch = false
 # end
 # gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
 
+
+
 if allow_local && File.exist?('../urbanopt-scenario-gem')
   gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
 elsif github_branch
@@ -52,10 +54,11 @@ end
 if allow_local && File.exist?('../urbanopt-reopt-gem')
   gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
 elsif github_branch
-  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'develop'
+  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'multiplepv'
 else
   gem 'urbanopt-reopt', '0.1.0'
 end
+
 
 if allow_local && File.exist?('../urbanopt-geojson-gem')
   # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
@@ -73,3 +76,6 @@ gem 'simplecov', github: 'NREL/simplecov'
 
 # Support requests on windows machines
 gem 'certified'
+
+# Fix rack version temporarily to work with Ruby 2.2.4
+gem 'rack', '2.1.2'
