@@ -93,17 +93,17 @@
       }
     },
     "distributed_generation": {
-      "lcc_us_dollars": 44870671.0,
-      "npv_us_dollars": 6785275.0,
-      "year_one_energy_cost_us_dollars": 2652413.47,
-      "year_one_demand_cost_us_dollars": 830076.82,
-      "year_one_bill_us_dollars": 3484170.29,
-      "total_solar_pv_kw": 9953.4182,
-      "total_storage_kw": 733.7625,
-      "total_storage_kwh": 1512.3453,
+      "lcc_us_dollars": 45107197.0,
+      "npv_us_dollars": 6785618.0,
+      "year_one_energy_cost_us_dollars": 2669283.99,
+      "year_one_demand_cost_us_dollars": 834331.57,
+      "year_one_bill_us_dollars": 3505295.56,
+      "total_solar_pv_kw": 9986.2828,
+      "total_storage_kw": 733.8161,
+      "total_storage_kwh": 1512.1953,
       "solar_pv": [
         {
-          "size_kw": 9953.4182
+          "size_kw": 9986.2828
         }
       ],
       "wind": [
@@ -114,8 +114,8 @@
       ],
       "storage": [
         {
-          "size_kw": 733.7625,
-          "size_kwh": 1512.3453
+          "size_kw": 733.8161,
+          "size_kwh": 1512.1953
         }
       ]
     },

@@ -151,12 +151,10 @@ task :post_process_baseline do
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
 
   # Run Aggregate Scenario
-  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report)
-  scenario_report_scenario.save('baseline_scenario')
+  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report: scenario_report, save_name: 'baseline_global_optimization')
 
-  # Run features individually
-  scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report)
-  scenario_report_features.save('baseline_features')
+  # Run features individually - this is an alternative approach to the previous step, in your analysis depending on project ojectives you maye only need to run one
+  scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report: scenario_report, save_names_feature_reports: ['baseline_local_optimization']*13, save_name_scenario_report: 'baseline_local_optimization')
 end
 
 ### High Efficiency
@@ -186,12 +184,10 @@ task :post_process_high_efficiency do
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
 
   # Run Aggregate Scenario
-  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
-  scenario_report_scenario.save('highE_scenario')
+  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report: scenario_report, save_name: 'high_efficiency_global_optimization')
 
-  # Run features individually
-  scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report, reopt_post_processor.feature_reports_reopt_default_assumption_hashes, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
-  scenario_report_features.save('highE_features')
+  # Run features individually - this is an alternative approach to the previous step, in your analysis depending on project ojectives you maye only need to run one
+  scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report: scenario_report, save_names_feature_reports: ['high_efficiency_local_optimization']*13, save_name_scenario_report: 'high_efficiency_local_optimization')
 end
 
 ### Mixed
@@ -221,12 +217,10 @@ task :post_process_mixed do
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
 
   # Run Aggregate Scenario
-  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report, reopt_post_processor.scenario_reopt_default_assumptions_hash, reopt_post_processor.scenario_reopt_default_output_file, reopt_post_processor.scenario_timeseries_default_output_file)
-  scenario_report_scenario.save('mixed_scenario')
+  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report: scenario_report, save_name: 'mixed_global_optimization')
 
-  # Run features individually
-  scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report, reopt_post_processor.feature_reports_reopt_default_assumption_hashes, reopt_post_processor.feature_reports_reopt_default_output_files, reopt_post_processor.feature_reports_timeseries_default_output_files)
-  scenario_report_features.save('mixed_features')
+  # Run features individually - this is an alternative approach to the previous step, in your analysis depending on project ojectives you maye only need to run one
+  scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report: scenario_report, save_names_feature_reports: ['mixed_local_optimization']*13, save_name_scenario_report: 'mixed_efficiency_local_optimization')
 end
 
 ### All
@@ -247,7 +241,7 @@ task post_process_all: %i[post_process_baseline post_process_high_efficiency pos
 end
 
 desc 'Run and post process all scenarios'
-task update_all: %i[run_all post_process_all] do
+task update_all: %i[ run_all post_process_all] do
   # run and post_process all the scenarios
 end
 

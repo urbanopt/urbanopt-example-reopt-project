@@ -93,15 +93,15 @@
       }
     },
     "distributed_generation": {
-      "lcc_us_dollars": 30909147.0,
-      "npv_us_dollars": 2183511.0,
-      "year_one_energy_cost_us_dollars": 2328744.52,
+      "lcc_us_dollars": 31083725.0,
+      "npv_us_dollars": 2189178.0,
+      "year_one_energy_cost_us_dollars": 2343717.01,
       "year_one_demand_cost_us_dollars": 0.0,
-      "year_one_bill_us_dollars": 2328744.52,
-      "total_solar_pv_kw": 8279.3587,
+      "year_one_bill_us_dollars": 2343717.01,
+      "total_solar_pv_kw": 8309.327,
       "solar_pv": [
         {
-          "size_kw": 8279.3587
+          "size_kw": 8309.327
         }
       ],
       "wind": [

@@ -67,13 +67,9 @@
         "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
         "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
         "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 3()",
-        "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()",
-        "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
-        "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
+        "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()",
         "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 3()",
-        "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()",
-        "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
-        "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()"
+        "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()"
       ]
     },
     "location": {
@@ -115,23 +111,23 @@
       }
     },
     "distributed_generation": {
-      "lcc_us_dollars": 44955059.0,
-      "npv_us_dollars": 6748165.0,
-      "year_one_energy_cost_us_dollars": 2645103.83,
-      "year_one_demand_cost_us_dollars": 841829.6,
-      "year_one_bill_us_dollars": 3491973.45,
-      "total_solar_pv_kw": 10041.575,
-      "total_storage_kw": 125.1133,
-      "total_storage_kwh": 293.7589,
+      "lcc_us_dollars": 45186591.0,
+      "npv_us_dollars": 6758603.0,
+      "year_one_energy_cost_us_dollars": 2663467.4,
+      "year_one_demand_cost_us_dollars": 846057.45,
+      "year_one_bill_us_dollars": 3514564.85,
+      "total_solar_pv_kw": 10061.6405,
+      "total_storage_kw": 121.4567,
+      "total_storage_kwh": 271.0077,
       "solar_pv": [
         {
-          "size_kw": 7569.5977
+          "size_kw": 7582.4401
         },
         {
           "size_kw": 380.4566
         },
         {
-          "size_kw": 2091.5207
+          "size_kw": 2098.7438
         }
       ],
       "wind": [
@@ -142,16 +138,16 @@
       ],
       "storage": [
         {
-          "size_kw": 485.1266,
-          "size_kwh": 1153.0142
+          "size_kw": 489.3496,
+          "size_kwh": 1159.6656
         },
         {
           "size_kw": 23.0164,
           "size_kwh": 55.1977
         },
         {
-          "size_kw": 125.1133,
-          "size_kwh": 293.7589
+          "size_kw": 121.4567,
+          "size_kwh": 271.0077
         }
       ]
     },
@@ -550,17 +546,17 @@
         }
       ],
       "distributed_generation": {
-        "lcc_us_dollars": 33639382.0,
-        "npv_us_dollars": 5151825.0,
-        "year_one_energy_cost_us_dollars": 1982527.02,
-        "year_one_demand_cost_us_dollars": 620692.3,
-        "year_one_bill_us_dollars": 2604899.33,
-        "total_solar_pv_kw": 7569.5977,
-        "total_storage_kw": 485.1266,
-        "total_storage_kwh": 1153.0142,
+        "lcc_us_dollars": 33762763.0,
+        "npv_us_dollars": 5154576.0,
+        "year_one_energy_cost_us_dollars": 1990379.04,
+        "year_one_demand_cost_us_dollars": 623715.67,
+        "year_one_bill_us_dollars": 2615774.71,
+        "total_solar_pv_kw": 7582.4401,
+        "total_storage_kw": 489.3496,
+        "total_storage_kwh": 1159.6656,
         "solar_pv": [
           {
-            "size_kw": 7569.5977
+            "size_kw": 7582.4401
           }
         ],
         "wind": [
@@ -571,8 +567,8 @@
         ],
         "storage": [
           {
-            "size_kw": 485.1266,
-            "size_kwh": 1153.0142
+            "size_kw": 489.3496,
+            "size_kwh": 1159.6656
           }
         ]
       },
@@ -874,13 +870,13 @@
           "District Heating Inlet Temperature()",
           "District Heating Outlet Temperature()",
           "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 3()",
-          "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()",
-          "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
-          "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
+          "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
+          "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
+          "Zone Thermal Comfort Fanger Model PMV BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()",
           "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 1 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 3()",
-          "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()",
-          "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
-          "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
+          "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 1()",
+          "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 2 THERMALZONE FULLSERVICERESTAURANT KITCHEN PEOPLE 1()",
+          "Zone Thermal Comfort Fanger Model PPD BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING PEOPLE 2()",
           "Net Electric Energy(kWh)",
           "Electricity:Facility Power(kW)",
           "ElectricityProduced:Facility Power(kW)",
@@ -1092,17 +1088,17 @@
         }
       ],
       "distributed_generation": {
-        "lcc_us_dollars": 9562477.0,
-        "npv_us_dollars": 1355560.0,
-        "year_one_energy_cost_us_dollars": 560500.33,
-        "year_one_demand_cost_us_dollars": 187230.22,
-        "year_one_bill_us_dollars": 749410.56,
-        "total_solar_pv_kw": 2091.5207,
-        "total_storage_kw": 125.1133,
-        "total_storage_kwh": 293.7589,
+        "lcc_us_dollars": 9670628.0,
+        "npv_us_dollars": 1363247.0,
+        "year_one_energy_cost_us_dollars": 571011.88,
+        "year_one_demand_cost_us_dollars": 188434.7,
+        "year_one_bill_us_dollars": 761126.58,
+        "total_solar_pv_kw": 2098.7438,
+        "total_storage_kw": 121.4567,
+        "total_storage_kwh": 271.0077,
         "solar_pv": [
           {
-            "size_kw": 2091.5207
+            "size_kw": 2098.7438
           }
         ],
         "wind": [
@@ -1113,8 +1109,8 @@
         ],
         "storage": [
           {
-            "size_kw": 125.1133,
-            "size_kwh": 293.7589
+            "size_kw": 121.4567,
+            "size_kwh": 271.0077
           }
         ]
       },
