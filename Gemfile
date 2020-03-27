@@ -62,11 +62,11 @@ end
 
 if allow_local && File.exist?('../urbanopt-geojson-gem')
   # gem 'openstudio-extension', github: 'NREL/OpenStudio-extension-gem', branch: 'develop'
-   gem 'urbanopt-geojson', '0.2.0.pre1'
+   gem 'urbanopt-geojson', '0.2.0.pre3'
 elsif allow_local
-   gem 'urbanopt-geojson', '0.2.0.pre1'
+   gem 'urbanopt-geojson', '0.2.0.pre3'
 else
-  gem 'urbanopt-geojson', '0.2.0.pre1'
+  gem 'urbanopt-geojson', '0.2.0.pre3'
 end
 
 gem 'openstudio-standards', '0.2.10' # doesn't work in 0.2.8?

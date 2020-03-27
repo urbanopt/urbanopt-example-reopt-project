@@ -147,6 +147,12 @@ task :post_process_baseline do
   default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(baseline_scenario)
   scenario_report = default_post_processor.run
   scenario_report.save
+
+  ### save feature reports 
+  scenario_report.feature_reports.each do |feature_report|
+    feature_report.save_feature_report()
+  end
+
   scenario_base = default_post_processor.scenario_base
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
 
@@ -180,6 +186,11 @@ task :post_process_high_efficiency do
   default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(high_efficiency_scenario)
   scenario_report = default_post_processor.run
   scenario_report.save
+  ### save feature reports 
+  scenario_report.feature_reports.each do |feature_report|
+    feature_report.save_feature_report()
+  end
+
   scenario_base = default_post_processor.scenario_base
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
 
@@ -213,6 +224,12 @@ task :post_process_mixed do
   default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(mixed_scenario)
   scenario_report = default_post_processor.run
   scenario_report.save
+
+  ### save feature reports 
+  scenario_report.feature_reports.each do |feature_report|
+    feature_report.save_feature_report()
+  end
+
   scenario_base = default_post_processor.scenario_base
   reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
 
