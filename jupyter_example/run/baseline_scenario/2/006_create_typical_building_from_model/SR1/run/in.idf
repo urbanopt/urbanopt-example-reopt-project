@@ -214,40 +214,13 @@ Shading:Building:Detailed,
   Shading Surface 1,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  50.5969092563638, 9.95278331383412, 24, !- X,Y,Z Vertex 1 {m}
-  50.5969092563638, 9.95278331383412, 0,  !- X,Y,Z Vertex 2 {m}
-  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 3 {m}
-  30.8892413644642, 70.6763824570891, 24; !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
-  Shading Surface 2,                      !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  19.707424264546, 2.81674382569541e-05, 24, !- X,Y,Z Vertex 1 {m}
-  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 2 {m}
-  50.5969092563638, 9.95278331383412, 0,  !- X,Y,Z Vertex 3 {m}
-  50.5969092563638, 9.95278331383412, 24; !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
-  Shading Surface 3,                      !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  50.5969092563638, 9.95278331383412, 24, !- X,Y,Z Vertex 1 {m}
-  30.8892413644642, 70.6763824570891, 24, !- X,Y,Z Vertex 2 {m}
-  1.10915721052152e-11, 60.7238026373319, 24, !- X,Y,Z Vertex 3 {m}
-  19.707424264546, 2.81674382569541e-05, 24; !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
-  Shading Surface 4,                      !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
   19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 1 {m}
   1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 2 {m}
   30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 3 {m}
   50.5969092563638, 9.95278331383412, 0;  !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
-  Shading Surface 5,                      !- Name
+  Shading Surface 2,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   1.10915721052152e-11, 60.7238026373319, 24, !- X,Y,Z Vertex 1 {m}
@@ -256,7 +229,7 @@ Shading:Building:Detailed,
   19.707424264546, 2.81674382569541e-05, 24; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
-  Shading Surface 6,                      !- Name
+  Shading Surface 3,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   30.8892413644642, 70.6763824570891, 24, !- X,Y,Z Vertex 1 {m}
@@ -265,34 +238,34 @@ Shading:Building:Detailed,
   1.10915721052152e-11, 60.7238026373319, 24; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
-  Shading Surface 10,                     !- Name
+  Shading Surface 4,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  19.707424264546, 2.81674382569541e-05, 9, !- X,Y,Z Vertex 1 {m}
+  50.5969092563638, 9.95278331383412, 24, !- X,Y,Z Vertex 1 {m}
+  50.5969092563638, 9.95278331383412, 0,  !- X,Y,Z Vertex 2 {m}
+  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 3 {m}
+  30.8892413644642, 70.6763824570891, 24; !- X,Y,Z Vertex 4 {m}
+
+Shading:Building:Detailed,
+  Shading Surface 5,                      !- Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  19.707424264546, 2.81674382569541e-05, 24, !- X,Y,Z Vertex 1 {m}
   19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 2 {m}
   50.5969092563638, 9.95278331383412, 0,  !- X,Y,Z Vertex 3 {m}
-  50.5969092563638, 9.95278331383412, 9;  !- X,Y,Z Vertex 4 {m}
+  50.5969092563638, 9.95278331383412, 24; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
-  Shading Surface 11,                     !- Name
+  Shading Surface 6,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
-  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 1 {m}
-  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 2 {m}
-  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 3 {m}
-  50.5969092563638, 9.95278331383412, 0;  !- X,Y,Z Vertex 4 {m}
+  50.5969092563638, 9.95278331383412, 24, !- X,Y,Z Vertex 1 {m}
+  30.8892413644642, 70.6763824570891, 24, !- X,Y,Z Vertex 2 {m}
+  1.10915721052152e-11, 60.7238026373319, 24, !- X,Y,Z Vertex 3 {m}
+  19.707424264546, 2.81674382569541e-05, 24; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
-  Shading Surface 12,                     !- Name
-  ,                                       !- Transmittance Schedule Name
-  ,                                       !- Number of Vertices
-  30.8892413644642, 70.6763824570891, 9,  !- X,Y,Z Vertex 1 {m}
-  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 2 {m}
-  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 3 {m}
-  1.10915721052152e-11, 60.7238026373319, 9; !- X,Y,Z Vertex 4 {m}
-
-Shading:Building:Detailed,
-  Shading Surface 7,                      !- Name
+  Shading Surface 10,                     !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   50.5969092563638, 9.95278331383412, 9,  !- X,Y,Z Vertex 1 {m}
@@ -301,7 +274,16 @@ Shading:Building:Detailed,
   30.8892413644642, 70.6763824570891, 9;  !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
-  Shading Surface 8,                      !- Name
+  Shading Surface 11,                     !- Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  19.707424264546, 2.81674382569541e-05, 9, !- X,Y,Z Vertex 1 {m}
+  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 2 {m}
+  50.5969092563638, 9.95278331383412, 0,  !- X,Y,Z Vertex 3 {m}
+  50.5969092563638, 9.95278331383412, 9;  !- X,Y,Z Vertex 4 {m}
+
+Shading:Building:Detailed,
+  Shading Surface 12,                     !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   50.5969092563638, 9.95278331383412, 9,  !- X,Y,Z Vertex 1 {m}
@@ -310,13 +292,31 @@ Shading:Building:Detailed,
   19.707424264546, 2.81674382569541e-05, 9; !- X,Y,Z Vertex 4 {m}
 
 Shading:Building:Detailed,
-  Shading Surface 9,                      !- Name
+  Shading Surface 7,                      !- Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 1 {m}
+  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 2 {m}
+  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 3 {m}
+  50.5969092563638, 9.95278331383412, 0;  !- X,Y,Z Vertex 4 {m}
+
+Shading:Building:Detailed,
+  Shading Surface 8,                      !- Name
   ,                                       !- Transmittance Schedule Name
   ,                                       !- Number of Vertices
   1.10915721052152e-11, 60.7238026373319, 9, !- X,Y,Z Vertex 1 {m}
   1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 2 {m}
   19.707424264546, 2.81674382569541e-05, 0, !- X,Y,Z Vertex 3 {m}
   19.707424264546, 2.81674382569541e-05, 9; !- X,Y,Z Vertex 4 {m}
+
+Shading:Building:Detailed,
+  Shading Surface 9,                      !- Name
+  ,                                       !- Transmittance Schedule Name
+  ,                                       !- Number of Vertices
+  30.8892413644642, 70.6763824570891, 9,  !- X,Y,Z Vertex 1 {m}
+  30.8892413644642, 70.6763824570891, 0,  !- X,Y,Z Vertex 2 {m}
+  1.10915721052152e-11, 60.7238026373319, 0, !- X,Y,Z Vertex 3 {m}
+  1.10915721052152e-11, 60.7238026373319, 9; !- X,Y,Z Vertex 4 {m}
 
 Zone,
   Building Story 1 ThermalZone,           !- Name
@@ -335,7 +335,7 @@ Zone,
 BuildingSurface:Detailed,
   Surface 1,                              !- Name
   Floor,                                  !- Surface Type
-  Typical Insulated Carpeted 6in Slab Floor, !- Construction Name
+  Typical Insulated Carpeted 8in Slab Floor, !- Construction Name
   Building Story 1 ThermalZone,           !- Zone Name
   Ground,                                 !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
@@ -351,7 +351,7 @@ BuildingSurface:Detailed,
 BuildingSurface:Detailed,
   Surface 2,                              !- Name
   Wall,                                   !- Surface Type
-  Typical Insulated Steel Framed Exterior Wall R-11.9, !- Construction Name
+  Typical Insulated Steel Framed Exterior Wall R-20.41, !- Construction Name
   Building Story 1 ThermalZone,           !- Zone Name
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
@@ -367,7 +367,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   Sub Surface 1,                          !- Name
   Window,                                 !- Surface Type
-  U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air,  !- Construction Name
+  U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm, !- Construction Name
   Surface 2,                              !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -382,7 +382,7 @@ FenestrationSurface:Detailed,
 BuildingSurface:Detailed,
   Surface 3,                              !- Name
   Wall,                                   !- Surface Type
-  Typical Insulated Steel Framed Exterior Wall R-11.9, !- Construction Name
+  Typical Insulated Steel Framed Exterior Wall R-20.41, !- Construction Name
   Building Story 1 ThermalZone,           !- Zone Name
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
@@ -398,7 +398,7 @@ BuildingSurface:Detailed,
 FenestrationSurface:Detailed,
   Sub Surface 2,                          !- Name
   Window,                                 !- Surface Type
-  U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air,  !- Construction Name
+  U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm, !- Construction Name
   Surface 3,                              !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -413,7 +413,7 @@ FenestrationSurface:Detailed,
 BuildingSurface:Detailed,
   Surface 4,                              !- Name
   Wall,                                   !- Surface Type
-  Typical Insulated Steel Framed Exterior Wall R-11.9, !- Construction Name
+  Typical Insulated Steel Framed Exterior Wall R-20.41, !- Construction Name
   Building Story 1 ThermalZone,           !- Zone Name
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
@@ -427,9 +427,9 @@ BuildingSurface:Detailed,
   30.8892413644642, 70.6763824570891, 3;  !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Sub Surface 4,                          !- Name
+  Sub Surface 3,                          !- Name
   Window,                                 !- Surface Type
-  U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air,  !- Construction Name
+  U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm, !- Construction Name
   Surface 4,                              !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -444,7 +444,7 @@ FenestrationSurface:Detailed,
 BuildingSurface:Detailed,
   Surface 5,                              !- Name
   Wall,                                   !- Surface Type
-  Typical Insulated Steel Framed Exterior Wall R-11.9, !- Construction Name
+  Typical Insulated Steel Framed Exterior Wall R-20.41, !- Construction Name
   Building Story 1 ThermalZone,           !- Zone Name
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
@@ -458,9 +458,9 @@ BuildingSurface:Detailed,
   50.5969092563638, 9.95278331383412, 3;  !- X,Y,Z Vertex 4 {m}
 
 FenestrationSurface:Detailed,
-  Sub Surface 3,                          !- Name
+  Sub Surface 4,                          !- Name
   Window,                                 !- Surface Type
-  U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air,  !- Construction Name
+  U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm, !- Construction Name
   Surface 5,                              !- Building Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -475,7 +475,7 @@ FenestrationSurface:Detailed,
 BuildingSurface:Detailed,
   Surface 6,                              !- Name
   Roof,                                   !- Surface Type
-  Typical Wood Joist Attic Floor R-37.04, !- Construction Name
+  Typical Wood Joist Attic Floor R-47.62, !- Construction Name
   Building Story 1 ThermalZone,           !- Zone Name
   Outdoors,                               !- Outside Boundary Condition
   ,                                       !- Outside Boundary Condition Object
@@ -487,6 +487,41 @@ BuildingSurface:Detailed,
   30.8892413644642, 70.6763824570891, 3,  !- X,Y,Z Vertex 2 {m}
   1.10915721052152e-11, 60.7238026373319, 3, !- X,Y,Z Vertex 3 {m}
   19.707424264546, 2.81674382569541e-05, 3; !- X,Y,Z Vertex 4 {m}
+
+Daylighting:Controls,
+  Building Story 1 ThermalZone DaylightingControls, !- Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  ,                                       !- Daylighting Method
+  ,                                       !- Availability Schedule Name
+  Stepped,                                !- Lighting Control Type
+  0.3,                                    !- Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control
+  0.2,                                    !- Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control
+  3,                                      !- Number of Stepped Control Steps
+  1,                                      !- Probability Lighting will be Reset When Needed in Manual Stepped Control
+  Building Story 1 Space Daylt Sensor 1,  !- Glare Calculation Daylighting Reference Point Name
+  -0,                                     !- Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}
+  22,                                     !- Maximum Allowable Discomfort Glare Index
+  ,                                       !- DElight Gridding Resolution {m2}
+  Building Story 1 Space Daylt Sensor 1,  !- Daylighting Reference Point Name 1
+  0.149,                                  !- Fraction of Zone Controlled by Reference Point 1
+  300,                                    !- Illuminance Setpoint at Reference Point 1 {lux}
+  Building Story 1 Space Daylt Sensor 2,  !- Daylighting Reference Point Name 2
+  0.333,                                  !- Fraction of Zone Controlled by Reference Point 2
+  300;                                    !- Illuminance Setpoint at Reference Point 2 {lux}
+
+Daylighting:ReferencePoint,
+  Building Story 1 Space Daylt Sensor 1,  !- Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  34.8154786601034,                       !- X-Coordinate of Reference Point {m}
+  6.02135478939245,                       !- Y-Coordinate of Reference Point {m}
+  0.762;                                  !- Z-Coordinate of Reference Point {m}
+
+Daylighting:ReferencePoint,
+  Building Story 1 Space Daylt Sensor 2,  !- Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  34.4736892248981,                       !- X-Coordinate of Reference Point {m}
+  7.08213639949351,                       !- Y-Coordinate of Reference Point {m}
+  0.762;                                  !- Z-Coordinate of Reference Point {m}
 
 ZoneControl:Thermostat,
   Building Story 1 ThermalZone Thermostat, !- Name
@@ -512,7 +547,7 @@ ScheduleTypeLimits,
 ThermostatSetpoint:DualSetpoint,
   Story Ground Blended Space Type Thermostat, !- Name
   RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM, !- Heating Setpoint Temperature Schedule Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK; !- Cooling Setpoint Temperature Schedule Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM; !- Cooling Setpoint Temperature Schedule Name
 
 ScheduleTypeLimits,
   Temperature,                            !- Name
@@ -540,7 +575,22 @@ Schedule:Day:Interval,
   21;                                     !- Value Until Time 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Week Rule - Jan1-Dec31, !- Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default, !- Monday Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Week Rule - Jan6-Dec31, !- Name
   RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default, !- Sunday Schedule:Day Name
   RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Monday Schedule:Day Name
   RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
@@ -557,11 +607,16 @@ Schedule:Week:Daily,
 Schedule:Year,
   RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM, !- Name
   Temperature,                            !- Schedule Type Limits Name
-  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Day:Interval,
   RestaurantSitDown HTGSETP_SCH_NO_OPTIMUM Summer Design Day, !- Name
@@ -578,45 +633,69 @@ Schedule:Day:Interval,
   21;                                     !- Value Until Time 1
 
 Schedule:Day:Interval,
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
-  24:00,                                  !- Time 1 {hh:mm}
-  24;                                     !- Value Until Time 1
+  04:00,                                  !- Time 1 {hh:mm}
+  30,                                     !- Value Until Time 1
+  24:00,                                  !- Time 2 {hh:mm}
+  24;                                     !- Value Until Time 2
 
 Schedule:Day:Interval,
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default, !- Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
-  24:00,                                  !- Time 1 {hh:mm}
-  24;                                     !- Value Until Time 1
+  04:00,                                  !- Time 1 {hh:mm}
+  30,                                     !- Value Until Time 1
+  24:00,                                  !- Time 2 {hh:mm}
+  24;                                     !- Value Until Time 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Week Rule - Jan1-Dec31, !- Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default, !- Sunday Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Monday Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default, !- Holiday Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Summer Design Day, !- SummerDesignDay Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Winter Design Day, !- WinterDesignDay Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default, !- CustomDay1 Schedule:Day Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Default; !- CustomDay2 Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default, !- Monday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Week Rule - Jan6-Dec31, !- Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Monday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Default; !- CustomDay2 Schedule:Day Name
 
 Schedule:Year,
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK, !- Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM, !- Name
   Temperature,                            !- Schedule Type Limits Name
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Day:Interval,
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Summer Design Day, !- Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Summer Design Day, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   05:00,                                  !- Time 1 {hh:mm}
@@ -627,7 +706,7 @@ Schedule:Day:Interval,
   24;                                     !- Value Until Time 3
 
 Schedule:Day:Interval,
-  RestaurantSitDown CLGSETP_SCH_NO_SETBACK Winter Design Day, !- Name
+  RestaurantSitDown CLGSETP_SCH_NO_OPTIMUM Winter Design Day, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   24:00,                                  !- Time 1 {hh:mm}
@@ -721,8 +800,8 @@ Controller:MechanicalVentilation,
 DesignSpecification:OutdoorAir,
   Blended OA,                             !- Name
   Sum,                                    !- Outdoor Air Method
-  0.00919262747709987,                    !- Outdoor Air Flow per Person {m3/s-person}
-  0.000651337280000001,                   !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
+  0.003539605824,                         !- Outdoor Air Flow per Person {m3/s-person}
+  0.0009144,                              !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
   0,                                      !- Outdoor Air Flow per Zone {m3/s}
   0;                                      !- Outdoor Air Flow Air Changes per Hour {1/hr}
 
@@ -741,11 +820,11 @@ RunPeriod,
   Run Period 1,                           !- Name
   1,                                      !- Begin Month
   1,                                      !- Begin Day of Month
-  2018,                                   !- Begin Year
+  2019,                                   !- Begin Year
   12,                                     !- End Month
   31,                                     !- End Day of Month
-  2018,                                   !- End Year
-  Monday,                                 !- Day of Week for Start Day
+  2019,                                   !- End Year
+  Tuesday,                                !- Day of Week for Start Day
   No,                                     !- Use Weather File Holidays and Special Days
   No,                                     !- Use Weather File Daylight Saving Period
   No,                                     !- Apply Weekend Holiday Rule
@@ -813,23 +892,23 @@ Material,
   0.7;                                    !- Visible Absorptance
 
 Material,
-  6 in. Normalweight Concrete Floor,      !- Name
-  MediumRough,                            !- Roughness
-  0.1524,                                 !- Thickness {m}
-  2.31,                                   !- Conductivity {W/m-K}
-  2321.99999999999,                       !- Density {kg/m3}
-  831.999999999997,                       !- Specific Heat {J/kg-K}
-  0.9,                                    !- Thermal Absorptance
-  0.7,                                    !- Solar Absorptance
-  0.7;                                    !- Visible Absorptance
-
-Material,
   8 in. Concrete Block Basement Wall,     !- Name
   MediumRough,                            !- Roughness
   0.2032,                                 !- Thickness {m}
   1.326,                                  !- Conductivity {W/m-K}
   1841.99999999999,                       !- Density {kg/m3}
   911.999999999999,                       !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  8 in. Normalweight Concrete Floor,      !- Name
+  MediumRough,                            !- Roughness
+  0.2032,                                 !- Thickness {m}
+  2.31,                                   !- Conductivity {W/m-K}
+  2321.99999999999,                       !- Density {kg/m3}
+  831.999999999997,                       !- Specific Heat {J/kg-K}
   0.9,                                    !- Thermal Absorptance
   0.7,                                    !- Solar Absorptance
   0.7;                                    !- Visible Absorptance
@@ -878,6 +957,28 @@ Material,
   0.5,                                    !- Solar Absorptance
   0.5;                                    !- Visible Absorptance
 
+Material,
+  Std Wood 6inch,                         !- Name
+  MediumSmooth,                           !- Roughness
+  0.15,                                   !- Thickness {m}
+  0.12,                                   !- Conductivity {W/m-K}
+  540,                                    !- Density {kg/m3}
+  1210,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+Material,
+  Std Wood 6inch 1,                       !- Name
+  MediumSmooth,                           !- Roughness
+  0.15,                                   !- Thickness {m}
+  0.12,                                   !- Conductivity {W/m-K}
+  540,                                    !- Density {kg/m3}
+  1210,                                   !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
 Material:NoMass,
   CP02 CARPET PAD,                        !- Name
   Smooth,                                 !- Roughness
@@ -895,15 +996,15 @@ Material:NoMass,
   0.8;                                    !- Visible Absorptance
 
 Material:NoMass,
-  Typical Insulation R-0.58,              !- Name
+  Typical Insulation R-1.15,              !- Name
   Smooth,                                 !- Roughness
-  0.101874652714525,                      !- Thermal Resistance {m2-K/W}
+  0.202509043390129,                      !- Thermal Resistance {m2-K/W}
   0.9,                                    !- Thermal Absorptance
   0.7,                                    !- Solar Absorptance
   0.7;                                    !- Visible Absorptance
 
 Material:NoMass,
-  Typical Insulation R-1.15,              !- Name
+  Typical Insulation R-1.15 1,            !- Name
   Smooth,                                 !- Roughness
   0.202526711234652,                      !- Thermal Resistance {m2-K/W}
   0.9,                                    !- Thermal Absorptance
@@ -911,51 +1012,38 @@ Material:NoMass,
   0.7;                                    !- Visible Absorptance
 
 Material:NoMass,
-  Typical Insulation R-35.4,              !- Name
+  Typical Insulation R-17.04,             !- Name
   Smooth,                                 !- Roughness
-  6.23478649910089,                       !- Thermal Resistance {m2-K/W}
+  3.00071808532413,                       !- Thermal Resistance {m2-K/W}
   0.9,                                    !- Thermal Absorptance
   0.7,                                    !- Solar Absorptance
   0.7;                                    !- Visible Absorptance
 
 Material:NoMass,
-  Typical Insulation R-8.93,              !- Name
+  Typical Insulation R-18.23,             !- Name
   Smooth,                                 !- Roughness
-  1.57183221366242,                       !- Thermal Resistance {m2-K/W}
+  3.21036394736381,                       !- Thermal Resistance {m2-K/W}
   0.9,                                    !- Thermal Absorptance
   0.7,                                    !- Solar Absorptance
   0.7;                                    !- Visible Absorptance
 
 Material:NoMass,
-  Typical Insulation R-9.73,              !- Name
+  Typical Insulation R-45.98,             !- Name
   Smooth,                                 !- Roughness
-  1.712828371834,                         !- Thermal Resistance {m2-K/W}
+  8.09838632642688,                       !- Thermal Resistance {m2-K/W}
   0.9,                                    !- Thermal Absorptance
   0.7,                                    !- Solar Absorptance
   0.7;                                    !- Visible Absorptance
 
 WindowMaterial:Gas,
-  AIR 6MM,                                !- Name
+  AIR 13MM,                               !- Name
   Air,                                    !- Gas Type
-  0.0063;                                 !- Thickness {m}
+  0.0127;                                 !- Thickness {m}
 
-WindowMaterial:Glazing,
-  BLUE 6MM,                               !- Name
-  SpectralAverage,                        !- Optical Data Type
-  ,                                       !- Window Glass Spectral Data Set Name
-  0.00599999999999998,                    !- Thickness {m}
-  0.48,                                   !- Solar Transmittance at Normal Incidence
-  0.05,                                   !- Front Side Solar Reflectance at Normal Incidence
-  0.05,                                   !- Back Side Solar Reflectance at Normal Incidence
-  0.57,                                   !- Visible Transmittance at Normal Incidence
-  0.06,                                   !- Front Side Visible Reflectance at Normal Incidence
-  0.06,                                   !- Back Side Visible Reflectance at Normal Incidence
-  0,                                      !- Infrared Transmittance at Normal Incidence
-  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
-  0.84,                                   !- Back Side Infrared Hemispherical Emissivity
-  0.9,                                    !- Conductivity {W/m-K}
-  1,                                      !- Dirt Correction Factor for Solar and Visible Transmittance
-  No;                                     !- Solar Diffusing
+WindowMaterial:Gas,
+  Gap_1_W_0_0038,                         !- Name
+  Air,                                    !- Gas Type
+  0.00379999999999999;                    !- Thickness {m}
 
 WindowMaterial:Glazing,
   Clear 3mm,                              !- Name
@@ -993,37 +1081,111 @@ WindowMaterial:Glazing,
   1,                                      !- Dirt Correction Factor for Solar and Visible Transmittance
   No;                                     !- Solar Diffusing
 
-WindowMaterial:SimpleGlazingSystem,
-  U 1.17 SHGC 0.49 Simple Glazing U-1.17 SHGC 0.0, !- Name
-  6.64356810910278,                       !- U-Factor {W/m2-K}
-  0.49,                                   !- Solar Heat Gain Coefficient
-  0.38;                                   !- Visible Transmittance
+WindowMaterial:Glazing,
+  Glass_2027F_LayerAvg,                   !- Name
+  SpectralAverage,                        !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.00399999999999998,                    !- Thickness {m}
+  0.369744,                               !- Solar Transmittance at Normal Incidence
+  0.4700695,                              !- Front Side Solar Reflectance at Normal Incidence
+  0.340935,                               !- Back Side Solar Reflectance at Normal Incidence
+  0.765222,                               !- Visible Transmittance at Normal Incidence
+  0.0546,                                 !- Front Side Visible Reflectance at Normal Incidence
+  0.073741,                               !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.03675,                                !- Front Side Infrared Hemispherical Emissivity
+  0.84,                                   !- Back Side Infrared Hemispherical Emissivity
+  0.999999999999999,                      !- Conductivity {W/m-K}
+  1,                                      !- Dirt Correction Factor for Solar and Visible Transmittance
+  No;                                     !- Solar Diffusing
+
+WindowMaterial:Glazing,
+  Glass_2052_LayerAvg,                    !- Name
+  SpectralAverage,                        !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.00837,                                !- Thickness {m}
+  0.507767,                               !- Solar Transmittance at Normal Incidence
+  0.05422805,                             !- Front Side Solar Reflectance at Normal Incidence
+  0.05449309,                             !- Back Side Solar Reflectance at Normal Incidence
+  0.586833,                               !- Visible Transmittance at Normal Incidence
+  0.05805,                                !- Front Side Visible Reflectance at Normal Incidence
+  0.058397,                               !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
+  0.84,                                   !- Back Side Infrared Hemispherical Emissivity
+  0.999999999999999,                      !- Conductivity {W/m-K}
+  1,                                      !- Dirt Correction Factor for Solar and Visible Transmittance
+  No;                                     !- Solar Diffusing
+
+WindowMaterial:Glazing,
+  REF B CLEAR HI 6MM,                     !- Name
+  SpectralAverage,                        !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.00599999999999998,                    !- Thickness {m}
+  0.24,                                   !- Solar Transmittance at Normal Incidence
+  0.16,                                   !- Front Side Solar Reflectance at Normal Incidence
+  0.32,                                   !- Back Side Solar Reflectance at Normal Incidence
+  0.3,                                    !- Visible Transmittance at Normal Incidence
+  0.16,                                   !- Front Side Visible Reflectance at Normal Incidence
+  0.29,                                   !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
+  0.6,                                    !- Back Side Infrared Hemispherical Emissivity
+  0.9,                                    !- Conductivity {W/m-K}
+  1,                                      !- Dirt Correction Factor for Solar and Visible Transmittance
+  No;                                     !- Solar Diffusing
+
+WindowMaterial:Glazing,
+  REF D CLEAR 6MM,                        !- Name
+  SpectralAverage,                        !- Optical Data Type
+  ,                                       !- Window Glass Spectral Data Set Name
+  0.00599999999999998,                    !- Thickness {m}
+  0.429,                                  !- Solar Transmittance at Normal Incidence
+  0.308,                                  !- Front Side Solar Reflectance at Normal Incidence
+  0.379,                                  !- Back Side Solar Reflectance at Normal Incidence
+  0.334,                                  !- Visible Transmittance at Normal Incidence
+  0.453,                                  !- Front Side Visible Reflectance at Normal Incidence
+  0.505,                                  !- Back Side Visible Reflectance at Normal Incidence
+  0,                                      !- Infrared Transmittance at Normal Incidence
+  0.84,                                   !- Front Side Infrared Hemispherical Emissivity
+  0.82,                                   !- Back Side Infrared Hemispherical Emissivity
+  0.9,                                    !- Conductivity {W/m-K}
+  1,                                      !- Dirt Correction Factor for Solar and Visible Transmittance
+  No;                                     !- Solar Diffusing
+
+Construction,
+  InteriorFurnishings,                    !- Name
+  Std Wood 6inch;                         !- Layer 1
+
+Construction,
+  InteriorFurnishings 1,                  !- Name
+  Std Wood 6inch 1;                       !- Layer 1
 
 Construction,
   Typical Insulated Basement Mass Wall,   !- Name
   8 in. Concrete Block Basement Wall;     !- Layer 1
 
 Construction,
-  Typical Insulated Carpeted 6in Slab Floor, !- Name
-  6 in. Normalweight Concrete Floor,      !- Layer 1
+  Typical Insulated Carpeted 8in Slab Floor, !- Name
+  8 in. Normalweight Concrete Floor,      !- Layer 1
   Typical Carpet Pad;                     !- Layer 2
 
 Construction,
-  Typical Insulated Exterior Mass Floor R-11.49, !- Name
-  Typical Insulation R-8.93,              !- Layer 1
+  Typical Insulated Exterior Mass Floor R-19.61, !- Name
+  Typical Insulation R-17.04,             !- Layer 1
   4 in. Normalweight Concrete Floor,      !- Layer 2
   Typical Carpet Pad;                     !- Layer 3
 
 Construction,
-  Typical Insulated Metal Door R-1.43,    !- Name
+  Typical Insulated Metal Door R-2.0,     !- Name
   F08 Metal surface,                      !- Layer 1
-  Typical Insulation R-0.58;              !- Layer 2
+  Typical Insulation R-1.15;              !- Layer 2
 
 Construction,
-  Typical Insulated Steel Framed Exterior Wall R-11.9, !- Name
+  Typical Insulated Steel Framed Exterior Wall R-20.41, !- Name
   25mm Stucco,                            !- Layer 1
   5/8 in. Gypsum Board,                   !- Layer 2
-  Typical Insulation R-9.73,              !- Layer 3
+  Typical Insulation R-18.23,             !- Layer 3
   5/8 in. Gypsum Board;                   !- Layer 4
 
 Construction,
@@ -1055,26 +1217,34 @@ Construction,
 
 Construction,
   Typical Overhead Door R-2.0,            !- Name
-  Typical Insulation R-1.15;              !- Layer 1
+  Typical Insulation R-1.15 1;            !- Layer 1
 
 Construction,
-  Typical Wood Joist Attic Floor R-37.04, !- Name
+  Typical Wood Joist Attic Floor R-47.62, !- Name
   5/8 in. Gypsum Board,                   !- Layer 1
-  Typical Insulation R-35.4;              !- Layer 2
+  Typical Insulation R-45.98;             !- Layer 2
 
 Construction,
-  U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air,  !- Name
-  BLUE 6MM,                               !- Layer 1
-  AIR 6MM,                                !- Layer 2
+  U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air, !- Name
+  REF B CLEAR HI 6MM,                     !- Layer 1
+  AIR 13MM,                               !- Layer 2
   CLEAR 6MM;                              !- Layer 3
 
 Construction,
-  U 1.17 SHGC 0.49 Simple Glazing Skylight U-1.17 SHGC 0.0, !- Name
-  U 1.17 SHGC 0.49 Simple Glazing U-1.17 SHGC 0.0; !- Layer 1
+  U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm, !- Name
+  REF D CLEAR 6MM,                        !- Layer 1
+  AIR 13MM,                               !- Layer 2
+  CLEAR 6MM;                              !- Layer 3
 
 Construction,
   Uninsulated copper pipe 0.75in type L,  !- Name
   Copper pipe 0.75in type L;              !- Layer 1
+
+Construction,
+  Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in, !- Name
+  Glass_2052_LayerAvg,                    !- Layer 1
+  Gap_1_W_0_0038,                         !- Layer 2
+  Glass_2027F_LayerAvg;                   !- Layer 3
 
 ScheduleTypeLimits,
   ActivityLevel,                          !- Name
@@ -1181,14 +1351,14 @@ Schedule:Day:Interval,
   0.2;                                    !- Value Until Time 1
 
 Schedule:Day:Interval,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   24:00,                                  !- Time 1 {hh:mm}
   21.1111;                                !- Value Until Time 1
 
 Schedule:Day:Interval,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   24:00,                                  !- Time 1 {hh:mm}
@@ -1349,79 +1519,158 @@ Schedule:Day:Interval,
   0;                                      !- Value Until Time 1
 
 Schedule:Day:Interval,
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Default, !- Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default, !- Name
   Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
-  0.2,                                    !- Value Until Time 1
+  0.1877,                                 !- Value Until Time 1
   06:00,                                  !- Time 2 {hh:mm}
   0.15,                                   !- Value Until Time 2
   08:00,                                  !- Time 3 {hh:mm}
-  0.3,                                    !- Value Until Time 3
+  0.2816,                                 !- Value Until Time 3
   10:00,                                  !- Time 4 {hh:mm}
-  0.5,                                    !- Value Until Time 4
+  0.4693,                                 !- Value Until Time 4
   16:00,                                  !- Time 5 {hh:mm}
-  0.7,                                    !- Value Until Time 5
+  0.657,                                  !- Value Until Time 5
   22:00,                                  !- Time 6 {hh:mm}
-  0.6,                                    !- Value Until Time 6
+  0.5631,                                 !- Value Until Time 6
   23:00,                                  !- Time 7 {hh:mm}
-  0.5,                                    !- Value Until Time 7
+  0.4693,                                 !- Value Until Time 7
   24:00,                                  !- Time 8 {hh:mm}
-  0.3;                                    !- Value Until Time 8
+  0.2816;                                 !- Value Until Time 8
 
 Schedule:Day:Interval,
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Sat Day, !- Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Sat Day, !- Name
   Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
-  0.2,                                    !- Value Until Time 1
+  0.1877,                                 !- Value Until Time 1
   06:00,                                  !- Time 2 {hh:mm}
   0.15,                                   !- Value Until Time 2
   08:00,                                  !- Time 3 {hh:mm}
-  0.3,                                    !- Value Until Time 3
+  0.2816,                                 !- Value Until Time 3
   10:00,                                  !- Time 4 {hh:mm}
-  0.6,                                    !- Value Until Time 4
+  0.5631,                                 !- Value Until Time 4
   17:00,                                  !- Time 5 {hh:mm}
-  0.8,                                    !- Value Until Time 5
+  0.7509,                                 !- Value Until Time 5
   22:00,                                  !- Time 6 {hh:mm}
-  0.9,                                    !- Value Until Time 6
+  0.8447,                                 !- Value Until Time 6
   23:00,                                  !- Time 7 {hh:mm}
-  0.5,                                    !- Value Until Time 7
+  0.4693,                                 !- Value Until Time 7
   24:00,                                  !- Time 8 {hh:mm}
-  0.3;                                    !- Value Until Time 8
+  0.2816;                                 !- Value Until Time 8
 
 Schedule:Day:Interval,
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Summer Design Day, !- Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Summer Design Day, !- Name
   Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   24:00,                                  !- Time 1 {hh:mm}
   1;                                      !- Value Until Time 1
 
 Schedule:Day:Interval,
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Winter Design Day, !- Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Winter Design Day, !- Name
   Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   24:00,                                  !- Time 1 {hh:mm}
   0;                                      !- Value Until Time 1
 
 Schedule:Day:Interval,
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Wkdy Day, !- Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Name
   Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
-  05:00,                                  !- Time 1 {hh:mm}
-  0.15,                                   !- Value Until Time 1
+  01:00,                                  !- Time 1 {hh:mm}
+  0.1408,                                 !- Value Until Time 1
+  05:00,                                  !- Time 2 {hh:mm}
+  0.15,                                   !- Value Until Time 2
+  06:00,                                  !- Time 3 {hh:mm}
+  0.1877,                                 !- Value Until Time 3
+  08:00,                                  !- Time 4 {hh:mm}
+  0.3754,                                 !- Value Until Time 4
+  10:00,                                  !- Time 5 {hh:mm}
+  0.5631,                                 !- Value Until Time 5
+  22:00,                                  !- Time 6 {hh:mm}
+  0.8447,                                 !- Value Until Time 6
+  23:00,                                  !- Time 7 {hh:mm}
+  0.4693,                                 !- Value Until Time 7
+  24:00,                                  !- Time 8 {hh:mm}
+  0.2816;                                 !- Value Until Time 8
+
+Schedule:Day:Interval,
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  01:00,                                  !- Time 1 {hh:mm}
+  0.16446,                                !- Value Until Time 1
   06:00,                                  !- Time 2 {hh:mm}
-  0.2,                                    !- Value Until Time 2
+  0.15,                                   !- Value Until Time 2
   08:00,                                  !- Time 3 {hh:mm}
-  0.4,                                    !- Value Until Time 3
+  0.24669,                                !- Value Until Time 3
   10:00,                                  !- Time 4 {hh:mm}
-  0.6,                                    !- Value Until Time 4
-  22:00,                                  !- Time 5 {hh:mm}
-  0.9,                                    !- Value Until Time 5
-  23:00,                                  !- Time 6 {hh:mm}
-  0.5,                                    !- Value Until Time 6
-  24:00,                                  !- Time 7 {hh:mm}
-  0.3;                                    !- Value Until Time 7
+  0.41115,                                !- Value Until Time 4
+  16:00,                                  !- Time 5 {hh:mm}
+  0.57561,                                !- Value Until Time 5
+  22:00,                                  !- Time 6 {hh:mm}
+  0.49338,                                !- Value Until Time 6
+  23:00,                                  !- Time 7 {hh:mm}
+  0.41115,                                !- Value Until Time 7
+  24:00,                                  !- Time 8 {hh:mm}
+  0.24669;                                !- Value Until Time 8
+
+Schedule:Day:Interval,
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Sat Day, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  01:00,                                  !- Time 1 {hh:mm}
+  0.16446,                                !- Value Until Time 1
+  06:00,                                  !- Time 2 {hh:mm}
+  0.15,                                   !- Value Until Time 2
+  08:00,                                  !- Time 3 {hh:mm}
+  0.24669,                                !- Value Until Time 3
+  10:00,                                  !- Time 4 {hh:mm}
+  0.49338,                                !- Value Until Time 4
+  17:00,                                  !- Time 5 {hh:mm}
+  0.65784,                                !- Value Until Time 5
+  22:00,                                  !- Time 6 {hh:mm}
+  0.74007,                                !- Value Until Time 6
+  23:00,                                  !- Time 7 {hh:mm}
+  0.41115,                                !- Value Until Time 7
+  24:00,                                  !- Time 8 {hh:mm}
+  0.24669;                                !- Value Until Time 8
+
+Schedule:Day:Interval,
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Summer Design Day, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  1;                                      !- Value Until Time 1
+
+Schedule:Day:Interval,
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Winter Design Day, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  24:00,                                  !- Time 1 {hh:mm}
+  0;                                      !- Value Until Time 1
+
+Schedule:Day:Interval,
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  01:00,                                  !- Time 1 {hh:mm}
+  0.123345,                               !- Value Until Time 1
+  05:00,                                  !- Time 2 {hh:mm}
+  0.15,                                   !- Value Until Time 2
+  06:00,                                  !- Time 3 {hh:mm}
+  0.16446,                                !- Value Until Time 3
+  08:00,                                  !- Time 4 {hh:mm}
+  0.32892,                                !- Value Until Time 4
+  10:00,                                  !- Time 5 {hh:mm}
+  0.49338,                                !- Value Until Time 5
+  22:00,                                  !- Time 6 {hh:mm}
+  0.74007,                                !- Value Until Time 6
+  23:00,                                  !- Time 7 {hh:mm}
+  0.41115,                                !- Value Until Time 7
+  24:00,                                  !- Time 8 {hh:mm}
+  0.24669;                                !- Value Until Time 8
 
 Schedule:Day:Interval,
   RestaurantSitDown BLDG_OCC_SCH Default, !- Name
@@ -1732,21 +1981,29 @@ Schedule:Day:Interval,
   0.3;                                    !- Value Until Time 15
 
 Schedule:Day:Interval,
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default, !- Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
-  24:00,                                  !- Time 1 {hh:mm}
-  26;                                     !- Value Until Time 1
+  01:00,                                  !- Time 1 {hh:mm}
+  26,                                     !- Value Until Time 1
+  04:00,                                  !- Time 2 {hh:mm}
+  30,                                     !- Value Until Time 2
+  24:00,                                  !- Time 3 {hh:mm}
+  26;                                     !- Value Until Time 3
 
 Schedule:Day:Interval,
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
-  24:00,                                  !- Time 1 {hh:mm}
-  26;                                     !- Value Until Time 1
+  01:00,                                  !- Time 1 {hh:mm}
+  26,                                     !- Value Until Time 1
+  04:00,                                  !- Time 2 {hh:mm}
+  30,                                     !- Value Until Time 2
+  24:00,                                  !- Time 3 {hh:mm}
+  26;                                     !- Value Until Time 3
 
 Schedule:Day:Interval,
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day, !- Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Summer Design Day, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   01:00,                                  !- Time 1 {hh:mm}
@@ -1759,7 +2016,7 @@ Schedule:Day:Interval,
   26;                                     !- Value Until Time 4
 
 Schedule:Day:Interval,
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Winter Design Day, !- Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Winter Design Day, !- Name
   Temperature,                            !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   24:00,                                  !- Time 1 {hh:mm}
@@ -2030,11 +2287,20 @@ Schedule:Day:Interval,
   0;                                      !- Value Until Time 1
 
 Schedule:Day:Interval,
-  Schedule Day 13,                        !- Name
+  Schedule Day 15,                        !- Name
   Fractional,                             !- Schedule Type Limits Name
   No,                                     !- Interpolate to Timestep
   06:00,                                  !- Time 1 {hh:mm}
   0,                                      !- Value Until Time 1
+  24:00,                                  !- Time 2 {hh:mm}
+  1;                                      !- Value Until Time 2
+
+Schedule:Day:Interval,
+  Schedule Day 16,                        !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  No,                                     !- Interpolate to Timestep
+  06:00,                                  !- Time 1 {hh:mm}
+  0.7,                                    !- Value Until Time 1
   24:00,                                  !- Time 2 {hh:mm}
   1;                                      !- Value Until Time 2
 
@@ -2170,48 +2436,48 @@ Schedule:Year,
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Week Rule - Jan1-Dec31, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- Sunday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- Monday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- Tuesday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- Wednesday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- Thursday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- Friday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- Saturday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- Holiday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- SummerDesignDay Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- WinterDesignDay Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default, !- CustomDay1 Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Default; !- CustomDay2 Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Week Rule - Jan1-Dec31, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- Sunday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- Monday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- Tuesday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- Wednesday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- Thursday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- Friday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- Saturday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- Holiday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- SummerDesignDay Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- WinterDesignDay Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default, !- CustomDay1 Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Default; !- CustomDay2 Schedule:Day Name
 
 Schedule:Year,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F, !- Name
   Temperature,                            !- Schedule Type Limits Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Week Rule - Jan1-Dec31, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Sunday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Monday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Tuesday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Wednesday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Thursday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Friday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Saturday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Holiday Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- SummerDesignDay Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- WinterDesignDay Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default, !- CustomDay1 Schedule:Day Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Default; !- CustomDay2 Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Week Rule - Jan1-Dec31, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Sunday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Monday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Tuesday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Wednesday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Thursday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Friday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Saturday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- Holiday Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- SummerDesignDay Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- WinterDesignDay Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default, !- CustomDay1 Schedule:Day Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Default; !- CustomDay2 Schedule:Day Name
 
 Schedule:Year,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph, !- Name
   Temperature,                            !- Schedule Type Limits Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
@@ -2314,7 +2580,22 @@ Schedule:Year,
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  RestaurantSitDown BLDG_EQUIP_SCH Week Rule - Jan1-Dec31, !- Name
+  RestaurantSitDown BLDG_EQUIP_SCH Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default, !- Monday Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown BLDG_EQUIP_SCH Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown BLDG_EQUIP_SCH Week Rule - Jan6-Dec31, !- Name
   RestaurantSitDown BLDG_EQUIP_SCH Default, !- Sunday Schedule:Day Name
   RestaurantSitDown BLDG_EQUIP_SCH Default|Sat|Wkdy Day, !- Monday Schedule:Day Name
   RestaurantSitDown BLDG_EQUIP_SCH Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
@@ -2331,38 +2612,122 @@ Schedule:Week:Daily,
 Schedule:Year,
   RestaurantSitDown BLDG_EQUIP_SCH,       !- Name
   Fractional,                             !- Schedule Type Limits Name
-  RestaurantSitDown BLDG_EQUIP_SCH Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown BLDG_EQUIP_SCH Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown BLDG_EQUIP_SCH Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Week Rule - Jan1-Dec31, !- Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Default, !- Sunday Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Wkdy Day, !- Monday Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Wkdy Day, !- Tuesday Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Wkdy Day, !- Wednesday Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Wkdy Day, !- Thursday Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Wkdy Day, !- Friday Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Sat Day, !- Saturday Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Default, !- Holiday Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Summer Design Day, !- SummerDesignDay Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Winter Design Day, !- WinterDesignDay Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Default, !- CustomDay1 Schedule:Day Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Default; !- CustomDay2 Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default, !- Monday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Sat Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Week Rule - Jan6-Dec31, !- Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Monday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Sat Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Default; !- CustomDay2 Schedule:Day Name
 
 Schedule:Year,
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007, !- Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013, !- Name
   Fractional,                             !- Schedule Type Limits Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007 Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013 Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown BLDG_OCC_SCH Week Rule - Jan1-Dec31, !- Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default, !- Monday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Sat Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Week Rule - Jan6-Dec31, !- Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Monday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Sat Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013, !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013 Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
+
+Schedule:Week:Daily,
+  RestaurantSitDown BLDG_OCC_SCH Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown BLDG_OCC_SCH Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Default, !- Monday Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Sat Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown BLDG_OCC_SCH Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown BLDG_OCC_SCH Week Rule - Jan6-Dec31, !- Name
   RestaurantSitDown BLDG_OCC_SCH Default, !- Sunday Schedule:Day Name
   RestaurantSitDown BLDG_OCC_SCH Wkdy Day, !- Monday Schedule:Day Name
   RestaurantSitDown BLDG_OCC_SCH Wkdy Day, !- Tuesday Schedule:Day Name
@@ -2379,14 +2744,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   RestaurantSitDown BLDG_OCC_SCH,         !- Name
   Fractional,                             !- Schedule Type Limits Name
-  RestaurantSitDown BLDG_OCC_SCH Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown BLDG_OCC_SCH Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown BLDG_OCC_SCH Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown BLDG_SWH_SCH Week Rule - Jan1-Dec31, !- Name
+  RestaurantSitDown BLDG_SWH_SCH Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown BLDG_SWH_SCH Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH Default, !- Monday Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH SmrDsn|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH SmrDsn|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH SmrDsn|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH SmrDsn|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH WntrDsn|Sat Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown BLDG_SWH_SCH Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown BLDG_SWH_SCH Week Rule - Jan6-Dec31, !- Name
   RestaurantSitDown BLDG_SWH_SCH Default, !- Sunday Schedule:Day Name
   RestaurantSitDown BLDG_SWH_SCH SmrDsn|Wkdy Day, !- Monday Schedule:Day Name
   RestaurantSitDown BLDG_SWH_SCH SmrDsn|Wkdy Day, !- Tuesday Schedule:Day Name
@@ -2403,38 +2788,78 @@ Schedule:Week:Daily,
 Schedule:Year,
   RestaurantSitDown BLDG_SWH_SCH,         !- Name
   Fractional 1,                           !- Schedule Type Limits Name
-  RestaurantSitDown BLDG_SWH_SCH Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown BLDG_SWH_SCH Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown BLDG_SWH_SCH Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Week Rule - Jan1-Dec31, !- Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default, !- Sunday Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Monday Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default, !- Holiday Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Summer Design Day, !- SummerDesignDay Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Winter Design Day, !- WinterDesignDay Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default, !- CustomDay1 Schedule:Day Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Default; !- CustomDay2 Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Monday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan6-Dec31, !- Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Monday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Default; !- CustomDay2 Schedule:Day Name
 
 Schedule:Year,
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK, !- Name
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM, !- Name
   Temperature,                            !- Schedule Type Limits Name
-  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_SETBACK Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown CLGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan1-Dec31, !- Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Monday Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan6-Dec31, !- Name
   RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default, !- Sunday Schedule:Day Name
   RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Monday Schedule:Day Name
   RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
@@ -2451,14 +2876,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM, !- Name
   Temperature,                            !- Schedule Type Limits Name
-  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown HTGSETP_KITCHEN_SCH_NO_OPTIMUM Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown INFIL_HALF_ON_SCH Week Rule - Jan1-Dec31, !- Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default, !- Monday Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default|WntrDsn|SmrDsn|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default|WntrDsn|SmrDsn|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default|WntrDsn|SmrDsn|Sat|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default|WntrDsn|SmrDsn|Sat|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default|WntrDsn|SmrDsn|Sat|Wkdy Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown INFIL_HALF_ON_SCH Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown INFIL_HALF_ON_SCH Week Rule - Jan6-Dec31, !- Name
   RestaurantSitDown INFIL_HALF_ON_SCH Default, !- Sunday Schedule:Day Name
   RestaurantSitDown INFIL_HALF_ON_SCH Default|WntrDsn|SmrDsn|Sat|Wkdy Day, !- Monday Schedule:Day Name
   RestaurantSitDown INFIL_HALF_ON_SCH Default|WntrDsn|SmrDsn|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
@@ -2475,16 +2920,21 @@ Schedule:Week:Daily,
 Schedule:Year,
   RestaurantSitDown INFIL_HALF_ON_SCH,    !- Name
   Fractional,                             !- Schedule Type Limits Name
-  RestaurantSitDown INFIL_HALF_ON_SCH Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown INFIL_HALF_ON_SCH Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
-  12,                                     !- End Month 1
-  31;                                     !- End Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown INFIL_HALF_ON_SCH Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Week Rule - Jan1-Jan6, !- Name
+  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Week Rule - Jan1-Jan5, !- Name
   RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default, !- Sunday Schedule:Day Name
-  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Monday Schedule:Day Name
+  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default, !- Monday Schedule:Day Name
   RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Tuesday Schedule:Day Name
   RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Wednesday Schedule:Day Name
   RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Thursday Schedule:Day Name
@@ -2497,7 +2947,7 @@ Schedule:Week:Daily,
   RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
-  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Week Rule - Jan7-Dec31, !- Name
+  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Week Rule - Jan6-Dec31, !- Name
   RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Sunday Schedule:Day Name
   RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Monday Schedule:Day Name
   RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Tuesday Schedule:Day Name
@@ -2514,21 +2964,21 @@ Schedule:Week:Daily,
 Schedule:Year,
   RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule, !- Name
   Dimensionless,                          !- Schedule Type Limits Name
-  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
+  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
-  6,                                      !- End Day 1
-  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  5,                                      !- End Day 1
+  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
   1,                                      !- Start Month 2
-  7,                                      !- Start Day 2
+  6,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown Kitchen_Exhaust_SCH Week Rule - Jan1-Jan6, !- Name
+  RestaurantSitDown Kitchen_Exhaust_SCH Week Rule - Jan1-Jan5, !- Name
   RestaurantSitDown Kitchen_Exhaust_SCH Default, !- Sunday Schedule:Day Name
-  RestaurantSitDown Kitchen_Exhaust_SCH Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Monday Schedule:Day Name
+  RestaurantSitDown Kitchen_Exhaust_SCH Default, !- Monday Schedule:Day Name
   RestaurantSitDown Kitchen_Exhaust_SCH Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Tuesday Schedule:Day Name
   RestaurantSitDown Kitchen_Exhaust_SCH Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Wednesday Schedule:Day Name
   RestaurantSitDown Kitchen_Exhaust_SCH Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Thursday Schedule:Day Name
@@ -2541,7 +2991,7 @@ Schedule:Week:Daily,
   RestaurantSitDown Kitchen_Exhaust_SCH Default; !- CustomDay2 Schedule:Day Name
 
 Schedule:Week:Daily,
-  RestaurantSitDown Kitchen_Exhaust_SCH Week Rule - Jan7-Dec31, !- Name
+  RestaurantSitDown Kitchen_Exhaust_SCH Week Rule - Jan6-Dec31, !- Name
   RestaurantSitDown Kitchen_Exhaust_SCH Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Sunday Schedule:Day Name
   RestaurantSitDown Kitchen_Exhaust_SCH Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Monday Schedule:Day Name
   RestaurantSitDown Kitchen_Exhaust_SCH Default|WntrDsn|SmrDsn|Sun|Wkdy Day, !- Tuesday Schedule:Day Name
@@ -2558,19 +3008,34 @@ Schedule:Week:Daily,
 Schedule:Year,
   RestaurantSitDown Kitchen_Exhaust_SCH,  !- Name
   OnOff,                                  !- Schedule Type Limits Name
-  RestaurantSitDown Kitchen_Exhaust_SCH Week Rule - Jan1-Jan6, !- Schedule:Week Name 1
+  RestaurantSitDown Kitchen_Exhaust_SCH Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   1,                                      !- End Month 1
-  6,                                      !- End Day 1
-  RestaurantSitDown Kitchen_Exhaust_SCH Week Rule - Jan7-Dec31, !- Schedule:Week Name 2
+  5,                                      !- End Day 1
+  RestaurantSitDown Kitchen_Exhaust_SCH Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
   1,                                      !- Start Month 2
-  7,                                      !- Start Day 2
+  6,                                      !- Start Day 2
   12,                                     !- End Month 2
   31;                                     !- End Day 2
 
 Schedule:Week:Daily,
-  RestaurantSitDown Rest_GAS_EQUIP_SCH Week Rule - Jan1-Dec31, !- Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Week Rule - Jan1-Jan5, !- Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default, !- Sunday Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default, !- Monday Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default|Sat|Wkdy Day, !- Wednesday Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default|Sat|Wkdy Day, !- Thursday Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default|Sat|Wkdy Day, !- Friday Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default|Sat|Wkdy Day, !- Saturday Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default, !- Holiday Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Summer Design Day, !- SummerDesignDay Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Winter Design Day, !- WinterDesignDay Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default, !- CustomDay1 Schedule:Day Name
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Default; !- CustomDay2 Schedule:Day Name
+
+Schedule:Week:Daily,
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Week Rule - Jan6-Dec31, !- Name
   RestaurantSitDown Rest_GAS_EQUIP_SCH Default, !- Sunday Schedule:Day Name
   RestaurantSitDown Rest_GAS_EQUIP_SCH Default|Sat|Wkdy Day, !- Monday Schedule:Day Name
   RestaurantSitDown Rest_GAS_EQUIP_SCH Default|Sat|Wkdy Day, !- Tuesday Schedule:Day Name
@@ -2587,31 +3052,60 @@ Schedule:Week:Daily,
 Schedule:Year,
   RestaurantSitDown Rest_GAS_EQUIP_SCH,   !- Name
   Fractional,                             !- Schedule Type Limits Name
-  RestaurantSitDown Rest_GAS_EQUIP_SCH Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Week Rule - Jan1-Jan5, !- Schedule:Week Name 1
+  1,                                      !- Start Month 1
+  1,                                      !- Start Day 1
+  1,                                      !- End Month 1
+  5,                                      !- End Day 1
+  RestaurantSitDown Rest_GAS_EQUIP_SCH Week Rule - Jan6-Dec31, !- Schedule:Week Name 2
+  1,                                      !- Start Month 2
+  6,                                      !- Start Day 2
+  12,                                     !- End Month 2
+  31;                                     !- End Day 2
+
+Schedule:Week:Daily,
+  Schedule Ruleset 1 Week Rule - Jan1-Dec31, !- Name
+  Schedule Day 15,                        !- Sunday Schedule:Day Name
+  Schedule Day 15,                        !- Monday Schedule:Day Name
+  Schedule Day 15,                        !- Tuesday Schedule:Day Name
+  Schedule Day 15,                        !- Wednesday Schedule:Day Name
+  Schedule Day 15,                        !- Thursday Schedule:Day Name
+  Schedule Day 15,                        !- Friday Schedule:Day Name
+  Schedule Day 15,                        !- Saturday Schedule:Day Name
+  Schedule Day 15,                        !- Holiday Schedule:Day Name
+  Schedule Day 15,                        !- SummerDesignDay Schedule:Day Name
+  Schedule Day 15,                        !- WinterDesignDay Schedule:Day Name
+  Schedule Day 15,                        !- CustomDay1 Schedule:Day Name
+  Schedule Day 15;                        !- CustomDay2 Schedule:Day Name
+
+Schedule:Year,
+  Schedule Ruleset 1,                     !- Name
+  Fractional,                             !- Schedule Type Limits Name
+  Schedule Ruleset 1 Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
   31;                                     !- End Day 1
 
 Schedule:Week:Daily,
-  Schedule Ruleset 1 Week Rule - Jan1-Dec31, !- Name
-  Schedule Day 13,                        !- Sunday Schedule:Day Name
-  Schedule Day 13,                        !- Monday Schedule:Day Name
-  Schedule Day 13,                        !- Tuesday Schedule:Day Name
-  Schedule Day 13,                        !- Wednesday Schedule:Day Name
-  Schedule Day 13,                        !- Thursday Schedule:Day Name
-  Schedule Day 13,                        !- Friday Schedule:Day Name
-  Schedule Day 13,                        !- Saturday Schedule:Day Name
-  Schedule Day 13,                        !- Holiday Schedule:Day Name
-  Schedule Day 13,                        !- SummerDesignDay Schedule:Day Name
-  Schedule Day 13,                        !- WinterDesignDay Schedule:Day Name
-  Schedule Day 13,                        !- CustomDay1 Schedule:Day Name
-  Schedule Day 13;                        !- CustomDay2 Schedule:Day Name
+  Schedule Ruleset 2 Week Rule - Jan1-Dec31, !- Name
+  Schedule Day 16,                        !- Sunday Schedule:Day Name
+  Schedule Day 16,                        !- Monday Schedule:Day Name
+  Schedule Day 16,                        !- Tuesday Schedule:Day Name
+  Schedule Day 16,                        !- Wednesday Schedule:Day Name
+  Schedule Day 16,                        !- Thursday Schedule:Day Name
+  Schedule Day 16,                        !- Friday Schedule:Day Name
+  Schedule Day 16,                        !- Saturday Schedule:Day Name
+  Schedule Day 16,                        !- Holiday Schedule:Day Name
+  Schedule Day 16,                        !- SummerDesignDay Schedule:Day Name
+  Schedule Day 16,                        !- WinterDesignDay Schedule:Day Name
+  Schedule Day 16,                        !- CustomDay1 Schedule:Day Name
+  Schedule Day 16;                        !- CustomDay2 Schedule:Day Name
 
 Schedule:Year,
-  Schedule Ruleset 1,                     !- Name
+  Schedule Ruleset 2,                     !- Name
   Fractional,                             !- Schedule Type Limits Name
-  Schedule Ruleset 1 Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
+  Schedule Ruleset 2 Week Rule - Jan1-Dec31, !- Schedule:Week Name 1
   1,                                      !- Start Month 1
   1,                                      !- Start Day 1
   12,                                     !- End Month 1
@@ -3105,31 +3599,31 @@ AirLoopHVAC:ZoneMixer,
   Building Story 1 ThermalZone Return Air Node; !- Inlet Node Name 1
 
 PlantLoop,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop, !- Name
   Water,                                  !- Fluid Type
   ,                                       !- User Defined Fluid Type
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Operation Schemes, !- Plant Equipment Operation Scheme Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Outlet Node, !- Loop Temperature Setpoint Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Operation Schemes, !- Plant Equipment Operation Scheme Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Outlet Node, !- Loop Temperature Setpoint Node Name
   100,                                    !- Maximum Loop Temperature {C}
   0,                                      !- Minimum Loop Temperature {C}
   Autosize,                               !- Maximum Loop Flow Rate {m3/s}
   0,                                      !- Minimum Loop Flow Rate {m3/s}
   Autocalculate,                          !- Plant Loop Volume {m3}
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Inlet Node, !- Plant Side Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Outlet Node, !- Plant Side Outlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branches, !- Plant Side Branch List Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Connector List, !- Plant Side Connector List Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Inlet Node, !- Demand Side Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Outlet Node, !- Demand Side Outlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branches, !- Demand Side Branch List Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Connector List, !- Demand Side Connector List Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Inlet Node, !- Plant Side Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Outlet Node, !- Plant Side Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branches, !- Plant Side Branch List Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Connector List, !- Plant Side Connector List Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Inlet Node, !- Demand Side Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Outlet Node, !- Demand Side Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branches, !- Demand Side Branch List Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Connector List, !- Demand Side Connector List Name
   Optimal,                                !- Load Distribution Scheme
   ,                                       !- Availability Manager List Name
   SingleSetpoint,                         !- Plant Loop Demand Calculation Scheme
   ;                                       !- Common Pipe Simulation
 
 Sizing:Plant,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop, !- Plant or Condenser Loop Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop, !- Plant or Condenser Loop Name
   Heating,                                !- Loop Type
   82.2222222222223,                       !- Design Loop Exit Temperature {C}
   5,                                      !- Loop Design Temperature Difference {deltaC}
@@ -3138,37 +3632,37 @@ Sizing:Plant,
   None;                                   !- Coincident Sizing Factor Mode
 
 BranchList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branches, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Inlet Branch, !- Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branch 1, !- Branch Name 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branch 2, !- Branch Name 3
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Outlet Branch; !- Branch Name 4
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branches, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Inlet Branch, !- Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branch 1, !- Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branch 2, !- Branch Name 3
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Outlet Branch; !- Branch Name 4
 
 ConnectorList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Connector List, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Connector List, !- Name
   Connector:Splitter,                     !- Connector Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Splitter, !- Connector Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Splitter, !- Connector Name 1
   Connector:Mixer,                        !- Connector Object Type 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Mixer; !- Connector Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Mixer; !- Connector Name 2
 
 Connector:Splitter,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Splitter, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Inlet Branch, !- Inlet Branch Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branch 1, !- Outlet Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branch 2; !- Outlet Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Splitter, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Inlet Branch, !- Inlet Branch Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branch 1, !- Outlet Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branch 2; !- Outlet Branch Name 2
 
 Connector:Mixer,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Mixer, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Outlet Branch, !- Outlet Branch Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branch 1, !- Inlet Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branch 2; !- Inlet Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Mixer, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Outlet Branch, !- Outlet Branch Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branch 1, !- Inlet Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branch 2; !- Inlet Branch Name 2
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Inlet Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Inlet Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   HeatExchanger:FluidToFluid,             !- Component Object Type 1
   HX for Booster Water Heating,           !- Component Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Inlet Node, !- Component Inlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Inlet Node, !- Component Inlet Node Name 1
   Booster Water Loop Pump Inlet Water Node, !- Component Outlet Node Name 1
   Pump:VariableSpeed,                     !- Component Object Type 2
   Booster Water Loop Pump,                !- Component Name 2
@@ -3181,13 +3675,13 @@ HeatExchanger:FluidToFluid,
   HX for Booster Water Heating Demand Inlet Water Node, !- Loop Demand Side Inlet Node Name
   Mains Water Makeup for SWH Booster Inlet Water Node, !- Loop Demand Side Outlet Node Name
   Autosize,                               !- Loop Demand Side Design Flow Rate {m3/s}
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Inlet Node, !- Loop Supply Side Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Inlet Node, !- Loop Supply Side Inlet Node Name
   Booster Water Loop Pump Inlet Water Node, !- Loop Supply Side Outlet Node Name
   Autosize,                               !- Loop Supply Side Design Flow Rate {m3/s}
   Ideal,                                  !- Heat Exchange Model Type
   Autosize,                               !- Heat Exchanger U-Factor Times Area Value {W/K}
   UncontrolledOn,                         !- Control Type
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Outlet Node, !- Heat Exchanger Setpoint Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Outlet Node, !- Heat Exchanger Setpoint Node Name
   0.01,                                   !- Minimum Temperature Difference to Activate Heat Exchanger {deltaC}
   LoopToLoop,                             !- Heat Transfer Metering End Use Type
   ,                                       !- Component Override Loop Supply Side Inlet Node Name
@@ -3230,7 +3724,7 @@ Pump:VariableSpeed,
   General;                                !- End-Use Subcategory
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branch 1, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branch 1, !- Name
   ,                                       !- Pressure Drop Curve Name
   WaterHeater:Mixed,                      !- Component Object Type 1
   6.0gal Electricity Booster Water Heater - 65kBtu/hr, !- Component Name 1
@@ -3282,7 +3776,7 @@ WaterHeater:Mixed,
   Booster;                                !- End-Use Subcategory
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Branch 2, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Branch 2, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
   Pipe Adiabatic 5,                       !- Component Name 1
@@ -3295,68 +3789,68 @@ Pipe:Adiabatic,
   Pipe Adiabatic 5 Outlet Water Node;     !- Outlet Node Name
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Outlet Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Outlet Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
   Pipe Adiabatic 7,                       !- Component Name 1
   Pipe Adiabatic 7 Inlet Water Node,      !- Component Inlet Node Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Outlet Node; !- Component Outlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Outlet Node; !- Component Outlet Node Name 1
 
 Pipe:Adiabatic,
   Pipe Adiabatic 7,                       !- Name
   Pipe Adiabatic 7 Inlet Water Node,      !- Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Outlet Node; !- Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Outlet Node; !- Outlet Node Name
 
 SetpointManager:Scheduled,
   Hot water booster setpoint manager,     !- Name
   Temperature,                            !- Control Variable
   Service Water Booster Temp - 180.00000000000006F, !- Schedule Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Supply Outlet Node; !- Setpoint Node or NodeList Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Supply Outlet Node; !- Setpoint Node or NodeList Name
 
 BranchList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branches, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Inlet Branch, !- Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branch 1, !- Branch Name 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branch 2, !- Branch Name 3
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Branch, !- Branch Name 4
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Outlet Branch; !- Branch Name 5
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branches, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Inlet Branch, !- Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branch 1, !- Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branch 2, !- Branch Name 3
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Branch, !- Branch Name 4
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Outlet Branch; !- Branch Name 5
 
 ConnectorList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Connector List, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Connector List, !- Name
   Connector:Splitter,                     !- Connector Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Splitter, !- Connector Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Splitter, !- Connector Name 1
   Connector:Mixer,                        !- Connector Object Type 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Mixer; !- Connector Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Mixer; !- Connector Name 2
 
 Connector:Splitter,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Splitter, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Inlet Branch, !- Inlet Branch Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branch 1, !- Outlet Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branch 2, !- Outlet Branch Name 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Branch; !- Outlet Branch Name 3
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Splitter, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Inlet Branch, !- Inlet Branch Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branch 1, !- Outlet Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branch 2, !- Outlet Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Branch; !- Outlet Branch Name 3
 
 Connector:Mixer,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Mixer, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Outlet Branch, !- Outlet Branch Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branch 1, !- Inlet Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branch 2, !- Inlet Branch Name 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Branch; !- Inlet Branch Name 3
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Mixer, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Outlet Branch, !- Outlet Branch Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branch 1, !- Inlet Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branch 2, !- Inlet Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Branch; !- Inlet Branch Name 3
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Inlet Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Inlet Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
   Pipe Adiabatic 8,                       !- Component Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Inlet Node, !- Component Inlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Inlet Node, !- Component Inlet Node Name 1
   Pipe Adiabatic 8 Outlet Water Node;     !- Component Outlet Node Name 1
 
 Pipe:Adiabatic,
   Pipe Adiabatic 8,                       !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Inlet Node, !- Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Inlet Node, !- Inlet Node Name
   Pipe Adiabatic 8 Outlet Water Node;     !- Outlet Node Name
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branch 1, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branch 1, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
   Pipe Adiabatic 6,                       !- Component Name 1
@@ -3369,17 +3863,17 @@ Pipe:Adiabatic,
   Pipe Adiabatic 6 Outlet Water Node;     !- Outlet Node Name
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Branch 2, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Branch 2, !- Name
   ,                                       !- Pressure Drop Curve Name
   WaterUse:Connections,                   !- Component Object Type 1
-  Booster FullServiceRestaurant Kitchen - 90.1-2004 WUC 5.39gpm at 180F, !- Component Name 1
-  Booster FullServiceRestaurant Kitchen - 90.1-2004 WUC 5.39gpm at 180F Inlet Water Node, !- Component Inlet Node Name 1
-  Booster FullServiceRestaurant Kitchen - 90.1-2004 WUC 5.39gpm at 180F Outlet Water Node; !- Component Outlet Node Name 1
+  Booster FullServiceRestaurant Kitchen - 90.1-2013 WUC 5.39gpm at 180F, !- Component Name 1
+  Booster FullServiceRestaurant Kitchen - 90.1-2013 WUC 5.39gpm at 180F Inlet Water Node, !- Component Inlet Node Name 1
+  Booster FullServiceRestaurant Kitchen - 90.1-2013 WUC 5.39gpm at 180F Outlet Water Node; !- Component Outlet Node Name 1
 
 WaterUse:Connections,
-  Booster FullServiceRestaurant Kitchen - 90.1-2004 WUC 5.39gpm at 180F, !- Name
-  Booster FullServiceRestaurant Kitchen - 90.1-2004 WUC 5.39gpm at 180F Inlet Water Node, !- Inlet Node Name
-  Booster FullServiceRestaurant Kitchen - 90.1-2004 WUC 5.39gpm at 180F Outlet Water Node, !- Outlet Node Name
+  Booster FullServiceRestaurant Kitchen - 90.1-2013 WUC 5.39gpm at 180F, !- Name
+  Booster FullServiceRestaurant Kitchen - 90.1-2013 WUC 5.39gpm at 180F Inlet Water Node, !- Inlet Node Name
+  Booster FullServiceRestaurant Kitchen - 90.1-2013 WUC 5.39gpm at 180F Outlet Water Node, !- Outlet Node Name
   ,                                       !- Supply Water Storage Tank Name
   ,                                       !- Reclamation Water Storage Tank Name
   ,                                       !- Hot Water Supply Temperature Schedule Name
@@ -3387,10 +3881,10 @@ WaterUse:Connections,
   ,                                       !- Drain Water Heat Exchanger Type
   ,                                       !- Drain Water Heat Exchanger Destination
   ,                                       !- Drain Water Heat Exchanger U-Factor Times Area {W/K}
-  Booster FullServiceRestaurant Kitchen - 90.1-2004 Service Water Use 5.39gpm at 180F; !- Water Use Equipment Name 1
+  Booster FullServiceRestaurant Kitchen - 90.1-2013 Service Water Use 5.39gpm at 180F; !- Water Use Equipment Name 1
 
 WaterUse:Equipment,
-  Booster FullServiceRestaurant Kitchen - 90.1-2004 Service Water Use 5.39gpm at 180F, !- Name
+  Booster FullServiceRestaurant Kitchen - 90.1-2013 Service Water Use 5.39gpm at 180F, !- Name
   General,                                !- End-Use Subcategory
   0.000340279009151816,                   !- Peak Flow Rate {m3/s}
   RestaurantSitDown BLDG_SWH_SCH,         !- Flow Rate Fraction Schedule Name
@@ -3402,76 +3896,76 @@ WaterUse:Equipment,
   Fraction Latent - 0.05;                 !- Latent Fraction Schedule Name
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Pipe, !- Component Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Pipe Inlet Node, !- Component Inlet Node Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Pipe Outlet Node; !- Component Outlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Pipe, !- Component Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Pipe Inlet Node, !- Component Inlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Pipe Outlet Node; !- Component Outlet Node Name 1
 
 Pipe:Adiabatic,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Pipe, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Pipe Inlet Node, !- Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Bypass Pipe Outlet Node; !- Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Pipe, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Pipe Inlet Node, !- Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Bypass Pipe Outlet Node; !- Outlet Node Name
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Outlet Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Outlet Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
   Pipe Adiabatic 9,                       !- Component Name 1
   Pipe Adiabatic 9 Inlet Water Node,      !- Component Inlet Node Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Outlet Node; !- Component Outlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Outlet Node; !- Component Outlet Node Name 1
 
 Pipe:Adiabatic,
   Pipe Adiabatic 9,                       !- Name
   Pipe Adiabatic 9 Inlet Water Node,      !- Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Demand Outlet Node; !- Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Demand Outlet Node; !- Outlet Node Name
 
 PlantEquipmentOperationSchemes,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Operation Schemes, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Operation Schemes, !- Name
   PlantEquipmentOperation:HeatingLoad,    !- Control Scheme Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Heating Operation Scheme, !- Control Scheme Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Heating Operation Scheme, !- Control Scheme Name 1
   Always On Discrete;                     !- Control Scheme Schedule Name 1
 
 PlantEquipmentOperation:HeatingLoad,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Heating Operation Scheme, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Heating Operation Scheme, !- Name
   0,                                      !- Load Range Lower Limit 1 {W}
   1000000000,                             !- Load Range Upper Limit 1 {W}
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Heating Equipment List; !- Range Equipment List Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Heating Equipment List; !- Range Equipment List Name 1
 
 PlantEquipmentList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Booster Loop Heating Equipment List, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Booster Loop Heating Equipment List, !- Name
   HeatExchanger:FluidToFluid,             !- Equipment Object Type 1
   HX for Booster Water Heating,           !- Equipment Name 1
   WaterHeater:Mixed,                      !- Equipment Object Type 2
   6.0gal Electricity Booster Water Heater - 65kBtu/hr; !- Equipment Name 2
 
 PlantLoop,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop, !- Name
   Water,                                  !- Fluid Type
   ,                                       !- User Defined Fluid Type
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Operation Schemes, !- Plant Equipment Operation Scheme Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Outlet Node, !- Loop Temperature Setpoint Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Operation Schemes, !- Plant Equipment Operation Scheme Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Outlet Node, !- Loop Temperature Setpoint Node Name
   60,                                     !- Maximum Loop Temperature {C}
   10,                                     !- Minimum Loop Temperature {C}
   Autosize,                               !- Maximum Loop Flow Rate {m3/s}
   0,                                      !- Minimum Loop Flow Rate {m3/s}
   Autocalculate,                          !- Plant Loop Volume {m3}
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Inlet Node, !- Plant Side Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Outlet Node, !- Plant Side Outlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branches, !- Plant Side Branch List Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Connector List, !- Plant Side Connector List Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Inlet Node, !- Demand Side Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Outlet Node, !- Demand Side Outlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branches, !- Demand Side Branch List Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Connector List, !- Demand Side Connector List Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Inlet Node, !- Plant Side Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Outlet Node, !- Plant Side Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branches, !- Plant Side Branch List Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Connector List, !- Plant Side Connector List Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Inlet Node, !- Demand Side Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Outlet Node, !- Demand Side Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branches, !- Demand Side Branch List Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Connector List, !- Demand Side Connector List Name
   Optimal,                                !- Load Distribution Scheme
   ,                                       !- Availability Manager List Name
   SingleSetpoint,                         !- Plant Loop Demand Calculation Scheme
   ;                                       !- Common Pipe Simulation
 
 Sizing:Plant,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop, !- Plant or Condenser Loop Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop, !- Plant or Condenser Loop Name
   Heating,                                !- Loop Type
   60.0000000000001,                       !- Design Loop Exit Temperature {C}
   5,                                      !- Loop Design Temperature Difference {deltaC}
@@ -3480,43 +3974,43 @@ Sizing:Plant,
   None;                                   !- Coincident Sizing Factor Mode
 
 BranchList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branches, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Inlet Branch, !- Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branch 1, !- Branch Name 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branch 2, !- Branch Name 3
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Outlet Branch; !- Branch Name 4
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branches, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Inlet Branch, !- Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branch 1, !- Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branch 2, !- Branch Name 3
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Outlet Branch; !- Branch Name 4
 
 ConnectorList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Connector List, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Connector List, !- Name
   Connector:Splitter,                     !- Connector Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Splitter, !- Connector Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Splitter, !- Connector Name 1
   Connector:Mixer,                        !- Connector Object Type 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Mixer; !- Connector Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Mixer; !- Connector Name 2
 
 Connector:Splitter,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Splitter, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Inlet Branch, !- Inlet Branch Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branch 1, !- Outlet Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branch 2; !- Outlet Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Splitter, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Inlet Branch, !- Inlet Branch Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branch 1, !- Outlet Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branch 2; !- Outlet Branch Name 2
 
 Connector:Mixer,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Mixer, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Outlet Branch, !- Outlet Branch Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branch 1, !- Inlet Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branch 2; !- Inlet Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Mixer, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Outlet Branch, !- Outlet Branch Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branch 1, !- Inlet Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branch 2; !- Inlet Branch Name 2
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Inlet Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Inlet Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pump:VariableSpeed,                     !- Component Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Water Mains Pressure Driven, !- Component Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Inlet Node, !- Component Inlet Node Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Water Mains Pressure Driven Outlet Water Node; !- Component Outlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Water Mains Pressure Driven, !- Component Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Inlet Node, !- Component Inlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Water Mains Pressure Driven Outlet Water Node; !- Component Outlet Node Name 1
 
 Pump:VariableSpeed,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Water Mains Pressure Driven, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Inlet Node, !- Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Water Mains Pressure Driven Outlet Water Node, !- Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Water Mains Pressure Driven, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Inlet Node, !- Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Water Mains Pressure Driven Outlet Water Node, !- Outlet Node Name
   Autosize,                               !- Design Maximum Flow Rate {m3/s}
   0.001,                                  !- Design Pump Head {Pa}
   Autosize,                               !- Design Power Consumption {W}
@@ -3546,7 +4040,7 @@ Pump:VariableSpeed,
   General;                                !- End-Use Subcategory
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branch 1, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branch 1, !- Name
   ,                                       !- Pressure Drop Curve Name
   WaterHeater:Mixed,                      !- Component Object Type 1
   340gal NaturalGas Water Heater - 340kBtu/hr, !- Component Name 1
@@ -3598,7 +4092,7 @@ WaterHeater:Mixed,
   General;                                !- End-Use Subcategory
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Branch 2, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Branch 2, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
   Pipe Adiabatic 1,                       !- Component Name 1
@@ -3611,78 +4105,78 @@ Pipe:Adiabatic,
   Pipe Adiabatic 1 Outlet Water Node;     !- Outlet Node Name
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Outlet Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Outlet Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
   Pipe Adiabatic 3,                       !- Component Name 1
   Pipe Adiabatic 3 Inlet Water Node,      !- Component Inlet Node Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Outlet Node; !- Component Outlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Outlet Node; !- Component Outlet Node Name 1
 
 Pipe:Adiabatic,
   Pipe Adiabatic 3,                       !- Name
   Pipe Adiabatic 3 Inlet Water Node,      !- Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Outlet Node; !- Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Outlet Node; !- Outlet Node Name
 
 SetpointManager:Scheduled,
   Service hot water setpoint manager,     !- Name
   Temperature,                            !- Control Variable
   Service Water Loop Temp - 140F,         !- Schedule Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Supply Outlet Node; !- Setpoint Node or NodeList Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Supply Outlet Node; !- Setpoint Node or NodeList Name
 
 BranchList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branches, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Inlet Branch, !- Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 1, !- Branch Name 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 2, !- Branch Name 3
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 3, !- Branch Name 4
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Branch, !- Branch Name 5
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Outlet Branch; !- Branch Name 6
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branches, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Inlet Branch, !- Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 1, !- Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 2, !- Branch Name 3
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 3, !- Branch Name 4
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Branch, !- Branch Name 5
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Outlet Branch; !- Branch Name 6
 
 ConnectorList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Connector List, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Connector List, !- Name
   Connector:Splitter,                     !- Connector Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Splitter, !- Connector Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Splitter, !- Connector Name 1
   Connector:Mixer,                        !- Connector Object Type 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Mixer; !- Connector Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Mixer; !- Connector Name 2
 
 Connector:Splitter,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Splitter, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Inlet Branch, !- Inlet Branch Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 1, !- Outlet Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 2, !- Outlet Branch Name 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 3, !- Outlet Branch Name 3
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Branch; !- Outlet Branch Name 4
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Splitter, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Inlet Branch, !- Inlet Branch Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 1, !- Outlet Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 2, !- Outlet Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 3, !- Outlet Branch Name 3
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Branch; !- Outlet Branch Name 4
 
 Connector:Mixer,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Mixer, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Outlet Branch, !- Outlet Branch Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 1, !- Inlet Branch Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 2, !- Inlet Branch Name 2
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 3, !- Inlet Branch Name 3
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Branch; !- Inlet Branch Name 4
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Mixer, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Outlet Branch, !- Outlet Branch Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 1, !- Inlet Branch Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 2, !- Inlet Branch Name 2
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 3, !- Inlet Branch Name 3
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Branch; !- Inlet Branch Name 4
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Inlet Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Inlet Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Indoor,                            !- Component Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Pipe 20.0ft, !- Component Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Inlet Node, !- Component Inlet Node Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Pipe 20.0ft Outlet Water Node; !- Component Outlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Pipe 20.0ft, !- Component Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Inlet Node, !- Component Inlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Pipe 20.0ft Outlet Water Node; !- Component Outlet Node Name 1
 
 Pipe:Indoor,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Pipe 20.0ft, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Pipe 20.0ft, !- Name
   Uninsulated copper pipe 0.75in type L,  !- Construction Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Inlet Node, !- Fluid Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Pipe 20.0ft Outlet Water Node, !- Fluid Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Inlet Node, !- Fluid Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Pipe 20.0ft Outlet Water Node, !- Fluid Outlet Node Name
   Schedule,                               !- Environment Type
   ,                                       !- Ambient Temperature Zone Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Temp - 70F, !- Ambient Temperature Schedule Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Piping Air Velocity - 0.67mph, !- Ambient Air Velocity Schedule Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Temp - 70F, !- Ambient Temperature Schedule Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Piping Air Velocity - 0.67mph, !- Ambient Air Velocity Schedule Name
   0.019939,                               !- Pipe Inside Diameter {m}
   6.096;                                  !- Pipe Length {m}
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 1, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 1, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
   Pipe Adiabatic 2,                       !- Component Name 1
@@ -3695,17 +4189,17 @@ Pipe:Adiabatic,
   Pipe Adiabatic 2 Outlet Water Node;     !- Outlet Node Name
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 2, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 2, !- Name
   ,                                       !- Pressure Drop Curve Name
   WaterUse:Connections,                   !- Component Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 WUC 3.6gpm at 140F, !- Component Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 WUC 3.6gpm at 140F Inlet Water Node, !- Component Inlet Node Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 WUC 3.6gpm at 140F Outlet Water Node; !- Component Outlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 WUC 3.6gpm at 140F, !- Component Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 WUC 3.6gpm at 140F Inlet Water Node, !- Component Inlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 WUC 3.6gpm at 140F Outlet Water Node; !- Component Outlet Node Name 1
 
 WaterUse:Connections,
-  FullServiceRestaurant Kitchen - 90.1-2004 WUC 3.6gpm at 140F, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 WUC 3.6gpm at 140F Inlet Water Node, !- Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 WUC 3.6gpm at 140F Outlet Water Node, !- Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 WUC 3.6gpm at 140F, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 WUC 3.6gpm at 140F Inlet Water Node, !- Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 WUC 3.6gpm at 140F Outlet Water Node, !- Outlet Node Name
   ,                                       !- Supply Water Storage Tank Name
   ,                                       !- Reclamation Water Storage Tank Name
   ,                                       !- Hot Water Supply Temperature Schedule Name
@@ -3713,10 +4207,10 @@ WaterUse:Connections,
   ,                                       !- Drain Water Heat Exchanger Type
   ,                                       !- Drain Water Heat Exchanger Destination
   ,                                       !- Drain Water Heat Exchanger U-Factor Times Area {W/K}
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Use 3.6gpm at 140F; !- Water Use Equipment Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Use 3.6gpm at 140F; !- Water Use Equipment Name 1
 
 WaterUse:Equipment,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Use 3.6gpm at 140F, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Use 3.6gpm at 140F, !- Name
   General,                                !- End-Use Subcategory
   0.000226852672767877,                   !- Peak Flow Rate {m3/s}
   RestaurantSitDown BLDG_SWH_SCH,         !- Flow Rate Fraction Schedule Name
@@ -3728,7 +4222,7 @@ WaterUse:Equipment,
   Fraction Latent - 0.05;                 !- Latent Fraction Schedule Name
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Branch 3, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Branch 3, !- Name
   ,                                       !- Pressure Drop Curve Name
   HeatExchanger:FluidToFluid,             !- Component Object Type 1
   HX for Booster Water Heating,           !- Component Name 1
@@ -3749,45 +4243,45 @@ PlantComponent:TemperatureSource,
   Mains Water Temperature;                !- Source Temperature Schedule Name {C}
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Pipe, !- Component Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Pipe Inlet Node, !- Component Inlet Node Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Pipe Outlet Node; !- Component Outlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Pipe, !- Component Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Pipe Inlet Node, !- Component Inlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Pipe Outlet Node; !- Component Outlet Node Name 1
 
 Pipe:Adiabatic,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Pipe, !- Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Pipe Inlet Node, !- Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Bypass Pipe Outlet Node; !- Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Pipe, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Pipe Inlet Node, !- Inlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Bypass Pipe Outlet Node; !- Outlet Node Name
 
 Branch,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Outlet Branch, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Outlet Branch, !- Name
   ,                                       !- Pressure Drop Curve Name
   Pipe:Adiabatic,                         !- Component Object Type 1
   Pipe Adiabatic 4,                       !- Component Name 1
   Pipe Adiabatic 4 Inlet Water Node,      !- Component Inlet Node Name 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Outlet Node; !- Component Outlet Node Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Outlet Node; !- Component Outlet Node Name 1
 
 Pipe:Adiabatic,
   Pipe Adiabatic 4,                       !- Name
   Pipe Adiabatic 4 Inlet Water Node,      !- Inlet Node Name
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Demand Outlet Node; !- Outlet Node Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Demand Outlet Node; !- Outlet Node Name
 
 PlantEquipmentOperationSchemes,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Operation Schemes, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Operation Schemes, !- Name
   PlantEquipmentOperation:HeatingLoad,    !- Control Scheme Object Type 1
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Heating Operation Scheme, !- Control Scheme Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Heating Operation Scheme, !- Control Scheme Name 1
   Always On Discrete;                     !- Control Scheme Schedule Name 1
 
 PlantEquipmentOperation:HeatingLoad,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Heating Operation Scheme, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Heating Operation Scheme, !- Name
   0,                                      !- Load Range Lower Limit 1 {W}
   1000000000,                             !- Load Range Upper Limit 1 {W}
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Heating Equipment List; !- Range Equipment List Name 1
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Heating Equipment List; !- Range Equipment List Name 1
 
 PlantEquipmentList,
-  FullServiceRestaurant Kitchen - 90.1-2004 Service Water Loop Heating Equipment List, !- Name
+  FullServiceRestaurant Kitchen - 90.1-2013 Service Water Loop Heating Equipment List, !- Name
   WaterHeater:Mixed,                      !- Equipment Object Type 1
   340gal NaturalGas Water Heater - 340kBtu/hr; !- Equipment Name 1
 
@@ -4048,6 +4542,10 @@ RunPeriodControl:DaylightSavingTime,
   2nd Sunday in March,                    !- Start Date
   1st Sunday in November;                 !- End Date
 
+OutputControl:ReportingTolerances,
+  0.555555555555556,                      !- Tolerance for Time Heating Setpoint Not Met {deltaC}
+  0.555555555555556;                      !- Tolerance for Time Cooling Setpoint Not Met {deltaC}
+
 Site:Location,
   Buffalo Niagara Intl Ap_NY_USA,         !- Name
   42.8180322642434,                       !- Latitude {deg}
@@ -4056,18 +4554,18 @@ Site:Location,
   215;                                    !- Elevation {m}
 
 Site:GroundTemperature:BuildingSurface,
-  19.47,                                  !- January Ground Temperature {C}
-  19.42,                                  !- February Ground Temperature {C}
-  19.66,                                  !- March Ground Temperature {C}
-  19.95,                                  !- April Ground Temperature {C}
-  20.23,                                  !- May Ground Temperature {C}
-  22.64,                                  !- June Ground Temperature {C}
+  20.26,                                  !- January Ground Temperature {C}
+  20.16,                                  !- February Ground Temperature {C}
+  20.19,                                  !- March Ground Temperature {C}
+  20.28,                                  !- April Ground Temperature {C}
+  20.39,                                  !- May Ground Temperature {C}
+  22.7,                                   !- June Ground Temperature {C}
   23.12,                                  !- July Ground Temperature {C}
-  23.2,                                   !- August Ground Temperature {C}
-  23.13,                                  !- September Ground Temperature {C}
-  20.66,                                  !- October Ground Temperature {C}
-  20.14,                                  !- November Ground Temperature {C}
-  19.7;                                   !- December Ground Temperature {C}
+  23.23,                                  !- August Ground Temperature {C}
+  23.27,                                  !- September Ground Temperature {C}
+  20.97,                                  !- October Ground Temperature {C}
+  20.62,                                  !- November Ground Temperature {C}
+  20.41;                                  !- December Ground Temperature {C}
 
 Site:WaterMainsTemperature,
   Correlation,                            !- Calculation Method
@@ -4076,7 +4574,7 @@ Site:WaterMainsTemperature,
   26.2;                                   !- Maximum Difference In Monthly Average Outdoor Air Temperatures {deltaC}
 
 SizingPeriod:DesignDay,
-  Buffalo Niagara Intl Ap Ann Clg .4% Condns DB=>MWB, !- Name
+  Buffalo Niagara Intl Ap Ann Clg .4% Condns DB=>MWB 1, !- Name
   7,                                      !- Month
   21,                                     !- Day of Month
   SummerDesignDay,                        !- Day Type
@@ -4103,7 +4601,7 @@ SizingPeriod:DesignDay,
   2.001;                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
 
 SizingPeriod:DesignDay,
-  Buffalo Niagara Intl Ap Ann Clg .4% Condns WB=>MDB, !- Name
+  Buffalo Niagara Intl Ap Ann Clg .4% Condns WB=>MDB 1, !- Name
   7,                                      !- Month
   21,                                     !- Day of Month
   SummerDesignDay,                        !- Day Type
@@ -4130,7 +4628,7 @@ SizingPeriod:DesignDay,
   2.001;                                  !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
 
 SizingPeriod:DesignDay,
-  Buffalo Niagara Intl Ap Ann Htg 99.6% Condns DB, !- Name
+  Buffalo Niagara Intl Ap Ann Htg 99.6% Condns DB 1, !- Name
   1,                                      !- Month
   21,                                     !- Day of Month
   WinterDesignDay,                        !- Day Type
@@ -4161,13 +4659,85 @@ ZoneList,
   Story Ground Blended Space Type,        !- Name
   Building Story 1 ThermalZone;           !- Zone Name 1
 
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Dining A  - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  260.806734211643;                       !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Dining A end_a - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  41.7844485608563;                       !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Dining B  - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  2075.59329200232;                       !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Dining B end_a - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  332.53558963915;                        !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Dining C  - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  260.806734211643;                       !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Dining C end_a - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  41.7844485608567;                       !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Kitchen A  - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  71.7288554275073;                       !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Kitchen A end_b - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  41.7844485608563;                       !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Kitchen B  - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  570.843891812715;                       !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Kitchen B end_b - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  332.53558963915;                        !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Kitchen C  - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  71.7288554275073;                       !- Surface Area {m2}
+
+InternalMass,
+  Building Story 1 Space FullServiceRestaurant Kitchen C end_b - Story Ground Mass, !- Name
+  InteriorFurnishings 1,                  !- Construction Name
+  Building Story 1 ThermalZone,           !- Zone Name
+  41.7844485608567;                       !- Surface Area {m2}
+
 Lights,
   FullServiceRestaurant Dining Lights 1,  !- Name
   Story Ground Blended Space Type,        !- Zone or ZoneList Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007, !- Schedule Name
+  RestaurantSitDown BLDG_LIGHT_DINING_SCH_2013, !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
-  16.4377828755657,                       !- Watts per Zone Floor Area {W/m2}
+  6.96648893297785,                       !- Watts per Zone Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Return Air Fraction
   0.7,                                    !- Fraction Radiant
@@ -4178,10 +4748,10 @@ Lights,
 Lights,
   FullServiceRestaurant Kitchen Lights 1, !- Name
   Story Ground Blended Space Type,        !- Zone or ZoneList Name
-  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2004_2007, !- Schedule Name
+  RestaurantSitDown BLDG_LIGHT_KITCHEN_SCH_2010_2013, !- Schedule Name
   Watts/Area,                             !- Design Level Calculation Method
   ,                                       !- Lighting Level {W}
-  3.52367371401412,                       !- Watts per Zone Floor Area {W/m2}
+  3.5530376616309,                        !- Watts per Zone Floor Area {W/m2}
   ,                                       !- Watts per Person {W/person}
   ,                                       !- Return Air Fraction
   0.7,                                    !- Fraction Radiant
@@ -4195,7 +4765,7 @@ People,
   RestaurantSitDown BLDG_OCC_SCH,         !- Number of People Schedule Name
   People/Area,                            !- Number of People Calculation Method
   ,                                       !- Number of People
-  0.547926095852192,                      !- People per Zone Floor Area {person/m2}
+  0.547926095852191,                      !- People per Zone Floor Area {person/m2}
   ,                                       !- Zone Floor Area per Person {m2/person}
   0.3,                                    !- Fraction Radiant
   ,                                       !- Sensible Heat Fraction
@@ -4278,7 +4848,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  3.39324417970194e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  1.88513565511416e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4292,7 +4862,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  1.08727895627207e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  6.04043864533731e-06,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4306,7 +4876,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  4.32647744889567e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  2.40359858236815e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4320,7 +4890,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  3.39324417970194e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  1.88513565511416e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4334,7 +4904,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  1.08727895627207e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  6.04043864533732e-06,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4348,7 +4918,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  9.33233269193727e-06,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  5.18462927253992e-06,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4362,7 +4932,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  1.08727895627207e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  6.04043864533731e-06,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4376,7 +4946,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  4.32647744889567e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  2.40359858236815e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4390,7 +4960,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  9.33233269193726e-06,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  5.18462927253993e-06,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4404,7 +4974,7 @@ ZoneInfiltration:DesignFlowRate,
   Flow/ExteriorArea,                      !- Design Flow Rate Calculation Method
   ,                                       !- Design Flow Rate {m3/s}
   ,                                       !- Flow per Zone Floor Area {m3/s-m2}
-  1.08727895627207e-05,                   !- Flow per Exterior Surface Area {m3/s-m2}
+  6.04043864533732e-06,                   !- Flow per Exterior Surface Area {m3/s-m2}
   ,                                       !- Air Changes per Hour {1/hr}
   0,                                      !- Constant Term Coefficient
   0,                                      !- Temperature Term Coefficient
@@ -4414,28 +4984,28 @@ ZoneInfiltration:DesignFlowRate,
 Exterior:Lights,
   Building Facades,                       !- Name
   Schedule Ruleset 1,                     !- Schedule Name
-  1195.0029288667,                        !- Design Level {W}
+  896.252196650028,                       !- Design Level {W}
   AstronomicalClock,                      !- Control Option
   Building Facades;                       !- End-Use Subcategory
 
 Exterior:Lights,
   Main Entries,                           !- Name
-  Always On Discrete,                     !- Schedule Name
+  Schedule Ruleset 2,                     !- Schedule Name
   535.512,                                !- Design Level {W}
   AstronomicalClock,                      !- Control Option
   Main Entries;                           !- End-Use Subcategory
 
 Exterior:Lights,
   Other Doors,                            !- Name
-  Always On Discrete,                     !- Schedule Name
+  Schedule Ruleset 2,                     !- Schedule Name
   535.512,                                !- Design Level {W}
   AstronomicalClock,                      !- Control Option
   Other Doors;                            !- End-Use Subcategory
 
 Exterior:Lights,
   Parking Areas and Drives,               !- Name
-  Always On Discrete,                     !- Schedule Name
-  13555.1475,                             !- Design Level {W}
+  Schedule Ruleset 2,                     !- Schedule Name
+  9036.765,                               !- Design Level {W}
   AstronomicalClock,                      !- Control Option
   Parking Areas and Drives;               !- End-Use Subcategory
 
@@ -4488,120 +5058,6 @@ Curve:Quadratic,
   0,                                      !- Coefficient3 x**2
   0,                                      !- Minimum Value of x {BasedOnField A2}
   1;                                      !- Maximum Value of x {BasedOnField A2}
-
-Fan:ZoneExhaust,
-  Zone FullServiceRestaurant Kitchen A  - Story Ground Exhaust Fan, !- Name
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Availability Schedule Name
-  0.1595,                                 !- Fan Total Efficiency
-  124.544455,                             !- Pressure Rise {Pa}
-  0.12760080715331,                       !- Maximum Flow Rate {m3/s}
-  Zone FullServiceRestaurant Kitchen A  - Story Ground Exhaust Fan Inlet Air Node, !- Air Inlet Node Name
-  Zone FullServiceRestaurant Kitchen A  - Story Ground Exhaust Fan Outlet Air Node, !- Air Outlet Node Name
-  Zone Exhaust Fans,                      !- End-Use Subcategory
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Flow Fraction Schedule Name
-  Decoupled,                              !- System Availability Manager Coupling Mode
-  ,                                       !- Minimum Zone Temperature Limit Schedule Name
-  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule; !- Balanced Exhaust Fraction Schedule Name
-
-Fan:ZoneExhaust,
-  Zone FullServiceRestaurant Kitchen A  - Story Ground Transfer Air Source, !- Name
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Availability Schedule Name
-  1,                                      !- Fan Total Efficiency
-  0,                                      !- Pressure Rise {Pa}
-  0.119142190161559,                      !- Maximum Flow Rate {m3/s}
-  Zone FullServiceRestaurant Kitchen A  - Story Ground Transfer Air Source Inlet Air Node, !- Air Inlet Node Name
-  Zone FullServiceRestaurant Kitchen A  - Story Ground Transfer Air Source Outlet Air Node, !- Air Outlet Node Name
-  Zone Exhaust Fans,                      !- End-Use Subcategory
-  ,                                       !- Flow Fraction Schedule Name
-  Decoupled;                              !- System Availability Manager Coupling Mode
-
-Fan:ZoneExhaust,
-  Zone FullServiceRestaurant Kitchen A end_b - Story Ground Exhaust Fan, !- Name
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Availability Schedule Name
-  0.1595,                                 !- Fan Total Efficiency
-  124.544455,                             !- Pressure Rise {Pa}
-  0.0743317223040001,                     !- Maximum Flow Rate {m3/s}
-  Zone FullServiceRestaurant Kitchen A end_b - Story Ground Exhaust Fan Inlet Air Node, !- Air Inlet Node Name
-  Zone FullServiceRestaurant Kitchen A end_b - Story Ground Exhaust Fan Outlet Air Node, !- Air Outlet Node Name
-  Zone Exhaust Fans,                      !- End-Use Subcategory
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Flow Fraction Schedule Name
-  Decoupled;                              !- System Availability Manager Coupling Mode
-
-Fan:ZoneExhaust,
-  Zone FullServiceRestaurant Kitchen B  - Story Ground Exhaust Fan, !- Name
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Availability Schedule Name
-  0.1595,                                 !- Fan Total Efficiency
-  124.544455,                             !- Pressure Rise {Pa}
-  1.01549287130972,                       !- Maximum Flow Rate {m3/s}
-  Zone FullServiceRestaurant Kitchen B  - Story Ground Exhaust Fan Inlet Air Node, !- Air Inlet Node Name
-  Zone FullServiceRestaurant Kitchen B  - Story Ground Exhaust Fan Outlet Air Node, !- Air Outlet Node Name
-  Zone Exhaust Fans,                      !- End-Use Subcategory
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Flow Fraction Schedule Name
-  Decoupled,                              !- System Availability Manager Coupling Mode
-  ,                                       !- Minimum Zone Temperature Limit Schedule Name
-  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule; !- Balanced Exhaust Fraction Schedule Name
-
-Fan:ZoneExhaust,
-  Zone FullServiceRestaurant Kitchen B  - Story Ground Transfer Air Source, !- Name
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Availability Schedule Name
-  1,                                      !- Fan Total Efficiency
-  0,                                      !- Pressure Rise {Pa}
-  0.948176171299017,                      !- Maximum Flow Rate {m3/s}
-  Zone FullServiceRestaurant Kitchen B  - Story Ground Transfer Air Source Inlet Air Node, !- Air Inlet Node Name
-  Zone FullServiceRestaurant Kitchen B  - Story Ground Transfer Air Source Outlet Air Node, !- Air Outlet Node Name
-  Zone Exhaust Fans,                      !- End-Use Subcategory
-  ,                                       !- Flow Fraction Schedule Name
-  Decoupled;                              !- System Availability Manager Coupling Mode
-
-Fan:ZoneExhaust,
-  Zone FullServiceRestaurant Kitchen B end_b - Story Ground Exhaust Fan, !- Name
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Availability Schedule Name
-  0.1595,                                 !- Fan Total Efficiency
-  124.544455,                             !- Pressure Rise {Pa}
-  0.591558437566888,                      !- Maximum Flow Rate {m3/s}
-  Zone FullServiceRestaurant Kitchen B end_b - Story Ground Exhaust Fan Inlet Air Node, !- Air Inlet Node Name
-  Zone FullServiceRestaurant Kitchen B end_b - Story Ground Exhaust Fan Outlet Air Node, !- Air Outlet Node Name
-  Zone Exhaust Fans,                      !- End-Use Subcategory
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Flow Fraction Schedule Name
-  Decoupled;                              !- System Availability Manager Coupling Mode
-
-Fan:ZoneExhaust,
-  Zone FullServiceRestaurant Kitchen C  - Story Ground Exhaust Fan, !- Name
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Availability Schedule Name
-  0.1595,                                 !- Fan Total Efficiency
-  124.544455,                             !- Pressure Rise {Pa}
-  0.127600807153309,                      !- Maximum Flow Rate {m3/s}
-  Zone FullServiceRestaurant Kitchen C  - Story Ground Exhaust Fan Inlet Air Node, !- Air Inlet Node Name
-  Zone FullServiceRestaurant Kitchen C  - Story Ground Exhaust Fan Outlet Air Node, !- Air Outlet Node Name
-  Zone Exhaust Fans,                      !- End-Use Subcategory
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Flow Fraction Schedule Name
-  Decoupled,                              !- System Availability Manager Coupling Mode
-  ,                                       !- Minimum Zone Temperature Limit Schedule Name
-  RestaurantSitDown Kitchen Exhaust Fan Balanced Exhaust Fraction Schedule; !- Balanced Exhaust Fraction Schedule Name
-
-Fan:ZoneExhaust,
-  Zone FullServiceRestaurant Kitchen C  - Story Ground Transfer Air Source, !- Name
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Availability Schedule Name
-  1,                                      !- Fan Total Efficiency
-  0,                                      !- Pressure Rise {Pa}
-  0.119142190161558,                      !- Maximum Flow Rate {m3/s}
-  Zone FullServiceRestaurant Kitchen C  - Story Ground Transfer Air Source Inlet Air Node, !- Air Inlet Node Name
-  Zone FullServiceRestaurant Kitchen C  - Story Ground Transfer Air Source Outlet Air Node, !- Air Outlet Node Name
-  Zone Exhaust Fans,                      !- End-Use Subcategory
-  ,                                       !- Flow Fraction Schedule Name
-  Decoupled;                              !- System Availability Manager Coupling Mode
-
-Fan:ZoneExhaust,
-  Zone FullServiceRestaurant Kitchen C end_b - Story Ground Exhaust Fan, !- Name
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Availability Schedule Name
-  0.1595,                                 !- Fan Total Efficiency
-  124.544455,                             !- Pressure Rise {Pa}
-  0.074331722304,                         !- Maximum Flow Rate {m3/s}
-  Zone FullServiceRestaurant Kitchen C end_b - Story Ground Exhaust Fan Inlet Air Node, !- Air Inlet Node Name
-  Zone FullServiceRestaurant Kitchen C end_b - Story Ground Exhaust Fan Outlet Air Node, !- Air Outlet Node Name
-  Zone Exhaust Fans,                      !- End-Use Subcategory
-  RestaurantSitDown Kitchen_Exhaust_SCH,  !- Flow Fraction Schedule Name
-  Decoupled;                              !- System Availability Manager Coupling Mode
 
 EnergyManagementSystem:Sensor,
   Mains_Water_Temp_Sen,                   !- Name

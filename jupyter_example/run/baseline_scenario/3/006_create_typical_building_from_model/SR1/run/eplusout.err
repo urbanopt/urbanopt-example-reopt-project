@@ -1,27 +1,36 @@
-Program Version,EnergyPlus, Version 9.1.0-08d2e308bb, YMD=2020.01.03 10:58,
+Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.25 14:42,
    ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
    **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
    ************* Beginning Zone Sizing Calculations
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="33 SPACE(S) OCC SCH DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="33 SPACE(S) OCC SCH SUMMER DESIGN DAY", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="33 SPACE(S) OCC SCH SUNDAY", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="33 SPACE(S) OCC SCH WINTER DESIGN DAY", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="30 SPACE(S) OCC SCH DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="30 SPACE(S) OCC SCH SATURDAY", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="30 SPACE(S) OCC SCH SUMMER DESIGN DAY", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="30 SPACE(S) OCC SCH SUNDAY", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="30 SPACE(S) OCC SCH WINTER DESIGN DAY", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Year="ELEVATOR SCHEDULE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
    ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
-   ** Warning ** CheckUsedConstructions: There are 9 nominally unused constructions in input.
+   ** Warning ** CheckUsedConstructions: There are 12 nominally unused constructions in input.
    **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE", only 0.53 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 2 THERMALZONE", only 0.40 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 3 THERMALZONE", only 0.53 of the zone is controlled.
+   ************* Beginning System Sizing Calculations
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 1 THERMALZONE VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 2 THERMALZONE VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 3 THERMALZONE VAV TERMINAL
    ************* Beginning Plant Sizing Calculations
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = BUILDING STORY 1 THERMALZONE PTAC 1SPD DX AC CLG COIL but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = BUILDING STORY 2 THERMALZONE PTAC 1SPD DX AC CLG COIL but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = BUILDING STORY 3 THERMALZONE PTAC 1SPD DX AC CLG COIL but not at the AHRI test condition due to curve out of bound.
-   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
-   ** Warning ** Water heater = 115X 50GAL ELECTRICITY WATER HEATER - 20KBTU/HR:  Recovery Efficiency and Energy Factor could not be calculated during the test for standard ratings
-   **   ~~~   ** Setpoint was never recovered and/or heater never turned on
+   ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=BOOSTER WATER LOOP PUMP
    ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode Boiler named BOILER
-   **   ~~~   **   A temperature setpoint is needed at the outlet node of a boiler in variable flow mode, use a SetpointManager
+   **   ~~~   **   A temperature setpoint is needed at the outlet node of a boiler in variable flow mode
+   **   ~~~   **   use a Setpoint Manager to establish a setpoint at the boiler outlet node 
+   **   ~~~   **   or use an EMS actuator to establish a setpoint at the boiler outlet node 
    **   ~~~   **   The overall loop setpoint will be assumed for Boiler. The simulation continues ... 
    ** Warning ** Output:Meter: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
    ** Warning ** Output:Meter: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
@@ -38,9 +47,9 @@ Program Version,EnergyPlus, Version 9.1.0-08d2e308bb, YMD=2020.01.03 10:58,
    ************* Simulation Error Summary *************
    ************* There are 8 unused objects in input.
    ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
-   ************* There are 13 unused schedules in input.
-   ************* There are 14 unused week schedules in input.
-   ************* There are 32 unused day schedules in input.
+   ************* There are 9 unused schedules in input.
+   ************* There are 13 unused week schedules in input.
+   ************* There are 23 unused day schedules in input.
    ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
    *************
    ************* ===== Final Error Summary =====
@@ -51,5 +60,5 @@ Program Version,EnergyPlus, Version 9.1.0-08d2e308bb, YMD=2020.01.03 10:58,
    ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
    *************
    ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
-   ************* EnergyPlus Sizing Error Summary. During Sizing: 8 Warning; 0 Severe Errors.
-   ************* EnergyPlus Completed Successfully-- 18 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  1.27sec
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 15 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 22 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  0.99sec

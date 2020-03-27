@@ -14,8 +14,7 @@ With Python 3 create and activate a virtual environment in this directory (_jupy
 Install Jupyter Notebook with:
 
 ```
-	(env) $ python -m venv env
-	(env) $ source env/bin/activate
+	(env) $ python -m pip install jupyter
 ```
 
 You will also need to install operating system specific dependencies (i.e. ZeroMQ) per the instructions found on this page [https://github.com/SciRuby/iruby](https://github.com/SciRuby/iruby)

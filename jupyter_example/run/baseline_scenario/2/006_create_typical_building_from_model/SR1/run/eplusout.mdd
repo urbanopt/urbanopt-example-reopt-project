@@ -1,4 +1,4 @@
-! Program Version,EnergyPlus, Version 9.1.0-08d2e308bb, YMD=2020.01.03 10:58,
+! Program Version,EnergyPlus, Version 9.1.0-fafb9d5652, YMD=2020.03.25 14:41,
 ! Output:Meter Objects (applicable to this run)
 Output:Meter,Electricity:Facility,hourly; !- [J]
 Output:Meter:Cumulative,Electricity:Facility,hourly; !- [J]
@@ -116,8 +116,6 @@ Output:Meter,Fans:Electricity,hourly; !- [J]
 Output:Meter:Cumulative,Fans:Electricity,hourly; !- [J]
 Output:Meter,General:Fans:Electricity,hourly; !- [J]
 Output:Meter:Cumulative,General:Fans:Electricity,hourly; !- [J]
-Output:Meter,Zone Exhaust Fans:Fans:Electricity,hourly; !- [J]
-Output:Meter:Cumulative,Zone Exhaust Fans:Fans:Electricity,hourly; !- [J]
 Output:Meter,ExteriorLights:Electricity,hourly; !- [J]
 Output:Meter:Cumulative,ExteriorLights:Electricity,hourly; !- [J]
 Output:Meter,Building Facades:ExteriorLights:Electricity,hourly; !- [J]

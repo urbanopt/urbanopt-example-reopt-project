@@ -2,41 +2,43 @@
   "seed_file": null,
   "weather_file": null,
   "measure_paths": [
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-geojson-gem-b4618102cfc8/lib/measures",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-common-measures-0.1.0/lib/measures",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-model-articulation-0.1.0/lib/measures",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-reopt-gem-9d3a2c58ed2e/lib/measures",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-af7c09f8ae96/lib/measures",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-extension-0.1.3/lib/measures"
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-reopt-gem-aa1692551b5e/lib/measures",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/urbanopt-geojson-0.2.0.pre1/lib/measures",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-extension-0.1.6/lib/measures",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-common-measures-0.1.2/lib/measures",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-model-articulation-0.1.1/lib/measures"
   ],
   "file_paths": [
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/mappers/../weather/",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-common-measures-0.1.0/lib/files",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-model-articulation-0.1.0/lib/files",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-reopt-gem-9d3a2c58ed2e/lib/files",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-extension-0.1.3/lib/files",
-    "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/weather"
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/mappers/../weather/",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-reopt-gem-aa1692551b5e/lib/files",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/weather",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-extension-0.1.6/lib/files",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-common-measures-0.1.2/lib/files",
+    "/Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-model-articulation-0.1.1/lib/files"
   ],
-  "run_directory": "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/run/baseline_scenario/1",
+  "run_directory": "/Users/tkwasnik/github/urbanopt-example-reopt-project/run/baseline_scenario/1",
   "steps": [
     {
       "measure_dir_name": "set_run_period",
       "arguments": {
         "timesteps_per_hour": 1,
-        "begin_date": "2018-01-01",
-        "end_date": "2018-12-31"
+        "begin_date": "2019-01-01",
+        "end_date": "2019-12-31"
       }
     },
     {
       "measure_dir_name": "ChangeBuildingLocation",
       "arguments": {
+        "__SKIP__": false,
         "weather_file_name": "USA_NY_Buffalo-Greater.Buffalo.Intl.AP.725280_TMY3.epw",
-        "climate_zone": "6A"
+        "climate_zone": "ASHRAE 169-2013-6A"
       }
     },
     {
       "measure_dir_name": "create_bar_from_building_type_ratios",
       "arguments": {
+        "__SKIP__": false,
         "bldg_type_a": "MediumOffice",
         "bldg_type_a_num_units": 0,
         "bldg_type_b": "FullServiceRestaurant",
@@ -53,7 +55,7 @@
         "num_stories_above_grade": 4,
         "num_stories_below_grade": 0,
         "building_rotation": 0,
-        "template": "90.1-2004",
+        "template": "90.1-2013",
         "ns_to_ew_ratio": 0,
         "wwr": 0,
         "party_wall_fraction": 0,
@@ -65,19 +67,24 @@
       "name": "create_typical_building_from_model 1",
       "measure_dir_name": "create_typical_building_from_model",
       "arguments": {
-        "add_hvac": false
+        "__SKIP__": false,
+        "add_hvac": false,
+        "add_refrigeration": false,
+        "template": "90.1-2013"
       }
     },
     {
       "measure_dir_name": "blended_space_type_from_model",
       "arguments": {
+        "__SKIP__": false,
         "blend_method": "Building Story"
       }
     },
     {
       "measure_dir_name": "urban_geometry_creation",
       "arguments": {
-        "geojson_file": "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/example_project.json",
+        "__SKIP__": false,
+        "geojson_file": "/Users/tkwasnik/github/urbanopt-example-reopt-project/example_project.json",
         "feature_id": "1",
         "surrounding_buildings": "ShadingOnly"
       }
@@ -86,17 +93,29 @@
       "name": "create_typical_building_from_model 2",
       "measure_dir_name": "create_typical_building_from_model",
       "arguments": {
-        "template": "90.1-2004",
+        "__SKIP__": false,
+        "template": "90.1-2013",
         "add_constructions": false,
         "add_space_type_loads": false,
         "add_elevators": false,
         "add_exterior_lights": false,
         "add_exhaust": false,
         "add_swh": false,
+        "add_refrigeration": false,
         "remove_objects": false,
         "system_type": "Inferred",
         "add_hvac": true,
         "use_upstream_args": false
+      }
+    },
+    {
+      "measure_dir_name": "PredictedMeanVote",
+      "arguments": {
+        "__SKIP__": false,
+        "comfortWarnings": true,
+        "workEfficiencySchedule": "Work Efficiency Schedule",
+        "clothingSchedule": "Clothing Schedule",
+        "airVelocitySchedule": "Air Velocity Schedule"
       }
     },
     {

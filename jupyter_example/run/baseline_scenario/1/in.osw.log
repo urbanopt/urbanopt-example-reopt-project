@@ -1,87 +1,80 @@
 [openstudio.model.YearDescription] <1> 'UseWeatherFile' is not yet a supported option for YearDescription
 [openstudio.model.YearDescription] <1> 'UseWeatherFile' is not yet a supported option for YearDescription
-[10:57:44.004572 WARN] No valid weather file defined in either the osm or osw.
-[10:57:44.797344 WARN] weather_file.path is .
-[10:57:52.032173 WARN] Could not find color for 90.1-2004 Office WholeBuilding - Md Office
-[10:57:52.033005 WARN] Could not find color for 90.1-2004 FullServiceRestaurant Dining
-[10:57:52.033796 WARN] Could not find color for 90.1-2004 FullServiceRestaurant Kitchen
-[10:57:52.035252 WARN] User-defined single floor area was used for calculation of total building floor area
-[10:57:58.448112 WARN] [openstudio.standards.Model] Find object search criteria returned 5 results, the first one will be returned. Called from /Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-standards-0.2.10/lib/openstudio-standards/standards/Standards.Model.rb:2431:in `model_find_and_add_construction'. 
- Search criteria: 
- {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential"}, capacity =  
-  All results: 
- {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>1.0, "maximum_percent_of_surface"=>10.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.49, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>10.001, "maximum_percent_of_surface"=>20.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>20.001, "maximum_percent_of_surface"=>30.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>30.001, "maximum_percent_of_surface"=>40.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.44 SHGC 0.20 Dbl Ref-B-H Tint 6mm/13mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>40.001, "maximum_percent_of_surface"=>100.0, "assembly_maximum_u_value"=>0.46, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.26, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-[10:57:58.448277 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air is not opaque or simple glazing.
-[10:57:58.448390 WARN] [openstudio.standards.Model] Find object search criteria returned 5 results, the first one will be returned. Called from /Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-standards-0.2.10/lib/openstudio-standards/standards/Standards.Model.rb:2431:in `model_find_and_add_construction'. 
- Search criteria: 
- {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential"}, capacity =  
-  All results: 
- {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>1.0, "maximum_percent_of_surface"=>10.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.49, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>10.001, "maximum_percent_of_surface"=>20.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>20.001, "maximum_percent_of_surface"=>30.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>30.001, "maximum_percent_of_surface"=>40.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"ExteriorWindow", "standards_construction_type"=>"Metal framing (all other)", "building_category"=>"Nonresidential", "construction"=>"U 0.44 SHGC 0.20 Dbl Ref-B-H Tint 6mm/13mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>40.001, "maximum_percent_of_surface"=>100.0, "assembly_maximum_u_value"=>0.46, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.26, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-[10:57:58.448933 WARN] [openstudio.standards.Model] Find object search criteria returned 5 results, the first one will be returned. Called from /Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/.bundle/install/ruby/2.2.0/gems/openstudio-standards-0.2.10/lib/openstudio-standards/standards/Standards.Model.rb:2431:in `model_find_and_add_construction'. 
- Search criteria: 
- {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential"}, capacity =  
-  All results: 
- {"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.49 Dbl Blue 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>1.0, "maximum_percent_of_surface"=>10.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.49, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>10.001, "maximum_percent_of_surface"=>20.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>20.001, "maximum_percent_of_surface"=>30.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.57 SHGC 0.39 Dbl Ref-D Clr 6mm/6mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>30.001, "maximum_percent_of_surface"=>40.0, "assembly_maximum_u_value"=>0.57, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.39, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-{"template"=>"90.1-2004", "climate_zone_set"=>"ClimateZone 6", "operation_type"=>nil, "intended_surface_type"=>"GlassDoor", "standards_construction_type"=>"Metal framing (entrance door)", "building_category"=>"Nonresidential", "construction"=>"U 0.44 SHGC 0.20 Dbl Ref-B-H Tint 6mm/13mm Air", "orientation"=>nil, "minimum_percent_of_surface"=>40.001, "maximum_percent_of_surface"=>100.0, "assembly_maximum_u_value"=>0.46, "u_value_includes_interior_film_coefficient"=>true, "u_value_includes_exterior_film_coefficient"=>true, "assembly_maximum_f_factor"=>nil, "assembly_maximum_c_factor"=>nil, "assembly_maximum_solar_heat_gain_coefficient"=>0.26, "assembly_minimum_vt_shgc"=>nil, "notes"=>nil}
-[10:57:58.451865 WARN] [openstudio.weather.Model] Could not find ground temperatures; will use generic temperatures, which will skew results.
-[10:57:58.452941 WARN] [openstudio.model.Model] Model has zone with
-[10:57:58.453100 WARN] [openstudio.model.Model] Model has zone with
-[10:57:58.453238 WARN] [openstudio.model.Model] Model has zone with
-[10:57:58.453554 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
-[10:58:00.159693 WARN] Surface elevation not set for building 'Mixed_use 1'
-[10:58:00.160859 WARN] Reversing floor print
-[10:58:00.167692 WARN] Reversing floor print
-[10:58:00.173326 WARN] Reversing floor print
-[10:58:00.180454 WARN] Reversing floor print
-[10:58:00.186378 WARN] Reversing floor print
-[10:58:00.188099 WARN] Reversing floor print
-[10:58:00.188522 WARN] Reversing floor print
-[10:58:00.195168 WARN] Reversing floor print
-[10:58:00.195731 WARN] Reversing floor print
-[10:58:00.204037 WARN] Reversing floor print
-[10:58:00.212072 WARN] Reversing floor print
-[10:58:00.212509 WARN] Reversing floor print
-[10:58:00.220260 WARN] Reversing floor print
-[10:58:00.220872 WARN] Reversing floor print
-[10:58:00.229637 WARN] Reversing floor print
-[10:58:00.237715 WARN] Reversing floor print
-[10:58:00.238522 WARN] Reversing floor print
-[10:58:00.249989 WARN] Reversing floor print
-[10:58:00.260176 WARN] Reversing floor print
-"/Applications/OpenStudio-2.8.0/bin/openstudio" run -w "/Users/tkwasnik/github/urbanopt-example-geojson-reopt-project/run/baseline_scenario/1/006_create_typical_building_from_model/SR1/in.osw"
+W, [2020-03-25T14:41:16.910694 #78451]  WARN -- : Bundle activated but ENV['BUNDLE_WITHOUT'] is not set
+[14:41:18.116304 WARN] No valid weather file defined in either the osm or osw.
+asdf, already had it
+[14:41:24.787463 WARN] User-defined single floor area was used for calculation of total building floor area
+[14:41:24.787494 WARN] Cannot use custom height bar with single floor area method, will not create custom height bar.
+[14:41:30.032043 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm is not opaque or simple glazing.
+[14:41:30.032737 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air is not opaque or simple glazing.
+[14:41:30.033102 WARN] [openstudio.standards.ConstructionBase] Can only set the u-value of opaque constructions or simple glazing. Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in is not opaque or simple glazing.
+[14:41:30.035541 WARN] [openstudio.weather.Model] Could not find ground temperatures; will use generic temperatures, which will skew results.
+[14:41:30.036086 WARN] [openstudio.model.Model] Model has zone with
+[14:41:30.036165 WARN] [openstudio.model.Model] Model has zone with
+[14:41:30.036254 WARN] [openstudio.model.Model] Model has zone with
+[14:41:30.036513 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
+[14:41:30.228645 WARN] Office WholeBuilding - Md Office C  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.229152 WARN] Office WholeBuilding - Md Office B end_b - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.229505 WARN] Office WholeBuilding - Md Office A  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.229638 WARN] Office WholeBuilding - Md Office B end_a - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.238848 WARN] Office WholeBuilding - Md Office C  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.238998 WARN] Office WholeBuilding - Md Office B end_b - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.239147 WARN] Office WholeBuilding - Md Office A  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.239648 WARN] Office WholeBuilding - Md Office B end_a - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.245933 WARN] FullServiceRestaurant Kitchen C  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.246197 WARN] FullServiceRestaurant Kitchen A  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.246340 WARN] FullServiceRestaurant Kitchen A end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.246482 WARN] FullServiceRestaurant Kitchen C end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.246622 WARN] FullServiceRestaurant Kitchen B end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.247007 WARN] FullServiceRestaurant Dining A  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.247386 WARN] FullServiceRestaurant Dining B end_b - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.247528 WARN] FullServiceRestaurant Dining C  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.254210 WARN] FullServiceRestaurant Dining C  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.254691 WARN] FullServiceRestaurant Dining A  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.254834 WARN] FullServiceRestaurant Dining B end_b - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:30.255100 WARN] FullServiceRestaurant Dining B end_a - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[14:41:31.128076 WARN] Surface elevation not set for building 'Mixed_use 1'
+[14:41:31.128508 WARN] Reversing floor print
+[14:41:31.132893 WARN] Reversing floor print
+[14:41:31.136214 WARN] Reversing floor print
+[14:41:31.139919 WARN] Reversing floor print
+[14:41:31.143696 WARN] Reversing floor print
+[14:41:31.144710 WARN] Reversing floor print
+[14:41:31.144976 WARN] Reversing floor print
+[14:41:31.148482 WARN] Reversing floor print
+[14:41:31.148801 WARN] Reversing floor print
+[14:41:31.153809 WARN] Reversing floor print
+[14:41:31.158297 WARN] Reversing floor print
+[14:41:31.158572 WARN] Reversing floor print
+[14:41:31.163170 WARN] Reversing floor print
+[14:41:31.163540 WARN] Reversing floor print
+[14:41:31.168539 WARN] Reversing floor print
+[14:41:31.173246 WARN] Reversing floor print
+[14:41:31.173678 WARN] Reversing floor print
+[14:41:31.180010 WARN] Reversing floor print
+[14:41:31.185787 WARN] Reversing floor print
+"/Applications/OpenStudio-2.8.1/bin/openstudio" run -w "/Users/tkwasnik/github/urbanopt-example-reopt-project/run/baseline_scenario/1/006_create_typical_building_from_model/SR1/in.osw"
+[utilities.geometry.join] <1> Union has inner loops
 [utilities.geometry.joinAll] <1> Expected polygons to join together
 [utilities.geometry.joinAll] <1> Expected polygons to join together
 [utilities.geometry.joinAll] <1> Expected polygons to join together
+[utilities.geometry.join] <1> Union has inner loops
 [utilities.geometry.joinAll] <1> Expected polygons to join together
 [utilities.geometry.joinAll] <1> Expected polygons to join together
 [utilities.geometry.joinAll] <1> Expected polygons to join together
+[utilities.geometry.join] <1> Union has inner loops
 [utilities.geometry.joinAll] <1> Expected polygons to join together
 [utilities.geometry.joinAll] <1> Expected polygons to join together
 [utilities.geometry.joinAll] <1> Expected polygons to join together
+[utilities.geometry.join] <1> Union has inner loops
 [utilities.geometry.joinAll] <1> Expected polygons to join together
 [utilities.geometry.joinAll] <1> Expected polygons to join together
 [utilities.geometry.joinAll] <1> Expected polygons to join together
-[utilities.geometry.joinAll] <1> Expected polygons to join together
-[utilities.geometry.joinAll] <1> Expected polygons to join together
-[utilities.geometry.joinAll] <1> Expected polygons to join together
-[utilities.geometry.joinAll] <1> Expected polygons to join together
-[10:58:27.491508 WARN] [openstudio.model.Model] The run completed but had the following severe errors: InitFans: Fan=
-[10:58:27.491844 WARN] [openstudio.standards.Fan] For 1 Zone VAV 3 Fan, there is no greater nominal HP.  Use the efficiency of the largest motor category.
-[10:58:27.491894 WARN] [openstudio.standards.Fan] For 1 Zone VAV Fan, there is no greater nominal HP.  Use the efficiency of the largest motor category.
-[10:58:27.492094 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2004, , assuming no economizer required.
-[10:58:27.492158 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2004, , assuming no economizer required.
-[10:58:27.492211 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2004, , assuming no economizer required.
-[10:58:27.492263 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2004, , assuming no economizer required.
-[10:58:27.493571 WARN] [openstudio.standards.Fan] For 1 Zone VAV 3 Fan, there is no greater nominal HP.  Use the efficiency of the largest motor category.
-[10:58:27.493618 WARN] [openstudio.standards.Fan] For 1 Zone VAV Fan, there is no greater nominal HP.  Use the efficiency of the largest motor category.
+[14:41:47.105894 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:41:47.105958 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:41:47.106011 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:41:47.106049 WARN] [openstudio.standards.AirLoopHVAC] Cannot find economizer limits for 90.1-2013, , assuming no economizer required.
+[14:41:47.962821 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[14:42:54.897072 WARN] Reporting Measure at /Users/tkwasnik/github/urbanopt-example-reopt-project/.bundle/install/ruby/2.2.0/bundler/gems/urbanopt-scenario-gem-f8ca05a7bdc7/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[14:42:55.201614 WARN] Query failed for Life-Cycle Cost Report and TableName='Present Value for Recurring, Nonrecurring and Energy Costs (Before Tax)' AND RowName='LCC_MAT - BUILDING - LIFE CYCLE COSTS' AND ColumnName='Cost'
+Power Converion: to convert kWh to kW values will be divided by 1.0
