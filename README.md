@@ -63,7 +63,11 @@ Regardless of approach, REopt results are stored in the Feature or Scenario Repo
 	      "year_one_energy_cost_us_dollars": 7000000.0,
 	      "year_one_demand_cost_us_dollars": 3000000.0,
 	      "year_one_bill_us_dollars": 10000000.0,
-	      "total_energy_cost_us_dollars": 70000000.0,
+	      "total_solar_pv_kw": 30000.0,
+	      "total_wind_kw": 0.0,
+	      "total_generator_kw": 0.0,
+	      "total_storage_kw": 2000.0,
+	      "total_storage_kwh": 5000.0,
 	      "solar_pv": {
 	        "size_kw": 30000.0
 	      },
@@ -82,27 +86,27 @@ Regardless of approach, REopt results are stored in the Feature or Scenario Repo
 
 Moreover, the following optimal dispatch fields are added to a Feature Report or Scenario Reports's timeseries CSV after calling REopt Lite via the REopt gem. Where no system component is recommended the dispatch will be all zero for all timesteps (i.e. if no solar PV is recommended ElectricityProduced:PV:Total will be zero for all timesteps)
 
-|            output                        |  unit   |
-| -----------------------------------------| ------- |
-| ElectricityProduced:Total                | kWh     |
-| Electricity:Load:Total                   | kWh     |
-| Electricity:Grid:ToLoad                  | kWh     |
-| Electricity:Grid:ToBattery               | kWh     |
-| Electricity:Storage:ToLoad               | kWh     |
-| Electricity:Storage:ToGrid               | kWh     |
-| Electricity:Storage:StateOfCharge        | kWh     |
-| ElectricityProduced:Generator:Total      | kWh     |
-| ElectricityProduced:Generator:ToBattery  | kWh     |
-| ElectricityProduced:Generator:ToLoad     | kWh     |
-| ElectricityProduced:Generator:ToGrid     | kWh     |
-| ElectricityProduced:PV:Total             | kWh     |
-| ElectricityProduced:PV:ToBattery         | kWh     |
-| ElectricityProduced:PV:ToLoad            | kWh     |
-| ElectricityProduced:PV:ToGrid            | kWh     |
-| ElectricityProduced:Wind:Total           | kWh     |
-| ElectricityProduced:Wind:ToBattery       | kWh     |
-| ElectricityProduced:Wind:ToLoad          | kWh     |
-| ElectricityProduced:Wind:ToGrid          | kWh     |
+|            output                                  |  unit  |
+| ---------------------------------------------------| ------ |
+| REopt:ElectricityProduced:Total(kW)                | kW     |
+| REopt:Electricity:Load:Total(kW)                   | kW     |
+| REopt:Electricity:Grid:ToLoad(kW)                  | kW     |
+| REopt:Electricity:Grid:ToBattery(kW)               | kW     |
+| REopt:Electricity:Storage:ToLoad(kW)               | kW     |
+| REopt:Electricity:Storage:ToGrid(kW)               | kW     |
+| REopt:Electricity:Storage:StateOfCharge(kW)        | kW     |
+| REopt:ElectricityProduced:Generator:Total(kW)      | kW     |
+| REopt:ElectricityProduced:Generator:ToBattery(kW)  | kW     |
+| REopt:ElectricityProduced:Generator:ToLoad(kW)     | kW     |
+| REopt:ElectricityProduced:Generator:ToGrid(kW)     | kW     |
+| REopt:ElectricityProduced:PV:Total(kW)             | kW     |
+| REopt:ElectricityProduced:PV:ToBattery(kW)         | kW     |
+| REopt:ElectricityProduced:PV:ToLoad(kW)            | kW     |
+| REopt:ElectricityProduced:PV:ToGrid(kW)            | kW     |
+| REopt:ElectricityProduced:Wind:Total(kW)           | kW     |
+| REopt:ElectricityProduced:Wind:ToBattery(kW)       | kW     |
+| REopt:ElectricityProduced:Wind:ToLoad(kW)          | kW     |
+| REopt:ElectricityProduced:Wind:ToGrid(kW)          | kW     |
     
 ## Jupyter Notebook Workflow Example
 
@@ -116,7 +120,13 @@ To understand how to use the REopt Gem in the context of a larger URBANopt proje
 To help illustrate the setup process, we have reproduced code from the Rakefile for the baseline scenario below.  
 The setup is important to a REopt analysis in that it sets up which REopt Lite assumptions (i.e. choice of technologies to analyze, captial cost assumptions, etc) to use for Feature Reports and Scenario Reports. If you wish to use standard default assumptions from the API then you do not actually need to set up assumptions as shown here. Note, however, that at the time of writing this documentation, setting the utility rate is only possible as an update to assumptions. If no utility rate is specified, the REopt Gem will assume a constant rate of $0.13/kWh with no demand charges. 
 
+#### Assumptions JSON Files
 REopt Lite assumptions themselves are stored as .json files, formatted according to the conventions established in the <a target="\_blank" href="https://developer.nrel.gov/docs/energy-optimization/reopt-v1/">REopt Lite documentation</a>, and saved in a common directory (See the _reopt_ directory).  Assumptions are mapped to Feature and Scenario Reports during the instantiation of a **URBANopt::Scenario::REoptScenarioCSV**. Feature Report assumption mapping is defined in the the fourth column of the scenario's input CSV (See _baseline_scenario.csv_) and to Scenario Reports via input parameters to the **REoptScenarioCSV** . _Importantly_, if custom REopt assumptions are to be used for either a Feature Report or Scenario Report, then the **REoptScenarioCSV** must be instantiated with the path to a common REopt Lite assumptions folder (i.e. _reopt_) and asssumption .json files must all be saved in this folder; otherwise this _reopt_files_dir_ input is optional. 
+
+##### Multiple PV Analysis
+Note: **REopt Lite** accepts either a single set of PV assumptions or a list of assumptions in the Scenario>Site>PV parameter. If you choose to enter a list (i.e. separate PV's for roof vs solar, and/or roof aspects) then you can give each PV setting a _pv_name_ and restrict it to either site level "roof" or "ground" area restrictions. By default a PV is constrained by both roof and land area if these site level attributes are available.
+ 
+See reopt/multiPV_assumptions.json for an example of an assumptions file formatted for multiple PV analysis.
 
 ```
 def baseline_scenario
