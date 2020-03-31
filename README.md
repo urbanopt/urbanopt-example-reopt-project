@@ -161,20 +161,18 @@ Moreover, if the REoptPostProcessor is instantiated with a Scenario Report as th
 ```
 desc 'Post Process Baseline Scenario'
 task :post_process_baseline do
-   puts 'Post Processing Baseline Scenario...'
-  default_reopt_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(baseline_scenario) 
-  scenario_report = default_reopt_post_processor.run
-  scenario_base = default_reopt_post_processor.scenario_base
-  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report,scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY) 
-  
-  #Run Aggregate Scenario
-  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report)
-  scenario_report_scenario.save('baseline_scenario')
+  puts 'Post Processing Baseline Scenario...'
+  default_post_processor = URBANopt::Scenario::ScenarioDefaultPostProcessor.new(baseline_scenario)
+  scenario_report = default_post_processor.run
+  scenario_report.save
+  scenario_base = default_post_processor.scenario_base
+  reopt_post_processor = URBANopt::REopt::REoptPostProcessor.new(scenario_report, scenario_base.scenario_reopt_assumptions_file, scenario_base.reopt_feature_assumptions, DEVELOPER_NREL_KEY)
 
-  #Run features individually  
-  scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report)
-  scenario_report_features.save('baseline_features')
+  # Run Aggregate Scenario
+  scenario_report_scenario = reopt_post_processor.run_scenario_report(scenario_report: scenario_report, save_name: 'baseline_global_optimization')
 
+  # Run features individually - this is an alternative approach to the previous step, in your analysis depending on project ojectives you maye only need to run one
+  scenario_report_features = reopt_post_processor.run_scenario_report_features(scenario_report: scenario_report, save_names_feature_reports: ['baseline_local_optimization']*scenario_report.feature_reports.length, save_name_scenario_report: 'baseline_local_optimization')
 end
 ```
 
