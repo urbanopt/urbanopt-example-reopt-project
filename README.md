@@ -68,19 +68,19 @@ Regardless of approach, REopt results are stored in the Feature or Scenario Repo
 	      "total_generator_kw": 0.0,
 	      "total_storage_kw": 2000.0,
 	      "total_storage_kwh": 5000.0,
-	      "solar_pv": {
+	      "solar_pv": [{
 	        "size_kw": 30000.0
-	      },
-	      "wind": {
+	      }],
+	      "wind": [{
 	        "size_kw": 0.0
-	      },
-	      "generator": {
+	      }],
+	      "generator": [{
 	        "size_kw": 0.0
-	      },
-	      "storage": {
+	      }],
+	      "storage": [{
 	        "size_kw": 2000.0,
 	        "size_kwh": 5000.0
-	      }
+	      }]
 	    }
 ```
 
