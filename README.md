@@ -126,7 +126,7 @@ REopt Lite assumptions themselves are stored as .json files, formatted according
 ##### Multiple PV Analysis
 Note: **REopt Lite** accepts either a single set of PV assumptions or a list of assumptions in the Scenario>Site>PV parameter. If you choose to enter a list (i.e. separate PV's for roof vs solar, and/or roof aspects) then you can give each PV setting a _pv_name_ and restrict it to either site level "roof" or "ground" area restrictions. By default a PV is constrained by both roof and land area if these site level attributes are available.
  
-See reopt/multiPV_assumptions.json for an example of an assumptions file formatted for multiple PV analysis.
+See ```reopt/multiPV_assumptions.json``` for an example of an assumptions file formatted for multiple PV analysis.
 
 ```
 def baseline_scenario
