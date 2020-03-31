@@ -45,13 +45,13 @@ Now the REopt Runner is ready to be used in the post-processing of a collection 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To call REopt Lite on a Scenario Report in aggregate:<br/> 
 ```
-updated_scenario_report = reopt_runner.run_scenario_report(scenario_report)
+updated_scenario_report = reopt_runner.run_scenario_report(scenario_report: scenario_report)
 ```
 <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To call REopt Lite on a Scenario Report's features individually before aggregating results at the Scenario Report:<br/> 
 
 ```
-updated_feature_report = reopt_runner.run_feature_report(feature_report)
+updated_feature_report = reopt_runner.run_feature_report(feature_report: feature_report)
 ```
 <br/>
 Regardless of approach, REopt results are stored in the Feature or Scenario Report's distributed_generation attributes, formatted as shown in an example below:
