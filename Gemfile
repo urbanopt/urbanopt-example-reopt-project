@@ -1,14 +1,14 @@
 source 'http://rubygems.org'
 
+ruby '~> 2.5.0'
+
 # Local gems are useful when developing and integrating the various dependencies.
 # To favor the use of local gems, set the following environment variable:
 #   Mac: export FAVOR_LOCAL_GEMS=1
 #   Windows: set FAVOR_LOCAL_GEMS=1
 # Note that if allow_local is true, but the gem is not found locally, then it will
 # checkout the latest version (develop) from github.
-
-allow_local = false
-github_branch = false
+allow_local = ENV['FAVOR_LOCAL_GEMS']
 
 # Uncomment the extension, common measures, core gems if you need to test local development versions. Otherwise
 # these are included in the model articulation and urbanopt gems
@@ -39,45 +39,51 @@ github_branch = false
 # else
 #   gem 'openstudio-model-articulation', '0.1.0'
 # end
-# gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
 
 
 
-if allow_local && File.exist?('../urbanopt-scenario-gem')
-  gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
-elsif github_branch
+#if allow_local && File.exist?('../urbanopt-scenario-gem')
+#  gem 'urbanopt-scenario', path: '../urbanopt-scenario-gem'
+#elsif github_branch
   gem 'urbanopt-scenario', github: 'URBANopt/urbanopt-scenario-gem', branch: 'develop'
-else
-  gem 'urbanopt-scenario', '0.2.0'
-end
+#else
+#  gem 'urbanopt-scenario', '0.2.0'
+#end
 
 
 
-if allow_local && File.exist?('../urbanopt-reopt-gem')
-  gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
-elsif github_branch
+#if allow_local && File.exist?('../urbanopt-reopt-gem')
+#  gem 'urbanopt-reopt', path: '../urbanopt-reopt-gem'
+#elsif github_branch
   gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'develop'
-else
-  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'develop'
-  #gem 'urbanopt-reopt', '0.2.0'
-end
+#else
+#  gem 'urbanopt-reopt', github: 'URBANopt/urbanopt-reopt-gem', branch: 'develop'
+#  #gem 'urbanopt-reopt', '0.2.0'
+#end
 
 
-if allow_local && File.exists?('../urbanopt-geojson-gem')
-  gem 'urbanopt-geojson', path: '../urbanopt-geojson-gem'
-elsif allow_local
+#if allow_local && File.exists?('../urbanopt-geojson-gem')
+#  gem 'urbanopt-geojson', path: '../urbanopt-geojson-gem'
+#elsif allow_local
   gem 'urbanopt-geojson', github: 'URBANopt/urbanopt-geojson-gem', branch: 'develop'
-else
-  gem 'urbanopt-geojson', '0.2.0'
-end
+#else
+#  gem 'urbanopt-geojson', '0.2.0'
+#end
 
-gem 'openstudio-standards', '0.2.10' # doesn't work in 0.2.8?
+#if allow_local && File.exists?('../urbanopt-reporting-gem')
+#  gem 'urbanopt-reporting', path: '../urbanotp-reporting-gem'
+#elsif allow_local
+  gem 'urbanopt-reporting', github: 'URBANopt/urbanopt-reporting-gem', branch: 'develop'
+#else
+#  gem 'urbanopt-reporting', '~> 0.1.1'
+#end
 
-# simplecov has an unneccesary dependency on native json gem, use fork that does not require this
-gem 'simplecov', github: 'NREL/simplecov'
+#if allow_local && File.exist?('../openstudio-load-flexibility-measures-gem')
+#  gem 'openstudio-load-flexibility-measures', path: '../openstudio-load-flexibility-measures-gem'
+#elsif allow_local
+#  gem 'openstudio-load-flexibility-measures', github: 'NREL/openstudio-load-flexibility-measures-gem', branch: 'master'
+#else
+#  gem 'openstudio-load-flexibility-measures', '~> 0.1.2'
+#end
 
-# Support requests on windows machines
-gem 'certified'
-
-# Fix rack version temporarily to work with Ruby 2.2.4
-gem 'rack', '2.1.2'
+#gem 'openstudio-standards', '0.2.11'
